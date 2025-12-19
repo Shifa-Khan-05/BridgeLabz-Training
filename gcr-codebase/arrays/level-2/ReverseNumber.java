@@ -6,7 +6,7 @@ public class ReverseNumber{
 		// Created a Scanner Object
 		Scanner sc = new Scanner(System.in);
 		
-		// Take integer input 
+		// Take integer input from the user 
 		System.out.print("Enter the number : "  );
 		int originalNumber = sc.nextInt();
 		int number = originalNumber;
@@ -34,7 +34,7 @@ public class ReverseNumber{
 				System.out.print(array[i]);
 		}
 		
-      // Close the Scanner Object
+      // Close the Scanner Object 
       sc.close();
 		
 	}
