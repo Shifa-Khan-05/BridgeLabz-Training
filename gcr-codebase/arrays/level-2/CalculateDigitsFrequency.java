@@ -9,9 +9,9 @@ public class CalculateDigitsFrequency {
 	  
 	  //take input of number from user
 	  System.out.println("enter the number ");
-	  long n = sc.nextLong();
+	  long n = sc.nextLong(); 
 	  
-	  //creating a variable  
+	  //creating a variable  maxDigit
 	  int maxDigit = 10;
 	  
 	  // Creating an Array of maxDigit 
