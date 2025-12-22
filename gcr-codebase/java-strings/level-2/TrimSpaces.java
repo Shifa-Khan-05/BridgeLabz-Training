@@ -14,7 +14,8 @@ public class TrimSpaces {
         }
 
         // Remove trailing spaces
-        while (end >= start && s.charAt(end) == ' ') {
+        while (end >= start && s.charAt(end) == ' ') 
+		{
             end--;
         }
 
