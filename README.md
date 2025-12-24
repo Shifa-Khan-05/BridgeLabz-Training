@@ -65,3 +65,37 @@
 🔗 **Code Link (Day 2):**
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
+
+### 🔹 Day 3: Java Control Flows
+
+* Learned Java control flow concepts
+* Worked with Java Boolean data type
+* Practiced boolean expressions
+* Used logical operators (`&&`, `||`, `!`)
+
+#### 🧪 Java Programs Implemented
+
+* Programs using `if` conditional statements
+* Programs using `else if` and final `else`
+* Loop-based programs using:
+
+  * `for` loop
+  * `while` loop
+* Programs using `break` and `continue`
+* Menu-driven programs using `switch` statement
+
+#### 🛠 Concepts & Practices
+
+* Implemented decision-making logic
+* Improved understanding of program execution flow
+* Followed proper naming conventions
+* Used methods for better code structure
+* Practiced Git workflow:
+
+  * Committing changes
+  * Pushing code to GitHub
+
+🔗 **Code Link (Day 3):**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
+
+
