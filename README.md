@@ -247,6 +247,6 @@
 * Separated input, processing, and output logic
 
 🔗 **Code Link (Day 7):**
-👉[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions]9https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions)
+👉[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions][https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions)
 
 
