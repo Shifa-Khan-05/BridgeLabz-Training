@@ -1,8 +1,7 @@
 package com.classandobject.level1;
 
 public class Employee {
-
-	//non-static variables
+		//non-static variables
 		String name;
 		int id;
 		double salary;
@@ -27,3 +26,4 @@ public class Employee {
 		}
 
 	}
+
