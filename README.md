@@ -340,3 +340,100 @@
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions)
 
 
+### 🔹 Day 9: Scenario-Based Java Programs & LeetCode Practice
+
+* Strengthened problem-solving skills using **real-world scenarios**
+* Converted daily-life use cases into Java programs
+* Applied **control flow, loops, methods, and conditions** effectively
+* Practiced **LeetCode-style array and string problems**
+* Focused on writing clean, readable, and modular Java code
+* Improved confidence in implementing logic independently
+
+---
+
+#### 🧠 Scenario-Based Problems Implemented
+
+##### 🗳️ Election Booth System
+
+* Simulated an election booth process
+* Verified voter eligibility using age validation
+* Used conditional statements for decision making
+* Displayed voting status clearly
+* Followed real-world logic flow
+
+##### 🚇 Metro Smart Card System
+
+* Took travel distance as input
+* Calculated metro fare based on distance slabs
+* Used **ternary operator** for fare calculation
+* Deducted fare from smart card balance
+* Used loop to continue travel until:
+
+  * Balance is exhausted
+  * User chooses to exit
+* Implemented real-time balance tracking
+
+##### 📊 Grades Generator Card
+
+* Took marks of multiple subjects
+* Used **for loop** to iterate over subject marks
+* Calculated total and average marks
+* Assigned grades using **switch statement**
+* Displayed structured result card
+* Simulated a coaching center result system
+
+---
+
+#### 🧪 LeetCode-Style Problems Practiced
+
+* Two Sum
+* Remove Duplicates from Sorted Array
+* Remove Element
+* Majority Element
+* Plus One
+* Valid Palindrome
+* Valid Anagram
+* Length of Last Word
+* Find Index of First Occurrence (strStr)
+
+> Focus was on **logic clarity, edge cases, and in-place operations**
+
+---
+
+#### 🛠 Concepts & Techniques Used
+
+* Arrays and Strings
+* Loops (`for`, `while`)
+* Conditional statements (`if-else`, `switch`)
+* Ternary operator
+* Two-pointer technique
+* Modular programming using methods
+* Real-world logic simulation
+* Input handling using `Scanner`
+
+---
+
+#### 🧩 Best Practices Followed
+
+* Used meaningful variable and method names
+* Avoided hard-coding values
+* Separated logic into reusable methods
+* Maintained clean and readable code
+* Followed Java naming conventions
+* Ensured proper comments for clarity
+* Practiced consistent Git workflow:
+
+  * Add
+  * Commit
+  * Push
+
+---
+
+🔗 **Code Link (Day 9):**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+
+
+
+
+
