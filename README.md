@@ -249,4 +249,94 @@
 🔗 **Code Link (Day 7):**
 👉[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions)
 
+### 🔹 Day 8: Advanced Java Strings, Date-Time & Scenario-Based Problems
+
+* Strengthened understanding of advanced **String handling concepts**
+* Solved complex problems using **String methods and logic**
+* Worked extensively with **Java Date & Time APIs**
+* Implemented real-world **scenario-based programs**
+* Improved logical thinking by translating real problems into Java solutions
+* Applied modular programming with proper method separation
+
+---
+
+#### 🧰 Advanced Concepts & Utilities Used
+
+* Advanced `String` class methods:
+
+  * `length()`, `charAt()`, `substring()`
+  * `equals()`, `equalsIgnoreCase()`
+  * `toUpperCase()`, `toLowerCase()`
+  * `split()`, `trim()`, `replace()`
+* Worked with **StringBuilder** for efficient string manipulation
+* Used **Java Date & Time APIs (Java 8+)**:
+
+  * `LocalDate`
+  * `LocalTime`
+  * `LocalDateTime`
+  * `Period` and `Duration`
+* Practiced formatting and parsing date-time values
+* Used conditional logic and loops in real-world use cases
+
+---
+
+#### 🧪 Programs & Scenario-Based Problems Implemented
+
+##### 🔤 String & String Handling Programs
+
+* Word and character count programs
+* String reversal using different approaches
+* Palindrome string checker with validation
+* String comparison and formatting programs
+* Sentence analysis programs (vowels, consonants, spaces)
+* String-based menu driven programs
+
+##### 🕒 Date & Time Based Programs
+
+* Current date and time display program
+* Age calculation using Date of Birth
+* Difference between two dates
+* Day and month extraction from date
+* Date-based validation programs
+
+##### 🧠 Scenario-Based Problems
+
+* **Maya BMI Fitness Tracker**
+
+  * Took user details (name, height, weight)
+  * Calculated BMI using formula
+  * Categorized fitness level (Underweight, Normal, Overweight, Obese)
+  * Used modular functions for calculation and result display
+
+* **Coffee Counter Application**
+
+  * Menu-driven coffee ordering system
+  * Counted total cups ordered
+  * Calculated total bill amount
+  * Used loops, conditionals, and functions
+  * Implemented real-world logic simulation
+
+* Additional scenario-based problems involving:
+
+  * Conditional decision making
+  * User input validation
+  * Method reuse and modular design
+
+---
+
+#### 🛠 Best Practices Followed
+
+* Used meaningful variable and method names
+* Organized logic into reusable and modular methods
+* Avoided hard-coding values wherever possible
+* Separated input, processing, and output logic
+* Followed Java naming and coding conventions
+* Wrote clean, readable, and maintainable code
+* Used comments for better code understanding
+
+---
+
+🔗 **Code Link (Day 8):**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions)
+
 
