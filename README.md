@@ -64,3 +64,81 @@
 
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/classandobject](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/classandobject)
 
+
+### 🔹 Day 2: Constructors, Access Modifiers & Class Design
+
+#### 📚 Learning Objectives
+
+* Understood the concept of **constructors** in Java and their role in object initialization
+* Learned the difference between **default constructors** and **parameterized constructors**
+* Gained clear understanding of **access modifiers** (`public`, `protected`, `private`, default)
+* Learned about **instance variables** and how they differ for each object
+* Understood **class variables (static variables)** shared across all objects
+* Practiced **encapsulation** using private variables with getters and setters
+* Strengthened understanding of **inheritance** and controlled data access
+
+---
+
+### 🧪 Java Programs & Practice Work
+
+* Created multiple Java programs using **constructors**
+* Solved problems based on:
+
+  * Parameterized constructors
+  * Initializing objects using constructors
+  * Instance vs class variables
+* Implemented programs demonstrating **access modifiers**
+* Solved scenario-based problems such as:
+
+  * Book Library System
+  * Bank Account Management
+  * Employee Records
+  * Vehicle Registration
+  * Online Course Management
+* Created **subclasses** to demonstrate:
+
+  * Use of `protected` members
+  * Controlled access to `private` variables using getters/setters
+
+---
+
+### 🛠 Tools & Concepts Used
+
+* **Java (OOP Concepts)**
+
+  * Constructors
+  * Instance variables
+  * Class (static) variables
+  * Access Modifiers
+  * Encapsulation
+  * Inheritance
+* **Eclipse IDE**
+
+  * Package-based project organization
+  * Class and constructor creation
+  * Debugging and execution
+* **Git & GitHub**
+
+  * Continued work on `java-oops-practice` branch
+  * Added multiple constructor-based programs
+  * Followed structured commits for daily practice
+
+---
+
+### ✅ Best Practices Followed
+
+* Applied **least privilege principle** while using access modifiers
+* Kept sensitive data **private** and accessed via getters/setters
+* Used `protected` only where inheritance required controlled access
+* Maintained **clear constructor logic** for object initialization
+* Followed proper **Java naming conventions**
+* Organized code using meaningful **packages and class names**
+
+---
+
+### 🔗 Code Link (Day 2):
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/constructors/level1](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/constructors/level1)
+
+
+
