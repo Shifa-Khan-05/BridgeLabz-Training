@@ -183,3 +183,87 @@ BridgeLabz-Training/
 🔗 Code Link:
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/constructors/level1](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/constructors/level1)
 
+------
+
+### 🔹 Day 3: `this`, `static`, `final` Keywords & `instanceof` Operator (Level 1 Lab Practice)
+
+#### 📚 Learning Objectives
+
+* Understood the purpose and usage of the **`this` keyword** for:
+
+  * Referring to current class instance variables
+  * Differentiating between instance variables and method/constructor parameters
+  * Improving constructor and method readability
+* Learned the **`static` keyword** and its role in:
+
+  * Creating class-level variables and methods
+  * Sharing common data across all objects of a class
+* Gained clarity on the **`final` keyword** and its usage with:
+
+  * Variables (creating constants)
+  * Methods (preventing method overriding)
+  * Classes (preventing inheritance)
+* Understood the **`instanceof` operator** to:
+
+  * Check object types at runtime
+  * Support safe downcasting in inheritance hierarchies
+* Got familiar with **Eclipse IDE editor features** for efficient coding and debugging
+
+---
+
+#### 🧪 Java Programs & Practice Work
+
+* Implemented **scenario-based Core Java programs** using:
+
+  * `this` keyword in constructors and methods
+  * `static` variables and static methods
+  * `final` variables, methods, and classes
+  * `instanceof` operator with parent–child class relationships
+* Solved **OOP practice questions** based on:
+
+  * Java **inbuilt functions**
+  * Object behavior and shared data
+  * Runtime type checking
+* Practiced writing clean, structured, and readable Java programs using Eclipse IDE
+
+---
+
+#### 🛠 Tools & Concepts Used
+
+* **Java (OOP Concepts)**
+
+  * `this` keyword
+  * `static` keyword
+  * `final` keyword
+  * `instanceof` operator
+  * Classes and objects
+  * Basics of inheritance
+* **Eclipse IDE**
+
+  * Editor usage and shortcuts
+  * Code formatting and debugging
+* **Git & GitHub**
+
+  * Continued work on `java-oops-practice` branch
+  * Added Level 1 lab practice programs
+  * Maintained structured commits
+
+---
+
+#### ✅ Best Practices Followed
+
+* Used `this` keyword to remove ambiguity and improve code clarity
+* Applied `static` only where shared behavior or data was required
+* Used `final` to enforce immutability and design restrictions
+* Applied `instanceof` checks before type casting
+* Followed standard **Java naming conventions**
+* Organized code into meaningful packages and classes
+* Maintained readable and well-documented source code
+
+---
+
+### 🔗 Code Link (Week 2 – Day 3)
+
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inbuiltfunction](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inbuiltfunction)
+
+---
