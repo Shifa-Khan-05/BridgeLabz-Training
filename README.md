@@ -134,11 +134,92 @@
 * Followed proper **Java naming conventions**
 * Organized code using meaningful **packages and class names**
 
----
 
 ### 🔗 Code Link (Day 2):
 
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/constructors/level1](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/constructors/level1)
 
+---
 
+### 🔹 Day 3: `this`, `static`, `final` Keywords & `instanceof` Operator (Level 1 Lab Practice)
 
+#### 📚 Learning Objectives
+
+* Understood the purpose and usage of the **`this` keyword** for:
+
+  * Referring to current class instance variables
+  * Differentiating between instance variables and parameters
+  * Improving constructor and method clarity
+* Learned the **`static` keyword** and its role in:
+
+  * Creating class-level variables and methods
+  * Sharing data across all objects of a class
+* Gained clarity on the **`final` keyword** and its usage with:
+
+  * Variables (constant values)
+  * Methods (preventing method overriding)
+  * Classes (preventing inheritance)
+* Understood the **`instanceof` operator** to:
+
+  * Check object type at runtime
+  * Support safe type casting and inheritance-based logic
+* Got introduced to **Eclipse Editor features** for efficient coding and debugging
+
+---
+
+### 🧪 Java Programs & Practice Work
+
+* Implemented **Level 1 lab practice programs** based on:
+
+  * `this` keyword usage in constructors and methods
+  * `static` variables and static methods
+  * `final` variables, methods, and classes
+  * `instanceof` operator with parent–child class relationships
+* Solved problems demonstrating:
+
+  * Difference between instance and class members
+  * Shared data across objects using static members
+  * Immutability and restriction using final keyword
+  * Runtime type checking using instanceof
+* Practiced writing clean and readable programs using Eclipse IDE
+
+---
+
+### 🛠 Tools & Concepts Used
+
+* **Java (OOP Concepts)**
+
+  * `this` keyword
+  * `static` keyword
+  * `final` keyword
+  * `instanceof` operator
+  * Classes and objects
+  * Inheritance basics
+* **Eclipse IDE**
+
+  * Eclipse editor introduction
+  * Code navigation and formatting
+  * Running and debugging Java programs
+* **Git & GitHub**
+
+  * Continued work on `java-oops-practice` branch
+  * Added Level 1 lab practice programs
+  * Maintained clean and structured commits
+
+---
+
+### ✅ Best Practices Followed
+
+* Used `this` keyword to avoid ambiguity and improve code clarity
+* Applied `static` only where shared behavior or data was required
+* Used `final` to enforce immutability and prevent misuse
+* Applied `instanceof` checks before type casting
+* Followed standard **Java naming and coding conventions**
+* Organized code into meaningful packages and classes
+* Maintained readable, well-documented source code
+
+---
+
+### 🔗 Code Link (Week 2 – Day 3):
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/inbuiltfunction](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/inbuiltfunction)
