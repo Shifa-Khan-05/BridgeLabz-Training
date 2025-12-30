@@ -6,6 +6,8 @@ public class Course {
     private ArrayList<Student> enrolledStudents;
 
     // Constructor
+    
+    
     public Course(String courseName) {
         this.courseName = courseName;
         this.enrolledStudents = new ArrayList<>();
