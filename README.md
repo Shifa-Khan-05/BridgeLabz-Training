@@ -267,3 +267,47 @@ BridgeLabz-Training/
 👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inbuiltfunction](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inbuiltfunction)
 
 ---
+
+## 🔹 Day 4: Object Modeling & Scenario-Based Java Practice
+
+This day focused on **Core Java problem-solving** and **Object-Oriented Modeling**, practiced across two branches.
+
+## 📌 Core Java – Scenario-Based Practice
+
+**Branch:** `core-java-practice`
+
+* Solved real-world, menu-driven Java programs
+* Strengthened logic using arrays, loops, and conditions
+* Applied `if`, `switch`, `break`, and `continue`
+* Followed modular and readable coding practices
+
+🔗 **Code Link:**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+---
+
+## 📌 Java OOP – Object Modeling & Relationships
+
+**Branch:** `java-oops-practice`
+
+* Implemented object relationships:
+
+  * Aggregation
+  * Association
+  * Composition
+* Practiced object communication and life-cycle dependency
+* Modeled real-world systems using multiple classes
+
+🔗 **Code Link:**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/objectmodeling](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/objectmodeling)
+
+---
+
+## 🛠 Concepts & Tools Used
+
+* Core Java: arrays, loops, conditionals
+* Java OOP: classes, object relationships
+* Eclipse IDE
+* Git & GitHub (multi-branch practice)
+
+---
