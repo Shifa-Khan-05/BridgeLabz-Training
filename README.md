@@ -433,7 +433,90 @@
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 
+---
 
+### 🔹 Day 10: Advanced Core Java Scenario-Based Problem Solving (Real-World Applications)
 
+* Solved **5 real-world scenario-based Core Java problems**
+* Strengthened understanding of **arrays, loops, and control flow**
+* Applied **modular programming** with readable naming conventions
+* Practiced decision-making using `if`, `switch`, `continue`, and `break`
+* Focused on writing clean, maintainable, and user-friendly Java programs
 
+---
 
+#### 🧪 Scenario-Based Problems Implemented
+
+* **Temperature Logger 🌡️**
+
+  * Recorded temperatures for 7 days using an array
+  * Used `for` loop to store and process data
+  * Calculated **average** and **maximum** temperature
+  * Used `if` conditions for comparisons
+  * Maintained modular and readable code blocks
+
+* **Train Reservation Queue 🚆**
+
+  * Simulated a basic train ticket booking system
+  * Displayed booking menu using `switch-case`
+  * Allowed multiple bookings using `while` loop
+  * Stopped booking once seats reached zero using `break`
+
+* **Fitness Challenge Tracker 🏋️**
+
+  * Stored daily workout counts for a week
+  * Used **for-each loop** to calculate total and average
+  * Applied `continue` statement to skip rest days
+  * Implemented clean logic with meaningful variable names
+
+* **Movie Ticket Booking App 🎬**
+
+  * Took user input for movie type, seat type (Gold/Silver), and snacks
+  * Used `switch` and `if` together for pricing logic
+  * Handled multiple customers using loops
+  * Maintained structured flow and user-friendly output
+
+* **Library Reminder App 📚**
+
+  * Implemented fine calculation based on return and due dates
+  * Calculated late fine at **₹5 per day**
+  * Repeated logic for multiple books using `for` loop
+  * Applied real-world date-based logic
+
+---
+
+#### 🛠 Concepts & Tools Used
+
+* **Core Java Concepts**
+
+  * Arrays
+  * Conditional statements (`if-else`, `switch`)
+  * Looping constructs (`for`, `while`, `for-each`)
+  * `break` and `continue`
+  * Modular programming
+* **Eclipse IDE**
+
+  * Program execution and debugging
+* **Git & GitHub**
+
+  * Continued work on `core-java-practice` branch
+  * Added advanced scenario-based programs
+  * Maintained clean and structured commits
+
+---
+
+#### 🛠 Best Practices Followed
+
+* Converted real-world problems into logical Java solutions
+* Used meaningful variable and method names
+* Followed proper indentation and coding standards
+* Avoided hard-coded values
+* Wrote modular and readable code
+* Ensured smooth user input and output handling
+
+---
+
+🔗 **Code Link (Day 10):**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+---
