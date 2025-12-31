@@ -223,3 +223,168 @@
 ### 🔗 Code Link (Week 2 – Day 3):
 
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/inbuiltfunction](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/inbuiltfunction)
+
+
+
+-----
+
+
+
+
+## 🔹 Day 4: Object Modeling – Relationships & Communication (OOP)
+
+---
+
+## 📚 Learning Objectives
+
+* Understood **Object Modeling** and how real-world systems are represented using classes and objects
+* Learned different **object relationships** in Java:
+
+  * **Aggregation**
+  * **Association**
+  * **Composition**
+* Practiced **object communication** through method calls between related objects
+* Gained clarity on **object life-cycle dependency**
+* Differentiated clearly between:
+
+  * *Has-A* vs *Part-Of* relationships
+  * Weak vs strong coupling between objects
+
+---
+
+## 🧩 Core Object Relationships Covered
+
+### 🔹 Aggregation (Has-A Relationship)
+
+* Objects can exist independently
+* One object contains references to another
+* Example: **Library → Books**
+
+### 🔹 Association (Uses-A Relationship)
+
+* Objects are linked but do not own each other
+* Many-to-many relationships possible
+* Example: **Bank ↔ Customer**, **Doctor ↔ Patient**
+
+### 🔹 Composition (Part-Of Relationship)
+
+* Strong ownership
+* Child objects cannot exist without parent
+* Deleting parent deletes all children
+* Example: **Company → Department → Employee**
+
+---
+
+## 🧪 Assisted Practice Problems Implemented
+
+### 1️⃣ Library and Books (Aggregation)
+
+* Library contains multiple Book objects
+* Books can exist independently of any library
+* Demonstrated adding the same book to different libraries
+
+### 2️⃣ Bank and Account Holders (Association)
+
+* Bank associated with multiple customers
+* Customers interact with bank via:
+
+  * `openAccount()`
+  * `viewBalance()`
+* Showed communication between objects
+
+### 3️⃣ Company and Departments (Composition)
+
+* Company owns departments
+* Departments own employees
+* Deleting company removes all departments and employees
+* Demonstrated strict object dependency
+
+---
+
+## 🧪 Self Practice Problems Implemented
+
+### 1️⃣ School, Students & Courses
+
+**(Aggregation + Association)**
+
+* School aggregates students
+* Students associate with multiple courses
+* Courses can show enrolled students
+* Students can view their enrolled courses
+
+### 2️⃣ University, Departments & Faculties
+
+**(Composition + Aggregation)**
+
+* University composed of departments
+* Departments deleted when university is deleted
+* Faculty members exist independently
+
+### 3️⃣ Hospital, Doctors & Patients
+
+**(Association + Communication)**
+
+* Doctors and patients have many-to-many association
+* `consult()` method demonstrates object communication
+* Real-world interaction modeled through methods
+
+### 4️⃣ E-Commerce Platform
+
+**(Aggregation + Communication)**
+
+* Customer places orders
+* Orders aggregate products
+* Demonstrated order-based interaction flow
+
+### 5️⃣ University Management System
+
+**(Association + Aggregation)**
+
+* Students enroll in courses
+* Professors teach courses
+* Methods:
+
+  * `enrollCourse()`
+  * `assignProfessor()`
+* Strong emphasis on interaction and relationships
+
+---
+
+## 🛠 Tools & Concepts Used
+
+* **Java (OOP Concepts)**
+
+  * Classes & Objects
+  * Aggregation, Association, Composition
+  * Object Communication
+  * ArrayList for object collections
+* **Eclipse IDE**
+
+  * Multi-class project structure
+  * Debugging object interactions
+* **Git & GitHub**
+
+  * Continued work on `java-oops-practice` branch
+  * Structured commits with meaningful messages
+
+---
+
+## ✅ Best Practices Followed
+
+* Proper **package structuring** for each problem
+* Clear separation of responsibilities between classes
+* Used constructors for dependency initialization
+* Maintained low coupling and high cohesion
+* Followed standard **Java naming conventions**
+* Wrote readable and maintainable code
+* Modeled real-world scenarios accurately
+
+
+## 🔗 Code Link (Week 2 – Day 4)
+
+👉 **Object Modeling Practice Code**
+🔗 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/objectmodeling](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/objectmodeling)
+
+----
+
+
