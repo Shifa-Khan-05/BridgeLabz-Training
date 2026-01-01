@@ -311,3 +311,162 @@ This day focused on **Core Java problem-solving** and **Object-Oriented Modeling
 * Git & GitHub (multi-branch practice)
 
 ---
+
+
+## 🔹 Day 5: Inheritance, Polymorphism & Advanced Scenario-Based Java Practice
+
+This day focused on **deepening Java fundamentals** by working in parallel on **Core Java logic building** and **Object-Oriented Programming using inheritance**.
+The goal was to strengthen **real-world problem modeling**, **code reuse**, and **clean design principles**.
+
+---
+
+## 📌 Core Java – Scenario-Based Practice
+
+**Branch:** `core-java-practice`
+
+On this day, I implemented multiple **real-world, user-interactive Java programs** to improve control flow mastery and logical thinking.
+
+### 🧪 Scenario-Based Problems Implemented
+
+* **Digital Watch Simulation**
+
+  * Simulated a 24-hour digital clock using nested loops
+  * Used `break` to stop execution at a specific time (power cut simulation)
+
+* **Online Quiz Application**
+
+  * Implemented a 5-question MCQ quiz
+  * Used arrays, loops, and `switch-case`
+  * Calculated and displayed final score
+
+* **Currency Exchange Kiosk**
+
+  * Converted INR to different currencies
+  * Used `switch` for rate selection
+  * Allowed repeated conversions using `do-while`
+
+* **Bus Route Distance Tracker**
+
+  * Calculated total distance stop-by-stop
+  * Used `while` loop with user confirmation to exit
+
+* **Festival Lucky Draw**
+
+  * Checked winning condition using modulus
+  * Applied `continue` for invalid inputs
+  * Supported multiple visitors
+
+### 🛠 Concepts Applied
+
+* Arrays
+* for, while, do-while loops
+* Conditional logic (`if`, `switch`)
+* `break` and `continue`
+* User input handling
+* Clean and readable logic flow
+
+🔗 **Code Link:**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+---
+
+## 📌 Java OOP – Inheritance & Polymorphism
+
+**Branch:** `java-oops-practice`
+
+This section focused on **Inheritance**, **method overriding**, and **polymorphism**, using real-world hierarchies and industry best practices.
+
+### 🧪 OOP Problems Implemented
+
+#### 🔹 Assisted Practice
+
+* **Animal Hierarchy**
+
+  * Superclass: `Animal`
+  * Subclasses: `Dog`, `Cat`, `Bird`
+  * Demonstrated method overriding and polymorphism
+
+* **Employee Management System**
+
+  * Base class: `Employee`
+  * Subclasses: `Manager`, `Developer`, `Intern`
+  * Role-specific attributes and overridden methods
+
+* **Vehicle & Transport System**
+
+  * Superclass: `Vehicle`
+  * Subclasses: `Car`, `Truck`, `Motorcycle`
+  * Polymorphism using superclass references
+
+#### 🔹 Single Inheritance
+
+* Book & Author
+* Smart Home Device – Thermostat
+
+#### 🔹 Multilevel Inheritance
+
+* Online Retail Order System
+* Educational Course Hierarchy
+
+#### 🔹 Hierarchical Inheritance
+
+* Bank Account Types
+* School Roles (Teacher, Student, Staff)
+
+#### 🔹 Hybrid Inheritance (Using Interfaces)
+
+* Restaurant Management System (`Worker` interface)
+* Vehicle Management System (`Refuelable` interface)
+
+---
+
+## ✅ Best Practices Followed
+
+* Used `this` keyword to avoid ambiguity
+* Applied `static` only for shared behavior
+* Used `final` to enforce design constraints
+* Performed `instanceof` checks before casting
+* Followed proper **is-a relationship** for inheritance
+* Avoided deep inheritance hierarchies
+* Used `@Override` annotation consistently
+* Preferred interfaces for multiple inheritance
+* Maintained low coupling and high cohesion
+* Followed standard **Java naming conventions**
+* Organized code into meaningful packages
+* Wrote readable, maintainable, and well-documented code
+
+---
+
+## 🛠 Tools & Technologies Used
+
+* **Java (Core Java + OOP)**
+* **Eclipse IDE**
+
+  * Multi-class project structure
+  * Debugging inheritance chains
+* **Git & GitHub**
+
+  * Parallel practice using multiple branches
+  * Clean and structured commits
+
+---
+
+## 📌 Learning Outcome
+
+✔ Strong command over Java inheritance types
+✔ Improved real-world problem modeling
+✔ Better understanding of polymorphism
+✔ Cleaner and more maintainable Java code
+✔ Clear separation of logic and responsibility
+
+---
+
+### 🔗 Code Links (Week 2 – Day 5)
+
+* **Core Java (Scenario-Based):**
+  👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+* **Java OOP (Inheritance):**
+  👉 (https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/inheritance)[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/inheritance]
+
+---
