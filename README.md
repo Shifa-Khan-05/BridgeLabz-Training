@@ -520,3 +520,115 @@
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 
 ---
+
+# 🔹 Day 11: Core Java Scenario-Based Problem Solving (Control Flow Mastery)
+
+On **Day 11**, I focused on strengthening my understanding of **loops, conditional logic, switch statements, and user interaction** by solving multiple real-world inspired scenario-based Core Java problems.
+The emphasis was on **logical flow control**, **loop management**, and **writing clean, readable Java code**.
+
+---
+
+## 🧪 Scenario-Based Problems Implemented
+
+### 1. Digital Watch Simulation ⏱️
+
+* Simulated a **24-hour digital watch**
+* Printed hours and minutes using **nested for-loops**
+* Used **break** to manually stop execution at **13:00** (power cut simulation)
+* Practiced loop control and early termination logic
+
+---
+
+### 2. Online Quiz Application 🧠
+
+* Designed a **5-question MCQ-based quiz**
+* Used **arrays** to store questions and answers
+* Iterated using **for-loop**
+* Evaluated answers using **switch-case**
+* Calculated and displayed the **final score**
+* Maintained proper indentation and structured output
+
+---
+
+### 3. Currency Exchange Kiosk 💱
+
+* Built a simple **currency converter**
+* Accepted **INR amount** and **target currency**
+* Applied conversion rates using **switch-case**
+* Allowed repeated conversions using **do-while loop**
+* Ensured smooth user interaction and validation
+
+---
+
+### 4. Bus Route Distance Tracker 🚌
+
+* Simulated a bus journey with multiple stops
+* Each stop added distance to a **total distance tracker**
+* Used a **while-loop** for continuous travel
+* Asked passenger confirmation to get off at each stop
+* Exited the loop based on user choice
+
+---
+
+### 5. Festival Lucky Draw 🎉
+
+* Simulated a **Diwali mela lucky draw**
+* Each visitor entered a number
+* Checked winning condition:
+
+  * Number divisible by **both 3 and 5**
+* Used **if condition**, **modulus operator**, and **loop**
+* Applied **continue** to skip invalid inputs
+* Supported multiple visitors in one run
+
+---
+
+## 🛠 Concepts & Tools Used
+
+### Core Java Concepts
+
+* Nested loops
+* for, while, and do-while loops
+* Conditional statements (if-else)
+* switch-case
+* break and continue
+* Arrays
+* User input handling
+* Structured and readable program flow
+
+### Tools & Workflow
+
+* **Java (Core Java)**
+* **Eclipse IDE** – program execution & debugging
+* **Git & GitHub**
+
+  * Continued work on `core-java-practice` branch
+  * Added Day 11 scenario-based programs
+  * Followed clean commit practices
+
+---
+
+## 🛠 Best Practices Followed
+
+* Converted real-world scenarios into logical Java solutions
+* Used meaningful variable and method names
+* Maintained proper indentation and clean code structure
+* Avoided hard-coded logic where possible
+* Ensured smooth user input/output handling
+* Focused on readability and maintainability
+
+---
+
+## 📌 Learning Outcome
+
+✔ Improved control over loop flow and termination
+✔ Better understanding of switch-case driven logic
+✔ Stronger grasp of user-driven program execution
+✔ Enhanced confidence in solving scenario-based Java problems
+
+---
+
+🔗 **Code Link (Day 11):**
+👉 (https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase] 
+
+
