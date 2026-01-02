@@ -470,3 +470,85 @@ This section focused on **Inheritance**, **method overriding**, and **polymorphi
   👉 (https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/inheritance)[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/inheritance]
 
 ---
+
+
+---
+# 📘 Day 6 – Java OOP Best Practices & Advanced Scenario-Based Design
+
+This day focused on applying **Java OOP best programming practices** through **advanced scenario-based problems**.
+The objective was to strengthen **real-world object modeling**, **clean code design**, and **proper use of abstraction, encapsulation, and polymorphism**.
+
+---
+
+## 📌 Java OOP – Encapsulation, Polymorphism & Design Practices
+
+**Branch:** `java-oops-practice`
+
+On this day, I implemented multiple **industry-inspired systems** to practice secure data handling, dynamic behavior, and modular design using Java OOP principles.
+
+---
+
+## 🧪 OOP Scenario-Based Problems Implemented
+
+### 🔹 Encapsulation & Polymorphism (Concept-Based Systems)
+
+* Employee Management System
+* E-Commerce Platform
+* Vehicle Rental System
+* Banking System
+* Library Management System
+* Online Food Delivery System
+* Hospital Patient Management System
+* Ride-Hailing Application
+
+These problems emphasized:
+
+* Private data access with controlled getters/setters
+* Abstract classes for shared behavior
+* Interfaces for defining contracts
+* Polymorphic processing using base references
+
+🔗 **Code Link:**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/encapsulationandpolymorphism](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/encapsulationandpolymorphism)
+
+---
+
+### 🔹 Additional Scenario-Based Problem
+
+#### Room Rental System
+
+A complete real-world simulation focusing on:
+
+* Object-oriented system design
+* Encapsulation of sensitive details
+* Polymorphic handling of different room types
+* Clear separation of responsibilities
+
+🔗 **Code Link:**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions/roomrentalsystem](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions/roomrentalsystem)
+
+---
+
+## 🛠 Concepts & Best Practices Applied
+
+* Encapsulation with validation logic
+* Polymorphism using abstract class and interface references
+* Interface-driven design
+* Abstract classes for shared state and behavior
+* Proper use of `final`, `this`, and access modifiers
+* Shallow inheritance hierarchies
+* Clean package structure and naming conventions
+* Readable, maintainable, and well-documented code
+
+---
+
+## 📌 Learning Outcomes
+
+✔ Strong grasp of Java OOP best practices
+✔ Improved real-world problem modeling
+✔ Better understanding of abstraction and polymorphism
+✔ Cleaner and more maintainable code design
+
+---
+
+
