@@ -388,3 +388,252 @@
 ----
 
 
+# 🔹 Day 5: Inheritance & Polymorphism in Java (OOP)
+
+## 📚 Learning Objectives
+
+* Understood the **concept of inheritance** and its role in code reusability
+* Learned different **types of inheritance in Java**
+* Practiced **method overriding** and **runtime polymorphism**
+* Applied real-world hierarchies using superclass–subclass relationships
+* Gained clarity on **when to use inheritance vs composition**
+* Learned industry-recommended **inheritance best practices**
+
+---
+
+## 🧬 Inheritance Concepts Covered
+
+* **Single Inheritance**
+* **Multilevel Inheritance**
+* **Hierarchical Inheritance**
+* **Hybrid Inheritance (using Interfaces)**
+* **Polymorphism (Superclass reference → Subclass object)**
+
+---
+
+## 🧪 Assisted Practice Problems Implemented
+
+### 1️⃣ Animal Hierarchy 🐾
+
+**(Basic Inheritance + Polymorphism)**
+
+* Superclass: `Animal`
+
+  * Attributes: `name`, `age`
+  * Method: `makeSound()`
+* Subclasses:
+
+  * `Dog` → Barks
+  * `Cat` → Meows
+  * `Bird` → Chirps
+* Demonstrated:
+
+  * Method overriding
+  * Polymorphic behavior using `Animal` references
+
+---
+
+### 2️⃣ Employee Management System 👨‍💼
+
+**(Inheritance with Specialized Attributes)**
+
+* Superclass: `Employee`
+
+  * Attributes: `name`, `id`, `salary`
+  * Method: `displayDetails()`
+* Subclasses:
+
+  * `Manager` → `teamSize`
+  * `Developer` → `programmingLanguage`
+  * `Intern` → `duration`
+* Demonstrated:
+
+  * Overriding superclass methods
+  * Role-specific data handling
+
+---
+
+### 3️⃣ Vehicle & Transport System 🚗
+
+**(Inheritance + Polymorphism)**
+
+* Superclass: `Vehicle`
+
+  * Attributes: `maxSpeed`, `fuelType`
+  * Method: `displayInfo()`
+* Subclasses:
+
+  * `Car` → `seatCapacity`
+  * `Truck` → `loadCapacity`
+  * `Motorcycle` → `engineCC`
+* Demonstrated:
+
+  * Polymorphism using `Vehicle[]`
+  * Dynamic method dispatch
+
+---
+
+## 🧪 Single Inheritance Practice
+
+### 4️⃣ Library Management – Book & Author 📚
+
+* Superclass: `Book`
+* Subclass: `Author`
+* Displayed:
+
+  * Book details with author information
+* Focus:
+
+  * Extending base functionality cleanly
+
+---
+
+### 5️⃣ Smart Home Device – Thermostat 🏠
+
+* Superclass: `Device`
+* Subclass: `Thermostat`
+* Added:
+
+  * Temperature control logic
+* Demonstrated:
+
+  * Single inheritance with specialization
+
+---
+
+## 🧪 Multilevel Inheritance Practice
+
+### 6️⃣ Online Retail Order Management 🛒
+
+* `Order` → `ShippedOrder` → `DeliveredOrder`
+* Attributes added at each level:
+
+  * Order ID → Tracking Number → Delivery Date
+* Implemented:
+
+  * `getOrderStatus()` based on hierarchy
+
+---
+
+### 7️⃣ Educational Course Hierarchy 🎓
+
+* `Course` → `OnlineCourse` → `PaidOnlineCourse`
+* Gradual feature extension:
+
+  * Platform → Recording → Fee & Discount
+* Demonstrated layered inheritance
+
+---
+
+## 🧪 Hierarchical Inheritance Practice
+
+### 8️⃣ Bank Account Types 🏦
+
+* Superclass: `BankAccount`
+* Subclasses:
+
+  * `SavingsAccount`
+  * `CheckingAccount`
+  * `FixedDepositAccount`
+* Each subclass implemented:
+
+  * `displayAccountType()`
+* Showed:
+
+  * Shared base behavior with specialization
+
+---
+
+### 9️⃣ School Roles System 🏫
+
+* Superclass: `Person`
+* Subclasses:
+
+  * `Teacher`
+  * `Student`
+  * `Staff`
+* Each role had:
+
+  * Unique attributes
+  * `displayRole()` method
+
+---
+
+## 🧪 Hybrid Inheritance (Using Interfaces)
+
+### 🔟 Restaurant Management System 🍽️
+
+* Superclass: `Person`
+* Interface: `Worker`
+* Subclasses:
+
+  * `Chef`
+  * `Waiter`
+* Demonstrated:
+
+  * Inheritance + interface implementation
+  * Multiple behavior modeling
+
+---
+
+### 1️⃣1️⃣ Vehicle Management System ⚡⛽
+
+* Superclass: `Vehicle`
+* Interface: `Refuelable`
+* Subclasses:
+
+  * `ElectricVehicle` → `charge()`
+  * `PetrolVehicle` → `refuel()`
+* Demonstrated:
+
+  * Hybrid inheritance via interfaces
+
+---
+
+## 🛠 Best Practices Followed (Inheritance Design)
+
+* Favored **composition over inheritance** where applicable
+* Used inheritance only for valid **is-a relationships**
+* Followed **Liskov Substitution Principle**
+* Avoided deep inheritance hierarchies
+* Used `@Override` annotation consistently
+* Marked critical methods `final` when needed
+* Kept superclass fields `private/protected`
+* Preferred **abstract classes** for partial implementations
+* Used **interfaces** for multiple inheritance
+* Avoided unnecessary method overriding
+* Applied delegation where inheritance was not ideal
+* Ensured safe constructor chaining using `super()`
+* Designed with polymorphism in mind
+* Minimized fragile base class dependencies
+
+---
+
+## 🛠 Tools & Technologies Used
+
+* **Java (OOP – Inheritance & Polymorphism)**
+* **ArrayList & Object Collections**
+* **Eclipse IDE**
+
+  * Multi-class project structure
+  * Debugging inheritance chains
+* **Git & GitHub**
+
+  * Continued work on `java-oops-practice` branch
+  * Clean, structured commits
+
+---
+
+## 📌 Learning Outcome
+
+✔ Strong understanding of Java inheritance types
+✔ Confident use of polymorphism and method overriding
+✔ Ability to design scalable OOP hierarchies
+✔ Industry-aligned inheritance best practices
+
+---
+
+🔗 **Code Link (Week 2 – Day 5):**
+👉 (https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/inheritance)[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/inheritance]
+
+---
