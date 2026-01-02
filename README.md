@@ -590,25 +590,6 @@
 
 ---
 
-## 🛠 Best Practices Followed (Inheritance Design)
-
-* Favored **composition over inheritance** where applicable
-* Used inheritance only for valid **is-a relationships**
-* Followed **Liskov Substitution Principle**
-* Avoided deep inheritance hierarchies
-* Used `@Override` annotation consistently
-* Marked critical methods `final` when needed
-* Kept superclass fields `private/protected`
-* Preferred **abstract classes** for partial implementations
-* Used **interfaces** for multiple inheritance
-* Avoided unnecessary method overriding
-* Applied delegation where inheritance was not ideal
-* Ensured safe constructor chaining using `super()`
-* Designed with polymorphism in mind
-* Minimized fragile base class dependencies
-
----
-
 ## 🛠 Tools & Technologies Used
 
 * **Java (OOP – Inheritance & Polymorphism)**
@@ -637,3 +618,83 @@
 👉 (https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/inheritance)[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/inheritance]
 
 ---
+
+# 📘 Day 6 – Java OOP Best Practices & Scenario-Based Problems
+
+## 📌 Overview
+
+On this day, I practiced **core Java OOP best practices** by implementing multiple **real-world, scenario-based problems**.
+The focus was on writing **clean, maintainable, and scalable code** using **Encapsulation, Polymorphism, Interfaces, and Abstract Classes**.
+
+---
+
+## 🎯 Concepts Covered
+
+### 🔐 Encapsulation
+
+* Used `private` fields to restrict direct access.
+* Provided `public` getters and setters with validation.
+* Ensured data security and integrity.
+* Followed Java naming conventions.
+
+### 🔄 Polymorphism
+
+* Programmed using **abstract class and interface references**.
+* Avoided explicit casting.
+* Ensured overridden methods followed base-class contracts.
+* Maintained shallow inheritance hierarchies.
+
+### 🧩 Interfaces
+
+* Defined clear contracts for behaviors.
+* Combined interfaces for modular design.
+* Preferred composition over inheritance.
+
+### 🏗️ Abstract Classes
+
+* Used for shared state and common behavior.
+* Enforced implementation through abstract methods.
+* Combined with interfaces for flexible designs.
+
+### 🧠 General Practices
+
+* Followed Java coding standards and naming conventions.
+* Used comments and Javadoc for clarity.
+* Applied **Single Responsibility** and **Interface Segregation** principles.
+
+---
+
+## 🛠️ Tasks Implemented
+
+### 1️⃣ Java OOP – Encapsulation & Polymorphism (Concept-Based)
+
+Implemented multiple systems such as:
+
+* Employee Management
+* E-Commerce Platform
+* Vehicle Rental System
+* Banking System
+* Library Management
+* Food Delivery System
+* Hospital Patient Management
+* Ride-Hailing Application
+
+🔗 **Task Link:**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/encapsulationandpolymorphism](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcept/src/com/encapsulationandpolymorphism)
+
+---
+
+### 2️⃣ Scenario-Based Problem – Room Rental System
+
+Designed and implemented a **Room Rental System** focusing on:
+
+* Real-world object modeling
+* Encapsulation of sensitive data
+* Polymorphic behavior across room types
+* Clean separation of responsibilities
+
+🔗 **Task Link:**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions/roomrentalsystem](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions/roomrentalsystem)
+
+---
+
