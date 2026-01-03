@@ -698,3 +698,177 @@ Designed and implemented a **Room Rental System** focusing on:
 
 ---
 
+# 📘 Day 7 – Scenario-Based OOPs | Story-Driven Java Programming
+
+## 📌 Overview
+
+On **Day 7**, I focused on solving **real-world, story-driven Java programming problems** using **Object-Oriented Programming (OOP)** concepts.
+Each problem was designed as a **mini use-case or real-life scenario**, ensuring practical understanding of how OOP principles are applied in professional software development.
+
+The primary goal was to write **structured, reusable, and scalable Java code** by integrating:
+
+* Classes & Objects
+* Constructors
+* Access Modifiers
+* Interfaces
+* Operators
+* Core OOP Principles
+
+---
+
+## 🎯 Concepts Applied
+
+### 🔐 Encapsulation
+
+* Restricted direct access to sensitive data using `private` fields.
+* Exposed controlled access through `public` getter/setter methods.
+* Ensured data integrity (e.g., wallet balance, medical history, GPA).
+
+### 🧬 Inheritance
+
+* Created logical **IS-A relationships** between classes.
+* Promoted code reuse by extending base classes.
+* Maintained clean and shallow inheritance hierarchies.
+
+### 🎭 Polymorphism
+
+* Used parent references to invoke child implementations.
+* Overrode methods to provide scenario-specific behavior.
+* Avoided explicit type casting.
+
+### 🧩 Abstraction
+
+* Used interfaces to hide implementation details.
+* Focused on *what* an object does rather than *how* it does it.
+* Enabled flexible and extensible system design.
+
+---
+
+## 🛠️ Scenario-Based Problems Implemented
+
+### 1️⃣ Hospital Patient Management System
+
+**Scenario:**
+A hospital needs a software module to register patients, assign doctors, and manage billing.
+
+**Concepts Used:**
+
+* **Classes:** Patient, Doctor, Bill
+* **Constructors:** Overloaded constructors for emergency vs. normal admission
+* **Access Modifiers:** Medical history kept private, summary exposed publicly
+* **Interface:** `Payable` with `calculatePayment()`
+* **Operators:** Discounts, taxes, and final bill calculation
+
+**OOP Usage:**
+
+* Encapsulation for sensitive patient data
+* Inheritance: `InPatient`, `OutPatient` extend `Patient`
+* Abstraction through billing interface
+* Polymorphism via overridden `displayInfo()`
+
+---
+
+### 2️⃣ Vehicle Rental Application
+
+**Scenario:**
+A rental service offers bikes, cars, and trucks with different pricing strategies.
+
+**Concepts Used:**
+
+* **Classes:** Vehicle, Bike, Car, Truck, Customer
+* **Constructors:** Custom initialization for vehicle types
+* **Access Modifiers:** `protected` fields for subclass access
+* **Interface:** `Rentable` with `calculateRent(int days)`
+* **Operators:** Base rate × days ± surcharges
+
+**OOP Usage:**
+
+* Inheritance: All vehicles extend `Vehicle`
+* Polymorphism: Rent calculation varies by vehicle type
+* Abstraction through rental behavior
+* Encapsulation via getters/setters
+
+---
+
+### 3️⃣ University Course Enrollment System
+
+**Scenario:**
+Students enroll in courses and faculty assign grades.
+
+**Concepts Used:**
+
+* **Classes:** Student, Course, Faculty, Enrollment
+* **Constructors:** Student creation with/without electives
+* **Access Modifiers:** GPA kept private
+* **Interface:** `Graded` with `assignGrade()`
+* **Operators:** GPA calculation and comparison
+
+**OOP Usage:**
+
+* Inheritance: `Undergraduate`, `Postgraduate` extend `Student`
+* Abstraction for grading styles
+* Polymorphism: Pass/Fail vs. Letter grading
+* Secure handling of academic data
+
+---
+
+### 4️⃣ E-Wallet Application
+
+**Scenario:**
+Users can register, add money, transfer funds, and view transaction history.
+
+**Concepts Used:**
+
+* **Classes:** User, Wallet, Transaction
+* **Constructors:** Optional referral bonus initialization
+* **Access Modifiers:** Balance kept private
+* **Interface:** `Transferrable` with `transferTo()`
+* **Operators:** Taxes, deductions, referral credits
+
+**OOP Usage:**
+
+* Encapsulation to prevent balance manipulation
+* Inheritance: `PersonalWallet`, `BusinessWallet`
+* Abstraction via transaction interface
+* Polymorphism in transfer logic
+
+---
+
+### 5️⃣ Smart Home Automation System
+
+**Scenario:**
+Users control home appliances like lights, fans, and ACs through a smart system.
+
+**Concepts Used:**
+
+* **Classes:** Appliance, Light, Fan, AC, UserController
+* **Constructors:** Default and custom power settings
+* **Access Modifiers:** Internal state private
+* **Interface:** `Controllable` (`turnOn()`, `turnOff()`)
+* **Operators:** Energy usage comparison
+
+**OOP Usage:**
+
+* Encapsulation for device state
+* Inheritance: Devices extend `Appliance`
+* Abstraction via control interface
+* Polymorphism in device behavior
+
+---
+
+## 🧠 Key Learnings
+
+* How to convert **real-world stories into object models**
+* Proper usage of **interfaces vs abstract classes**
+* Writing **maintainable and extensible OOP code**
+* Designing systems using **SOLID principles**
+* Improved clarity in object responsibility and behavior
+
+---
+
+## 🔗 Repository Link
+
+👉 **Scenario-Based OOP Solutions (Day 7):**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+---
