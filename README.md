@@ -551,4 +551,103 @@ A complete real-world simulation focusing on:
 
 ---
 
+# 📘 Day 7 – Scenario-Based OOPs | Story-Driven Java Programming
 
+This day focused on solving **real-world, story-driven Java programming problems** using **Object-Oriented Programming (OOP)** concepts.
+Each problem was designed as a **mini use-case**, helping to understand how OOP principles are applied in **professional software development**.
+
+The objective was to write **structured, reusable, and scalable Java code** by integrating core language features with strong OOP design.
+
+---
+
+## 📌 Java OOP – Scenario-Based Design
+
+**Branch:** `java-oops-practice`
+
+On this day, I implemented multiple **story-driven systems** that closely resemble real-life applications, emphasizing clean architecture and proper object responsibility.
+
+---
+
+## 🎯 Concepts Applied
+
+* **Encapsulation:** Private fields with controlled access via getters/setters
+* **Inheritance:** Logical IS-A relationships with code reuse
+* **Polymorphism:** Dynamic behavior using parent references
+* **Abstraction:** Interfaces to hide implementation details
+* **Constructors:** Overloaded and parameterized initialization
+* **Access Modifiers:** Secure handling of sensitive data
+* **Operators:** Used in calculations, comparisons, and business logic
+
+---
+
+## 🛠️ Scenario-Based Problems Implemented
+
+### 1️⃣ Hospital Patient Management System
+
+**Scenario:** Register patients, assign doctors, and manage billing.
+
+* Classes: Patient, Doctor, Bill
+* Interface: `Payable`
+* Inheritance: InPatient, OutPatient
+* Focus: Data security, billing abstraction, polymorphic display
+
+---
+
+### 2️⃣ Vehicle Rental Application
+
+**Scenario:** Rent bikes, cars, and trucks with different pricing rules.
+
+* Classes: Vehicle, Bike, Car, Truck, Customer
+* Interface: `Rentable`
+* Focus: Rent calculation logic, inheritance hierarchy, polymorphism
+
+---
+
+### 3️⃣ University Course Enrollment System
+
+**Scenario:** Student enrollment and faculty-driven grading.
+
+* Classes: Student, Course, Faculty, Enrollment
+* Interface: `Graded`
+* Inheritance: Undergraduate, Postgraduate
+* Focus: Secure grade handling and grading abstraction
+
+---
+
+### 4️⃣ E-Wallet Application
+
+**Scenario:** Wallet creation, money transfer, and transaction tracking.
+
+* Classes: User, Wallet, Transaction
+* Interface: `Transferrable`
+* Inheritance: PersonalWallet, BusinessWallet
+* Focus: Balance encapsulation and polymorphic transfers
+
+---
+
+### 5️⃣ Smart Home Automation System
+
+**Scenario:** Control home appliances via a smart interface.
+
+* Classes: Appliance, Light, Fan, AC, UserController
+* Interface: `Controllable`
+* Focus: Device abstraction, inheritance, and behavior polymorphism
+
+---
+
+## 🧠 Key Learnings
+
+✔ Converting real-world stories into object models
+✔ Correct use of interfaces vs abstract classes
+✔ Designing maintainable and extensible OOP systems
+✔ Applying SOLID principles in scenario-based problems
+✔ Improved clarity in object responsibility and interaction
+
+---
+
+## 🔗 Code Link
+
+👉 **Scenario-Based OOP Solutions (Day 7):**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+---
