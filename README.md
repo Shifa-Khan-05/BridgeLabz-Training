@@ -872,3 +872,110 @@ Users control home appliances like lights, fans, and ACs through a smart system.
 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
 
 ---
+
+# 📘 Day 8 – Scenario-Based OOPs | Real-World System Design in Java
+
+## 📌 Overview
+
+On **Day 8**, I worked on **advanced real-world system design problems** using **Object-Oriented Programming (OOP)** in Java.
+The focus was on building **backend logic for practical applications**, applying OOP principles to simulate **industry-level systems**.
+
+The primary objective was to design **robust, scalable, and maintainable Java code** by integrating:
+
+* Classes & Objects
+* Constructors
+* Access Modifiers
+* Interfaces
+* Operators
+* Core OOP Principles
+
+---
+
+## 🎯 Concepts Applied
+
+### 🔐 Encapsulation
+
+* Sensitive data such as **fare, balance, rating, and location** kept private
+* Controlled access using public methods
+* Prevented direct data manipulation
+
+### 🧬 Inheritance
+
+* Modeled logical **IS-A relationships**
+* Promoted reuse through base and derived classes
+
+### 🎭 Polymorphism
+
+* Same method behaving differently based on object type
+* Used parent references to call child implementations
+
+### 🧩 Abstraction
+
+* Interfaces used to hide implementation details
+* Exposed only essential operations
+
+---
+
+## 🛠️ Scenario-Based Problems Implemented
+
+### 6️⃣ CabbyGo – Ride-Hailing Application (Backend Logic)
+
+**Story:**
+Joined a startup building **CabbyGo**, a ride-hailing application.
+Implemented backend logic for managing vehicles, drivers, and ride bookings.
+
+**Concepts Used:**
+
+* **Classes:** Vehicle, Driver
+* **Constructors:** Initialize vehicles and drivers
+* **Interface:** `IRideService` (`bookRide()`, `endRide()`)
+* **Inheritance:** Mini, Sedan, SUV extend Vehicle
+* **Encapsulation:** Fare, rating, and location kept private
+* **Operators:** Fare calculation → `baseFare + distance × rate`
+
+**OOP Usage:**
+
+* Polymorphic fare calculation based on vehicle type
+* Secure handling of ride and driver data
+* Interface-driven ride operations
+
+---
+
+### 7️⃣ MyBank – Customer Account Management System
+
+**Story:**
+Developed the core banking module for **MyBank**, a digital-first bank, to manage customer
+accounts and transactions.
+
+**Concepts Used:**
+
+* **Base Class:** Account
+* **Derived Classes:** SavingsAccount, CurrentAccount
+* **Interface:** `ITransaction` (`deposit()`, `withdraw()`, `checkBalance()`)
+* **Constructors:** Account creation with/without opening balance
+* **Encapsulation:** Balance kept private
+* **Operators:** Interest calculation → `balance × interestRate / 100`
+
+**OOP Usage:**
+
+* Polymorphic `calculateInterest()` based on account type
+* Secure transaction handling
+* Controlled exposure of account operations
+
+---
+
+## 🧠 Key Learnings
+
+* Designing backend logic for **real-world applications**
+* Applying OOP principles in **system-level problems**
+* Effective use of **interfaces for business logic**
+* Ensuring data security using encapsulation
+* Implementing polymorphism in pricing and interest calculations
+
+---
+
+## 🔗 Repository Link
+
+👉 **Scenario-Based OOP Solutions (Day 8):**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+---
