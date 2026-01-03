@@ -651,3 +651,53 @@ On this day, I implemented multiple **story-driven systems** that closely resemb
 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
 
 ---
+
+
+## 📘 Day 8 – Scenario-Based OOPs | Real-World System Design in Java
+
+On **Day 8**, I focused on implementing **advanced, real-world system design problems** using **Object-Oriented Programming (OOP)** in Java.
+The emphasis was on building **backend logic for practical applications** with clean architecture, strong encapsulation, and scalable design.
+
+---
+
+### 🎯 Concepts Applied
+
+* **Encapsulation:** Private handling of sensitive data (fare, balance, rating, location)
+* **Inheritance:** Logical IS-A relationships for code reuse
+* **Polymorphism:** Dynamic behavior based on object types
+* **Abstraction:** Interfaces exposing only essential operations
+* **Constructors & Operators:** Proper initialization and business calculations
+
+---
+
+### 🛠️ Scenario-Based Problems Implemented
+
+#### 6️⃣ CabbyGo – Ride-Hailing Application
+
+* Backend logic for vehicles, drivers, and ride booking
+* Vehicle hierarchy: Mini, Sedan, SUV extending Vehicle
+* `IRideService` interface for booking and ending rides
+* Polymorphic fare calculation (`baseFare + distance × rate`)
+
+#### 7️⃣ MyBank – Customer Account Management System
+
+* Account management with Savings and Current accounts
+* Secure balance handling using encapsulation
+* `ITransaction` interface for deposit, withdrawal, and balance check
+* Polymorphic interest calculation based on account type
+
+---
+
+### 🧠 Key Learnings
+
+✔ Designing backend logic for real-world applications
+✔ Applying OOP principles in system-level problems
+✔ Effective use of interfaces and polymorphism
+✔ Secure and maintainable Java code design
+
+---
+
+🔗 **Code Link (Day 8):**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+---
+
