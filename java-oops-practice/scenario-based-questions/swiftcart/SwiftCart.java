@@ -18,6 +18,7 @@ public class SwiftCart {
             System.out.print("Product Name: ");
             String name = sc.nextLine();
 
+
             System.out.print("Price: ");
             double price = sc.nextDouble();
 
