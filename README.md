@@ -701,3 +701,67 @@ The emphasis was on building **backend logic for practical applications** with c
 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
 ---
 
+
+## 📘 Week 3 – Day 1: Data Structures (Linked Lists) Using Java
+
+On **Day 1 of Week 3**, I started **Data Structures & Algorithms (DSA)** with a focus on **Linked Lists implemented from scratch in Java**.
+The goal was to understand **node-based data storage, pointer manipulation, traversal logic**, and apply them to **real-world scenario-based problems**.
+
+---
+
+### 🔹 Data Structures Covered
+
+* **Singly Linked List**
+* **Doubly Linked List**
+* **Circular Linked List**
+
+---
+
+### 🧠 Key Concepts & Best Practices
+
+* Head and tail pointer management
+* Null checks before traversal and deletion
+* Efficient insertion and deletion operations
+* Handling edge cases (empty list, single node, head/tail)
+* Preventing infinite loops in circular lists
+* Clean pointer updates and memory safety
+* Modular, readable, and reusable method design
+
+---
+
+### 🧪 Scenario-Based Implementations
+
+* Student Record Management (Singly Linked List)
+* Movie Management System (Doubly Linked List)
+* Task Scheduler (Circular Linked List)
+* Inventory Management System
+* Library Management System
+* Round Robin CPU Scheduling
+* Social Media Friend Connections
+* Undo/Redo Text Editor
+* Online Ticket Reservation System
+
+---
+
+### 🛠 Tools & Workflow
+
+* **Java (Core Java)**
+* **Eclipse IDE**
+* **Git & GitHub**
+* Manual implementation (no Java Collections)
+
+---
+
+### 📌 Learning Outcome
+
+✔ Strong understanding of Linked List internals
+✔ Improved pointer manipulation and traversal logic
+✔ Ability to model real-world problems using DSA
+✔ Clean, maintainable, industry-style Java code
+
+---
+
+🔗 **Code Link – Week 3 Day 1 (DSA Linked Lists):**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com/linkedlist](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com/linkedlist)
+
+---
