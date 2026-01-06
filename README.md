@@ -979,3 +979,85 @@ accounts and transactions.
 👉 **Scenario-Based OOP Solutions (Day 8):**
 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
 ---
+
+
+# 📘 Day 9 – Advanced Scenario-Based OOPs | Business Logic & System Design in Java
+
+## 📌 Overview
+
+On **Day 9**, I focused on designing **business-oriented, real-world applications** using **advanced Object-Oriented Programming (OOP)** principles.
+The goal was to strengthen **system-level thinking**, **secure data handling**, and **polymorphic behavior** through story-driven Java problems.
+
+---
+
+## 🎯 Concepts Applied
+
+* **Encapsulation:** Private handling of sensitive data (grades, prices, totals)
+* **Inheritance:** Clean IS-A relationships with reusable base classes
+* **Polymorphism:** Same method behaving differently based on object type
+* **Abstraction:** Interfaces defining business contracts
+* **Constructors:** Flexible object initialization
+* **Operators:** Business calculations (GPA, total price, discounts)
+
+---
+
+## 🛠️ Scenario-Based Problems Implemented
+
+### 1️⃣ CampusConnect – College Information System
+
+**Scenario:**
+Academic module for a university portal managing students, faculty, and courses.
+
+**Highlights:**
+
+* Base class `Person`
+* `Student` and `Faculty` extend `Person`
+* `ICourseActions` for enroll/drop operations
+* GPA calculation using operators
+* Polymorphic `printDetails()`
+* Secure grade handling using access modifiers
+
+---
+
+### 2️⃣ SwiftCart – Grocery Shopping Application
+
+**Scenario:**
+Backend cart and checkout logic for an online grocery platform.
+
+**Highlights:**
+
+* `Product` and `Cart` core classes
+* Inheritance for product types
+* `ICheckout` interface for billing
+* Secure price updates inside Cart
+* Polymorphic discount calculation
+* Clean cart and checkout separation
+
+---
+
+## 🛠 Tools & Workflow
+
+* **Java (Core Java + OOP)**
+* **Eclipse IDE**
+* **Git & GitHub**
+* Scenario-first system design
+
+---
+
+## 📌 Learning Outcomes
+
+✔ Designed business-grade OOP systems
+✔ Applied abstraction and polymorphism effectively
+✔ Improved secure data handling
+✔ Built clean, scalable, and maintainable Java code
+
+---
+
+## 🔗 Repository Link
+
+👉 **Scenario-Based OOP Solutions (Day 9):
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)**
+
+---
+
+
