@@ -743,25 +743,66 @@ The goal was to understand **node-based data storage, pointer manipulation, trav
 
 ---
 
-### 🛠 Tools & Workflow
-
-* **Java (Core Java)**
-* **Eclipse IDE**
-* **Git & GitHub**
-* Manual implementation (no Java Collections)
-
----
-
-### 📌 Learning Outcome
-
-✔ Strong understanding of Linked List internals
-✔ Improved pointer manipulation and traversal logic
-✔ Ability to model real-world problems using DSA
-✔ Clean, maintainable, industry-style Java code
-
----
-
 🔗 **Code Link – Week 3 Day 1 (DSA Linked Lists):**
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com/linkedlist](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com/linkedlist)
+
+
+---
+
+## (Week -3) 📘 Day 2 – Advanced Scenario-Based OOPs | Business Logic & System Design
+
+On **Day 9**, I focused on designing **business-oriented, real-world applications** using **advanced Java Object-Oriented Programming (OOP)** concepts.
+The emphasis was on **system-level thinking**, **secure data handling**, and **polymorphic behavior** while converting real-life stories into scalable Java designs.
+
+---
+
+### 🎯 Core OOP Concepts Applied
+
+* **Encapsulation:**
+
+  * Sensitive data (grades, prices, totals) kept private
+  * Controlled access using public methods
+
+* **Inheritance:**
+
+  * Modeled IS-A relationships for code reuse
+  * Clean and shallow class hierarchies
+
+* **Polymorphism:**
+
+  * Same method behaving differently across object types
+  * Parent references used for dynamic behavior
+
+* **Abstraction:**
+
+  * Interfaces used to define business contracts
+  * Implementation details hidden for flexibility
+
+---
+
+### 🛠️ Scenario-Based Applications Implemented
+
+#### 1️⃣ CampusConnect – College Information System
+
+* Person base class with Student and Faculty extensions
+* Course enrollment using interfaces
+* GPA calculation using operators
+* Role-based polymorphic `printDetails()`
+* Secure handling of academic data
+
+#### 2️⃣ SwiftCart – Grocery Shopping Application
+
+* Product and Cart-based system design
+* Inheritance for product categorization
+* Secure billing and discount calculation
+* Polymorphic discount logic
+* Clean separation of responsibilities
+
+---
+
+
+
+🔗 **Code Link Week-3 (Day 2 – OOP Practice):**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
 
 ---
