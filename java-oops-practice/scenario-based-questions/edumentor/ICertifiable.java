@@ -1,0 +1,3 @@
+interface ICertifiable{
+   void generateCertificate();
+}
