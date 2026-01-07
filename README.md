@@ -801,8 +801,144 @@ The emphasis was on **system-level thinking**, **secure data handling**, and **p
 ---
 
 
+## 📘(week - 3)  Day 3 – Advanced OOP + Core DSA | Interactive Systems & Data Handling in Java
 
-🔗 **Code Link Week-3 (Day 2 – OOP Practice):**
+On **Day 10**, I combined **advanced Object-Oriented Programming (OOP)** with **core Data Structures concepts** to build **interactive, real-world systems** and strengthen problem-solving skills using **Stacks, Queues, and Hash Maps**.
+
+The focus was on:
+
+* Behavior-driven OOP design
+* Strong encapsulation and abstraction
+* Choosing the right data structure for the right problem
+
+---
+
+## 🎯 OOP Concepts Applied
+
+* **Encapsulation**
+
+  * Internal states (mood, hunger, pricing, user data) kept private
+  * State changes allowed only through controlled methods
+
+* **Inheritance**
+
+  * Logical IS-A relationships
+  * Clean base and derived class hierarchies
+
+* **Polymorphism**
+
+  * Same method behaving differently across object types
+  * Dynamic dispatch using parent references
+
+* **Abstraction**
+
+  * Interfaces defining behavior contracts
+  * Implementation hidden behind meaningful actions
+
+* **Constructors & Operators**
+
+  * Flexible object creation
+  * State updates and business logic using operators
+
+---
+
+## 🛠️ Scenario-Based OOP Applications Implemented
+
+### 1️⃣ PetPal – Virtual Pet Care Application 🐶🐱🐦
+
+**Highlights:**
+
+* Base class `Pet` with common attributes
+* Derived classes: Dog, Cat, Bird
+* `IInteractable` interface (`feed()`, `play()`, `sleep()`)
+* Encapsulation of hunger, energy, and mood
+* Polymorphic `makeSound()` per pet type
+* Secure internal state updates using methods
+
+---
+
+### 2️⃣ EventEase – Event Management Platform 🎉
+
+**Highlights:**
+
+* `Event` base class with event details
+* `User` class for event organizers
+* Inheritance: BirthdayEvent, ConferenceEvent
+* `ISchedulable` interface (`schedule()`, `reschedule()`, `cancel()`)
+* Immutable `eventId` after assignment
+* Cost calculation using operators
+* Polymorphic scheduling behavior
+* Secure pricing and user data handling
+
+---
+
+## 🧠 Data Structures – Best Practices Applied
+
+### 🔹 Stacks
+
+* Used for reversible and nested problems
+* Prevented stack overflow using clear base cases
+* Validated underflow and overflow
+* Preferred `Deque` over manual stack implementations
+* Auxiliary stack for O(1) min/max retrieval
+
+### 🔹 Queues
+
+* FIFO logic for scheduling and sequencing
+* Used Deque and Priority Queue when required
+* Efficient circular queue pointer handling
+* Thread-safe queues for concurrency scenarios
+* Proper empty/full queue validation
+
+---
+
+## 🧪 DSA Practice Problems Solved
+
+### 🧱 Stack & Queue Problems
+
+* Implement Queue using Stacks
+* Sort a Stack using Recursion
+* Stock Span Problem
+* Sliding Window Maximum
+* Circular Tour Problem
+
+### 🗂 Hash Map Problems
+
+* Find all subarrays with zero sum
+* Pair with given sum
+* Longest consecutive sequence
+* Custom Hash Map implementation
+* Two Sum problem
+
+---
+
+## 🛠 Tools & Workflow
+
+* **Java (Core Java + OOP + DSA)**
+* **Eclipse IDE**
+* **Git & GitHub**
+* Modular, scenario-first design approach
+
+---
+
+## 📌 Learning Outcomes
+
+✔ Built interactive OOP systems with strong encapsulation
+✔ Applied polymorphism in behavior-driven applications
+✔ Strengthened stacks, queues, and hash map concepts
+✔ Improved problem-to-data-structure mapping
+✔ Wrote clean, scalable, maintainable Java code
+
+---
+
+## 🔗 Code Links
+
+### 🔹 OOP Scenario-Based Implementations
+
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+### 🔹 DSA Practice (Stacks, Queues, Hash Maps)
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com)
 
 ---
