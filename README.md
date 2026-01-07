@@ -1061,3 +1061,69 @@ Backend cart and checkout logic for an online grocery platform.
 ---
 
 
+# 📘 Day 10 – Scenario-Based OOPs | Interactive Systems in Java
+
+## 📌 Overview
+
+On **Day 10**, I worked on **interactive, real-world applications** using **Object-Oriented Programming (OOP)** in Java, focusing on **secure state management, polymorphism, and clean system design**.
+
+---
+
+## 🎯 OOP Concepts Applied
+
+* **Encapsulation:** Protected internal state (mood, hunger, pricing, IDs)
+* **Inheritance:** Clear IS-A relationships
+* **Polymorphism:** Different behavior via overridden methods
+* **Abstraction:** Interfaces for interaction and scheduling
+* **Constructors:** Flexible object initialization
+* **Operators:** Business and state calculations
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 🐾 PetPal – Virtual Pet Care App
+
+* Base class: `Pet`
+* Child classes: `Dog`, `Cat`, `Bird`
+* Interface: `IInteractable`
+* Private hunger, mood, energy levels
+* Polymorphic `makeSound()`
+* Interaction-based state updates
+
+---
+
+### 🎉 EventEase – Event Management Platform
+
+* Core class: `Event`
+* Derived classes: `BirthdayEvent`, `ConferenceEvent`
+* Interface: `ISchedulable`
+* Immutable `eventId`
+* Cost calculation using operators
+* Polymorphic scheduling logic
+* Secure organizer & pricing data
+
+---
+
+## 🧠 Key Learnings
+
+* Designed interactive systems using OOP
+* Applied encapsulation for data safety
+* Used polymorphism for dynamic behavior
+* Built clean, maintainable Java applications
+
+---
+
+## 🛠 Tools
+
+* **Java (Core OOP)**
+* **Eclipse IDE**
+* **Git & GitHub**
+
+---
+
+## 🔗 Repository
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+---
