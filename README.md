@@ -89,3 +89,86 @@ The session involved understanding **node-based storage, pointer manipulation, t
 * Manual DSA implementation (no collections)
 
 ---
+
+# 📅 Week 3 – Day 2: Stacks & Queues Using Java
+
+On **Day 2 of Week 3**, I focused on **Data Structures (Stacks & Queues)** using Java.
+The session emphasized **LIFO/FIFO principles**, **auxiliary data structures**, and solving **classic interview-level problems** using stacks, queues, deques, and hash-based optimizations.
+
+🔗 **Code Link – Day 2:**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com)
+
+---
+
+## 🧠 Best Practices Applied
+
+* Used **Stack, Queue, Deque** appropriately based on problem needs
+* Avoided unnecessary extra data structures
+* Maintained **O(n)** optimized solutions where possible
+* Handled **edge cases** (empty stack/queue, underflow, overflow)
+* Clean separation of logic into helper methods
+* Proper use of **Java Collections Framework**
+* Focused on **readability and exam-friendly code structure**
+
+---
+
+## 🔹 Implementations Completed
+
+### 1️⃣ Stack – Sort a Stack Using Recursion 🔁
+
+* Sorted stack elements using **pure recursion**
+* No extra stack used
+* Demonstrated recursive backtracking
+
+---
+
+### 2️⃣ Stack – Stock Span Problem 📈
+
+* Calculated stock span for each day
+* Used stack to track previous greater elements
+* Achieved **O(n)** time complexity
+
+---
+
+### 3️⃣ Queue / Deque – Sliding Window Maximum 🪟
+
+* Found maximum element in each window of size `k`
+* Used **Deque** to maintain useful indices
+* Optimized over brute-force approach
+
+---
+
+### 4️⃣ Queue – Circular Tour (Petrol Pump) Problem ⛽
+
+* Determined valid starting point for circular tour
+* Implemented solution using **Queue**
+* Tracked petrol surplus and eliminated invalid starts
+
+---
+
+### 5️⃣ Stack – Queue Implementation Using Two Stacks 🔄
+
+* Implemented Queue behavior using Stack operations
+* Practiced **data structure transformation**
+* Demonstrated enqueue and dequeue logic
+
+---
+
+### 6️⃣ Stack – Balanced & Logical Stack Operations 🧱
+
+* Push, pop, peek operations
+* Proper size and boundary handling
+* Clear understanding of LIFO behavior
+
+---
+
+## 🧩 Key Concepts Strengthened
+
+* Stack vs Queue use-cases
+* Recursion with stack memory
+* Sliding window technique
+* Circular traversal logic
+* Real-world problem modeling using abstract data structures
+* Time & space complexity awareness
+
+---
