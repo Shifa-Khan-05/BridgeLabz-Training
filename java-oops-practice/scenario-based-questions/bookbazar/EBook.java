@@ -9,3 +9,5 @@ public class EBook extends Book {
         return price * quantity * 0.20; // 20% discount
     }
 }
+
+

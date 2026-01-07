@@ -11,6 +11,8 @@ public abstract class Book implements IDiscountable {
         this.price = price;
         this.stock = stock;
     }
+	
+	
 
     public int getStock() {
         return stock;
