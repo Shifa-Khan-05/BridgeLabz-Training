@@ -172,3 +172,90 @@ The session emphasized **LIFO/FIFO principles**, **auxiliary data structures**, 
 * Time & space complexity awareness
 
 ---
+
+
+## 📘 Week 3 – Day 3: Strings, File Handling, Searching & Sorting in Java
+
+On **Day 3 of Week 3**, I worked on **string manipulation**, **file I/O**, **searching techniques**, and **sorting algorithms** in Java with a focus on **best practices** and **interview-level problem solving**.
+
+---
+
+## 🧠 Key Concepts & Best Practices
+
+### 🔹 String Handling
+
+* Used **StringBuilder** for high-performance mutable strings
+* Used **StringBuffer** for thread-safe operations
+* Wrapped readers (FileReader / InputStreamReader) with **BufferedReader**
+
+### 🔹 Searching Techniques
+
+* **Linear Search** for unsorted data
+* **Binary Search** for sorted data (overflow-safe mid calculation)
+
+### 🔹 Sorting Algorithms
+
+* **Bubble, Selection, Insertion**
+* **Merge, Quick, Heap, Counting**
+* Emphasis on **correct logic**, **time complexity**, and **use cases**
+
+---
+
+## 🧪 Problems Solved
+
+### 🔤 StringBuilder & StringBuffer
+
+* Reverse string using StringBuilder
+* Remove duplicates
+* Efficient concatenation
+* Performance comparison
+
+### 📁 File Handling
+
+* Read file line-by-line
+* Word occurrence count
+* Convert byte stream to characters
+* Console input write to file
+
+### 🔍 Searching
+
+* First negative number
+* Word search in sentences
+* Rotation point in rotated array
+* Peak element
+* 2D matrix binary search
+* First & last occurrence
+* Combined linear & binary challenge
+
+### 🔃 Sorting
+
+* Student marks (Bubble Sort)
+* Employee IDs (Insertion Sort)
+* Exam scores (Selection Sort)
+* Book prices (Merge Sort)
+* Product prices (Quick Sort)
+* Salaries (Heap Sort)
+* Student ages (Counting Sort)
+
+---
+
+## 🔗 Code Links
+
+### 📂 Searching Algorithms
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com/binarysearch](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com/binarysearch)
+
+### 📂 Sorting Algorithms
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com/sortingalgorithm](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com/sortingalgorithm)
+
+---
+
+## 🛠 Tools & Workflow
+
+* **Java (Core)**
+* **Eclipse IDE**
+* **Git & GitHub**
+* Clean, modular, interview-prepared code
+
+---
