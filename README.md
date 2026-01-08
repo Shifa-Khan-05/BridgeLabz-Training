@@ -1127,3 +1127,65 @@ On **Day 10**, I worked on **interactive, real-world applications** using **Obje
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
 
 ---
+
+## 📘 Day 11 – Scenario-Based OOPs | Smart System Design in Java
+
+## 📌 Overview
+
+On **Day 11**, I designed a **smart, real-world system** using **Object-Oriented Programming (OOP)** concepts in Java.
+The focus was on **resource management, secure state handling, real-time availability tracking**, and **polymorphic business logic**.
+
+---
+
+## 🎯 OOP Concepts Applied
+
+* **Encapsulation**
+
+  * Parking slot availability and booking records kept private
+  * Controlled access through public methods only
+
+* **Inheritance**
+
+  * Base `Vehicle` class extended by `Car`, `Bike`, and `Truck`
+  * Reusable vehicle-specific behavior
+
+* **Polymorphism**
+
+  * Dynamic charge calculation based on vehicle type
+  * Same method, different pricing logic
+
+* **Abstraction**
+
+  * `IPayable` interface defining payment behavior
+  * Implementation hidden behind contracts
+
+* **Constructors & Operators**
+
+  * Slot initialization using constructors
+  * Charge calculation using business operators
+
+---
+
+## 🛠️ Scenario-Based Application Implemented
+
+### 🚗 ParkEase – Smart Parking Management System
+
+**Story:**
+Designed a smart parking solution for a city to manage parking slots, vehicle assignments, and real-time billing.
+
+**Key Design Highlights:**
+
+* `ParkingSlot` class:
+
+  * `slotId`, `isOccupied`, `vehicleTypeAllowed`
+* `Vehicle` base class → `Car`, `Bike`, `Truck`
+* `IPayable` interface with `calculateCharges(duration)`
+* Slot availability protected using encapsulation
+* Charges calculated using:
+
+  * `(baseRate × hours) + overtime penalty`
+* Polymorphic charge calculation per vehicle type
+* Internal booking records kept private and exposed via logs only
+
+---
+
