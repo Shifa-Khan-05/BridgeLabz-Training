@@ -1189,3 +1189,137 @@ Designed a smart parking solution for a city to manage parking slots, vehicle as
 
 ---
 
+## 📘 (Week 3) Day 4 – Advanced OOP + Core DSA | Smart Systems & Algorithmic Foundations in Java
+
+On **Day 4 of Week 3**, I combined **scenario-based Object-Oriented Programming (OOP)** with **core Data Structures & Algorithms (DSA)** to design **real-world systems** and solve **interview-oriented algorithmic problems**.
+
+The focus was on:
+
+* Secure and scalable **OOP system design**
+* Strong **encapsulation, inheritance, and polymorphism**
+* Applying **Stacks, Queues, Searching, and Sorting** effectively
+* Writing **clean, modular, and optimized Java code**
+
+---
+
+## 🎯 OOP Concepts Applied
+
+* **Encapsulation**
+
+  * Internal system state (availability, pricing, bookings) kept private
+  * Controlled access through methods only
+
+* **Inheritance**
+
+  * Logical IS-A relationships for reuse and extensibility
+  * Clean base and derived class hierarchy
+
+* **Polymorphism**
+
+  * Same method behaving differently based on object type
+  * Dynamic business logic execution
+
+* **Abstraction**
+
+  * Interfaces defining behavior contracts
+  * Implementation hidden behind meaningful actions
+
+* **Constructors & Operators**
+
+  * Flexible object initialization
+  * Business calculations using operators
+
+---
+
+## 🛠️ Scenario-Based OOP Application Implemented
+
+### 🚗 ParkEase – Smart Parking Management System
+
+**Highlights:**
+
+* `ParkingSlot` class with slot availability control
+* `Vehicle` base class → `Car`, `Bike`, `Truck`
+* `IPayable` interface for charge calculation
+* Secure slot booking and availability tracking
+* Charges calculated using
+  `(baseRate × hours) + overtime penalty`
+* Polymorphic pricing based on vehicle type
+* Internal booking records exposed only via logs
+
+---
+
+## 🧠 Data Structures & Algorithms Covered
+
+### 🔹 Stacks & Queues
+
+* Stack-based recursion and backtracking problems
+* Queue implementation using stacks
+* Sliding window maximum using Deque
+* Circular tour (petrol pump) problem
+
+### 🔹 Searching Techniques
+
+* Linear Search for unsorted data
+* Binary Search for sorted data
+* Rotation point and peak element problems
+* Binary search in 2D matrix
+* First and last occurrence in sorted arrays
+
+### 🔹 Sorting Algorithms
+
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Merge Sort
+* Quick Sort
+* Heap Sort
+* Counting Sort
+
+Emphasis was on **time complexity awareness** and **problem-to-algorithm mapping**.
+
+---
+
+## 🧪 DSA Practice Problems Solved
+
+* Queue using stacks
+* Sort stack using recursion
+* Stock span problem
+* Sliding window maximum
+* Circular tour problem
+* Student marks, employee IDs, product prices sorting
+* Searching problems on arrays, strings, and matrices
+
+---
+
+## 🛠 Tools & Workflow
+
+* **Java (Core Java + OOP + DSA)**
+* **Eclipse IDE**
+* **Git & GitHub**
+* Scenario-first design approach
+* Modular, readable, interview-ready code
+
+---
+
+## 📌 Learning Outcomes
+
+✔ Designed secure, real-world OOP systems
+✔ Applied polymorphism for dynamic business logic
+✔ Strengthened stacks, queues, searching & sorting concepts
+✔ Improved algorithm selection based on constraints
+✔ Wrote clean, scalable, maintainable Java code
+
+---
+
+## 🔗 Code Links
+
+### 🔹 OOP Scenario-Based Implementations
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+### 🔹 DSA Practice (Stacks, Queues, Searching, Sorting)
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com)
+
+---
+
