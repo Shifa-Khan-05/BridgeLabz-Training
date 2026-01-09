@@ -1058,4 +1058,126 @@ Emphasis was on **time complexity awareness** and **problem-to-algorithm mapping
 
 ---
 
+## 📘 Week 3 – Day 5: Advanced OOP + Runtime Analysis | Scalable System Design in Java
+
+On **Day 5 of Week 3**, I combined **Scenario-Based Object-Oriented Programming (OOP)** with **Runtime Analysis & Big-O Optimization** to design **business-grade systems** and evaluate **algorithm efficiency** for scalable Java applications.
+
+The focus was on:
+
+* Secure and extensible **OOP system modeling**
+* Applying **inheritance, polymorphism, and abstraction**
+* Comparing **time and space complexity** of algorithms
+* Writing **performance-aware, interview-ready Java code**
+
+---
+
+## 🎯 OOP Concepts Applied
+
+* **Encapsulation**
+
+  * Pricing, licensing terms, stock, and cost breakdown kept private
+  * State changes allowed only via controlled methods
+
+* **Inheritance**
+
+  * Clean IS-A hierarchies for domain modeling
+  * Reusable base and derived class structures
+
+* **Polymorphism**
+
+  * Same operation behaving differently based on object type
+  * Dynamic execution using parent references
+
+* **Abstraction**
+
+  * Interfaces defining business contracts
+  * Implementation hidden behind meaningful actions
+
+* **Constructors & Operators**
+
+  * Flexible object initialization
+  * Business calculations using operators
+
+---
+
+## 🛠️ Scenario-Based OOP Applications Implemented
+
+### 🎨 Artify – Digital Art Marketplace
+
+* `Artwork` base class → `DigitalArt`, `PrintArt`
+* `User` wallet balance management
+* `IPurchasable` interface (`purchase()`, `license()`)
+* Secure licensing terms
+* Wallet deduction using operators
+* Polymorphic licensing behavior
+
+---
+
+### 💊 MediStore – Pharmacy Inventory & Sales System
+
+* `Medicine` base class → `Tablet`, `Syrup`, `Injection`
+* `ISellable` interface (`sell()`, `checkExpiry()`)
+* Secure stock and pricing logic
+* Discount and total price calculations
+* Polymorphic expiry handling for liquid vs preserved medicines
+
+---
+
+### ✈️ TourMate – Travel Itinerary Planner
+
+* `Trip` base class → `DomesticTrip`, `InternationalTrip`
+* Associated services: `Hotel`, `Transport`, `Activity`
+* `IBookable` interface (`book()`, `cancel()`)
+* Secure cost breakdown handling
+* Total budget calculation using operators
+* Polymorphic booking logic
+
+---
+
+## 🧠 Runtime Analysis & Big-O Concepts Applied
+
+### 🔹 Algorithm Optimization
+
+* Selected appropriate data structures for performance
+* Avoided unnecessary nested loops
+* Used early exits (`break`, `return`)
+* Reduced redundant computation using caching
+* Preferred iterative over exponential recursion
+
+---
+
+### 🔹 Time & Space Complexity Comparisons
+
+* **Linear Search vs Binary Search**
+* **Bubble Sort vs Merge Sort vs Quick Sort**
+* **String vs StringBuilder vs StringBuffer**
+* **FileReader vs InputStreamReader**
+* **Recursive vs Iterative Fibonacci**
+* **Array vs HashSet vs TreeSet lookups**
+
+---
+
+## 🧪 Performance-Driven Problems Solved
+
+* Large dataset searching comparisons
+* Sorting scalability analysis
+* String concatenation benchmarks
+* Large file reading efficiency
+* Fibonacci runtime comparison
+* Data structure lookup performance
+
+---
+
+## 🔗 Code Links
+
+### 🔹 Scenario-Based OOP Implementations
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+### 🔹 Runtime Analysis & Big-O Practice
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com/algoritmsruntimeanalysis](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com/algoritmsruntimeanalysis)
+
+---
+
 
