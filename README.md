@@ -1188,3 +1188,92 @@ Designed a smart parking solution for a city to manage parking slots, vehicle as
 * Internal booking records kept private and exposed via logs only
 
 ---
+
+## 📘 Day 12 – Scenario-Based OOPs | Marketplace, Inventory & Travel Systems in Java
+
+## 📌 Overview
+
+On **Day 12**, I implemented **multiple real-world business systems** using **Object-Oriented Programming (OOP)** in Java.
+The focus was on **secure data handling, polymorphic business logic, inheritance-based modeling**, and **clean system design**.
+
+---
+
+## 🎯 OOP Concepts Applied
+
+* **Encapsulation**
+
+  * Sensitive data (pricing, licensing terms, stock, cost breakdown) kept private
+  * State changes allowed only through controlled methods
+
+* **Inheritance**
+
+  * Clean IS-A hierarchies for reuse and extensibility
+
+* **Polymorphism**
+
+  * Same method behaving differently based on object type
+  * Dynamic execution using parent references
+
+* **Abstraction**
+
+  * Interfaces defining business contracts
+  * Implementation hidden behind meaningful operations
+
+* **Constructors & Operators**
+
+  * Flexible object initialization
+  * Business calculations using operators
+
+---
+
+## 🛠️ Scenario-Based Applications Implemented
+
+### 🎨 Artify – Digital Art Marketplace
+
+* `Artwork` base class with `DigitalArt`, `PrintArt`
+* `User` wallet management
+* `IPurchasable` interface (`purchase()`, `license()`)
+* Secure licensing terms
+* Wallet balance deduction using operators
+* Polymorphic licensing behavior
+
+---
+
+### 💊 MediStore – Pharmacy Inventory & Sales System
+
+* `Medicine` base class with `Tablet`, `Syrup`, `Injection`
+* `ISellable` interface (`sell()`, `checkExpiry()`)
+* Secure stock and pricing logic
+* Discount and total price calculation
+* Polymorphic expiry logic for liquid vs preserved medicines
+
+---
+
+### ✈️ TourMate – Travel Itinerary Planner
+
+* `Trip` base class with `DomesticTrip`, `InternationalTrip`
+* Associated services: `Hotel`, `Transport`, `Activity`
+* `IBookable` interface (`book()`, `cancel()`)
+* Secure cost breakdown handling
+* Total budget calculation using operators
+* Polymorphic booking logic based on trip type
+
+---
+
+## 🧠 Key Learnings
+
+✔ Designed multiple business-grade OOP systems
+✔ Applied encapsulation for data security
+✔ Used inheritance for clean domain modeling
+✔ Implemented polymorphism for dynamic workflows
+✔ Built scalable, maintainable Java applications
+
+---
+
+
+## 🔗 Repository
+
+👉 **Scenario-Based OOP Solutions:**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+---
