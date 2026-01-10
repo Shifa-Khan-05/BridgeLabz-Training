@@ -350,4 +350,73 @@ The emphasis was on **choosing efficient algorithms**, **reducing unnecessary co
 
 ---
 
+## 📘 Week 3 – Day 5: Scenario-Based Data Structures in Java
 
+On **Day 5 of Week 3**, I focused on implementing **scenario-based Data Structure problems** using Java.
+The goal was to model **real-world systems** using **Circular Linked Lists, HashMaps, LinkedLists, and Sets**, emphasizing **efficient traversal, insertion, deletion, and lookup operations**.
+
+---
+
+## 🧠 Key Data Structures & Concepts Applied
+
+### 🔹 Circular Linked List
+
+* Used for **cyclic traversal** without a fixed start/end
+* Ideal for round-robin and continuous navigation problems
+* Handled safe removal of nodes during traversal
+
+### 🔹 HashMap + LinkedList
+
+* HashMap for **O(1)** category-based access
+* LinkedList for **dynamic insertion and deletion**
+* Combined structures for scalable data organization
+
+### 🔹 Optional Optimization
+
+* Used **HashSet** to prevent duplicate entries
+* Improved data consistency and lookup performance
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 🚑 AmbulanceRoute – Emergency Patient Navigation
+
+*(Circular Linked List)*
+
+**Scenario:**
+Hospital units are connected in a circular path:
+Emergency → Radiology → Surgery → ICU → Emergency
+
+**Implementation Highlights:**
+
+* Each node represents a hospital unit
+* Circular traversal to find the **nearest available unit**
+* Simulated patient redirection in emergency situations
+* Removed units dynamically when under maintenance
+* Ensured infinite-loop-safe traversal
+
+---
+
+### 📚 BookShelf – Library Organizer
+
+*(HashMap + LinkedList)*
+
+**Scenario:**
+Library books organized by **genre and author**.
+
+**Implementation Highlights:**
+
+* `HashMap<Genre, LinkedList<Book>>` structure
+* Genre-wise book catalog management
+* Efficient book insert, delete, borrow, and return operations
+* Optional `HashSet` used to avoid duplicate books
+* Dynamic updates without reorganization overhead
+
+---
+
+## 🔗 Code Link – Scenario-Based DSA
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
+---
