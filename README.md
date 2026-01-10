@@ -259,3 +259,95 @@ On **Day 3 of Week 3**, I worked on **string manipulation**, **file I/O**, **sea
 * Clean, modular, interview-prepared code
 
 ---
+
+## 📘 Week 3 – Day 4: Runtime Analysis & Big-O Optimization in Java
+
+On **Day 4 of Week 3**, I focused on **Runtime Analysis and Big-O Notation**, comparing **time and space complexity** of different algorithms and data structures through **practical, performance-driven problems**.
+
+The emphasis was on **choosing efficient algorithms**, **reducing unnecessary computations**, and **writing scalable Java code**.
+
+---
+
+## 🧠 Key Concepts & Best Practices
+
+### 🔹 Algorithm Design & Optimization
+
+* Selected the **right data structure** for performance
+* Avoided unnecessary **nested loops**
+* Used **early exit (break/return)** where applicable
+* Reduced redundant computations using caching/memoization
+* Preferred **iterative solutions** over expensive recursion
+
+---
+
+### 🔹 Time & Space Complexity Techniques
+
+* Used **Binary Search (O(log N))** over Linear Search (O(N))
+* Preferred **Merge Sort / Quick Sort (O(N log N))** over Bubble Sort
+* Used **StringBuilder** instead of `String` for concatenation
+* Used **primitive data types** to reduce memory overhead
+* Benchmarked performance using `System.nanoTime()`
+
+---
+
+## 🧪 Problems & Performance Comparisons
+
+### 🔍 Searching Large Datasets
+
+* Linear Search vs Binary Search
+* Observed drastic performance improvement with sorted data
+
+---
+
+### 🔃 Sorting Large Data
+
+* Bubble Sort vs Merge Sort vs Quick Sort
+* Identified Bubble Sort as impractical for large datasets
+
+---
+
+### 🔤 String Concatenation Performance
+
+* `String` vs `StringBuilder` vs `StringBuffer`
+* Confirmed **StringBuilder** as best for single-threaded use
+
+---
+
+### 📁 Large File Reading
+
+* FileReader vs InputStreamReader
+* InputStreamReader proved faster for large files
+
+---
+
+### 🔁 Fibonacci Computation
+
+* Recursive (O(2ⁿ)) vs Iterative (O(N))
+* Iterative approach significantly faster and memory-efficient
+
+---
+
+### 🗂 Data Structure Lookup Comparison
+
+* Array vs HashSet vs TreeSet
+* HashSet fastest for search, TreeSet for ordered data
+
+---
+
+## 📌 Learning Outcomes
+
+✔ Strong understanding of Big-O notation
+✔ Ability to compare algorithm efficiency
+✔ Improved decision-making for data structures
+✔ Optimized Java programs for scalability
+✔ Interview-ready runtime analysis skills
+
+---
+
+## 🔗 Code Link – Runtime Analysis & Big-O
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com/algoritmsruntimeanalysis](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcepts/src/com/algoritmsruntimeanalysis)
+
+---
+
+
