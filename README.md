@@ -1277,3 +1277,87 @@ The focus was on **secure data handling, polymorphic business logic, inheritance
 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
 
 ---
+
+## 📘 Day 13 – Scenario-Based OOPs | Food Ordering & Learning Management Systems in Java
+
+## 📌 Overview
+
+On **Day 13**, I implemented **two real-world application systems** using **Object-Oriented Programming (OOP)** in Java.
+The focus was on **order management, user roles, encapsulation of sensitive logic**, and **polymorphic business behavior**.
+
+---
+
+## 🎯 OOP Concepts Applied
+
+* **Encapsulation**
+
+  * Internal stock levels, pricing rules, and rating logic kept private
+  * Controlled updates via public methods only
+
+* **Inheritance**
+
+  * Clear IS-A relationships for extensibility
+  * Shared base classes with specialized behavior
+
+* **Polymorphism**
+
+  * Same method behaving differently based on object type or state
+  * Dynamic discount and certificate generation logic
+
+* **Abstraction**
+
+  * Interfaces defining contracts for ordering and certification
+  * Implementation hidden behind business operations
+
+* **Constructors & Operators**
+
+  * Flexible object creation (combos, courses, modules)
+  * Price, grading, and progress calculations using operators
+
+---
+
+## 🛠️ Scenario-Based Applications Implemented
+
+### 🍔 FoodLoop – Restaurant Ordering System
+
+* `FoodItem` base class with `VegItem`, `NonVegItem`
+* `Order` class managing item list and total
+* `IOrderable` interface (`placeOrder()`, `cancelOrder()`)
+* Secure handling of item availability and stock
+* Total price calculation:
+
+  * `sum of items – applicable discounts`
+* Polymorphic `applyDiscount()` based on order total
+* Custom combo meals using constructors
+
+---
+
+### 🎓 SkillForge – Online Learning Portal
+
+* `User` base class → `Student`, `Instructor`
+* `Course` class with modules, rating, and instructor
+* `ICertifiable` interface (`generateCertificate()`)
+* Protected course rating and grading logic
+* Progress and grading handled via operators
+* Polymorphic certificate formats based on course level
+* Internal reviews exposed as read-only
+
+---
+
+## 🧠 Key Learnings
+
+✔ Designed role-based and transactional OOP systems
+✔ Applied encapsulation to protect critical business logic
+✔ Used inheritance for clean domain modeling
+✔ Implemented polymorphism for discounts and certification
+✔ Built scalable, maintainable Java applications
+
+---
+
+## 🔗 Repository
+
+👉 **Scenario-Based OOP Solutions:**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+---
+
