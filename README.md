@@ -1180,4 +1180,110 @@ The focus was on:
 
 ---
 
+## 📘 Week 3 – Day 6: Scenario-Based OOP + Data Structures | Real-World System Modeling in Java
+
+On **Day 6 of Week 3**, I combined **Scenario-Based Object-Oriented Programming (OOP)** with **core Data Structures (DSA)** to design **real-world, scalable systems** and strengthen **problem-to-data-structure mapping**.
+
+The focus was on:
+
+* Business-oriented OOP system design
+* Secure data handling and encapsulation
+* Applying the **right data structure** to the **right real-world problem**
+
+---
+
+## 🎯 OOP Concepts Applied
+
+* **Encapsulation**
+
+  * Sensitive logic (pricing, stock, ratings, certificates) kept private
+  * State updates allowed only via controlled methods
+
+* **Inheritance**
+
+  * Clean IS-A hierarchies for reuse and extensibility
+  * Shared base classes with specialized child behavior
+
+* **Polymorphism**
+
+  * Same method behaving differently based on object type
+  * Dynamic discount, certification, and order-processing logic
+
+* **Abstraction**
+
+  * Interfaces defining business contracts
+  * Implementation hidden behind meaningful operations
+
+* **Constructors & Operators**
+
+  * Flexible object creation (combos, courses, modules)
+  * Pricing, grading, and progress calculations using operators
+
+---
+
+## 🛠️ Scenario-Based OOP Applications Implemented
+
+### 🍔 FoodLoop – Restaurant Ordering System
+
+* `FoodItem` base class → `VegItem`, `NonVegItem`
+* `Order` class managing items and total price
+* `IOrderable` interface (`placeOrder()`, `cancelOrder()`)
+* Secure handling of item availability and stock
+* Total price = sum of items – discounts
+* Polymorphic discount logic based on order total
+* Combo meal creation using constructors
+
+---
+
+### 🎓 SkillForge – Online Learning Portal
+
+* `User` base class → `Student`, `Instructor`
+* `Course` class with modules, rating, and instructor
+* `ICertifiable` interface (`generateCertificate()`)
+* Protected course rating and grading logic
+* Progress tracking and grading using operators
+* Polymorphic certificate generation per course level
+* Internal reviews exposed as read-only
+
+---
+
+## 🧠 Data Structures – Scenario-Based Implementations
+
+### 🚑 AmbulanceRoute – Emergency Patient Navigation
+
+*(Circular Linked List)*
+
+* Hospital units connected in a circular path
+* Continuous traversal to find nearest available unit
+* Simulated patient redirection in emergencies
+* Dynamic removal of units under maintenance
+* Safe traversal avoiding infinite loops
+
+---
+
+### 📚 BookShelf – Library Organizer
+
+*(HashMap + LinkedList)*
+
+* `HashMap<Genre, LinkedList<Book>>` structure
+* Genre-wise book organization
+* Efficient insert, delete, borrow, and return operations
+* Optional `HashSet` to prevent duplication
+* Dynamic updates without full reorganization
+
+---
+
+## 🔗 Code Links
+
+### 🔹 OOP Scenario-Based Solutions
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+### 🔹 DSA Scenario-Based Solutions
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
+---
+
+
 
