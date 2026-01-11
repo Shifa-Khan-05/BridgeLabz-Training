@@ -1285,5 +1285,83 @@ The focus was on:
 
 ---
 
+## 📘 Week 3 – Day 7: Linked List & Stack Systems | Browser Navigation & Interview Practice in Java
 
+On **Day 7 of Week 3**, I focused on **Linked List–centric system design** and **interview-level Linked List problems** using Java.
+The goal was to strengthen **pointer manipulation**, **navigation logic**, and **stack-based recovery mechanisms** through **real-world and LeetCode-style problems**.
+
+---
+
+## 🧠 Data Structures & Concepts Applied
+
+### 🔹 Doubly Linked List
+
+* Forward and backward traversal using `prev` and `next`
+* Ideal for navigation-based systems
+* Memory-efficient pointer management
+
+### 🔹 Stack
+
+* LIFO-based undo/restore behavior
+* Used to track recently closed elements
+* Safe recovery of previous states
+
+### 🔹 Singly Linked List
+
+* Sequential traversal
+* In-place node updates
+* Optimized space usage
+
+---
+
+## 🛠️ Scenario-Based Implementation
+
+### 🌐 BrowserBuddy – Tab History Manager
+
+*(Doubly Linked List + Stack)*
+
+**Scenario:**
+Designed a browser tab system where users can navigate **Back** and **Forward**, and restore **recently closed tabs**.
+
+**Implementation Highlights:**
+
+* Doubly Linked List for browsing history
+* Backward and forward navigation support
+* Stack used to store closed tabs
+* Restore tabs using LIFO logic
+* Efficient memory usage via pointer updates
+* Edge case handling (empty history, no tabs to restore)
+
+---
+
+## 🧪 LeetCode Practice Problems Solved
+
+### 1️⃣ Remove Duplicates from Linked List
+
+* Traversed the list to remove duplicate nodes
+* Adjusted pointers without extra memory
+* Ensured only unique values remain
+
+---
+
+### 2️⃣ Check if Linked List is Palindrome
+
+* Used fast and slow pointers
+* Reversed the second half of the list
+* Compared both halves node by node
+* Optimized to **O(N) time** and **O(1) space**
+
+---
+
+## 🔗 Code Links
+
+### 🔹 Scenario-Based DSA
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
+### 🔹 LeetCode Linked List Practice
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/leet-code-based](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/leet-code-based)
+
+---
 
