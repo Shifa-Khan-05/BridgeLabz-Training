@@ -420,3 +420,79 @@ Library books organized by **genre and author**.
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
 
 ---
+
+## 📘 Week 3 – Day 6: Linked List & Stack Applications in Java
+
+On **Day 6 of Week 3**, I worked on **scenario-based Linked List problems** and **classic Linked List interview challenges** using Java.
+The focus was on **navigation logic, pointer manipulation, stack usage**, and **efficient traversal techniques**.
+
+---
+
+## 🧠 Key Data Structures & Concepts Applied
+
+### 🔹 Doubly Linked List
+
+* Bidirectional traversal using `prev` and `next` pointers
+* Efficient backward and forward navigation
+* Memory-efficient pointer management
+
+### 🔹 Stack
+
+* Used for **undo/restore operations**
+* Ideal for tracking recently closed elements
+* LIFO-based recovery logic
+
+### 🔹 Singly Linked List
+
+* Traversal-based logic
+* Node comparison and pointer reversal
+* Edge case handling (empty list, single node)
+
+---
+
+## 🛠️ Scenario-Based Implementation
+
+### 🌐 BrowserBuddy – Tab History Manager
+
+*(Doubly Linked List + Stack)*
+
+**Scenario:**
+A custom browser where each tab maintains browsing history with **Back** and **Forward** operations, along with the ability to restore recently closed tabs.
+
+**Implementation Highlights:**
+
+* Doubly Linked List to maintain browsing history
+* Supported **forward and backward navigation**
+* Stack used to store recently closed tabs
+* Restore closed tabs using LIFO behavior
+* Pointer-based navigation for memory efficiency
+* Clean handling of edge cases (no back/forward history)
+
+---
+
+## 🧪 LeetCode Practice Problems Solved
+
+### 1️⃣ Remove Duplicates from Linked List
+
+* Traversed the list to remove duplicate nodes
+* Ensured only unique values remain
+* Efficient pointer adjustment without extra memory
+
+### 2️⃣ Check if a Linked List is Palindrome
+
+* Used fast & slow pointer technique
+* Reversed second half of the list
+* Compared both halves node by node
+* Optimized for **O(N) time** and **O(1) space**
+
+---
+
+## 🔗 Code Links – LeetCode & Scenario Problems
+
+👉 **Scenario-Based DSA:**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
+👉 **LeetCode Practice Solutions:**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/leet-code-based](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/leet-code-based)
+
+---
