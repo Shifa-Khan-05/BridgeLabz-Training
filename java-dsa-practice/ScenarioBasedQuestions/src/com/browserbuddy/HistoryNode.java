@@ -1,7 +1,5 @@
 package com.browserbuddy;
 
-import java.util.Stack;
-
 /* ================================
    Node of Doubly Linked List
 ================================ */
@@ -20,6 +18,7 @@ class HistoryNode {
 /* ================================
    Browser Tab (History Manager)
 ================================ */
+
 class BrowserTab {
 
     private HistoryNode current;
