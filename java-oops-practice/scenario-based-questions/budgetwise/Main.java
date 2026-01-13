@@ -1,74 +1,71 @@
+
+import java.util.HashMap;
 import java.util.Scanner;
 
-public class Main {
+public class BudgetWiseApp {
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        Budget budget;
 
-        System.out.println("=== BudgetWise Finance Tracker ===");
+        System.out.println("Choose Budget Type:");
         System.out.println("1. Monthly Budget");
         System.out.println("2. Annual Budget");
-        System.out.print("Choose type: ");
         int choice = sc.nextInt();
 
-        System.out.print("Enter income: ");
+        System.out.print("Enter total income: ");
         double income = sc.nextDouble();
 
-        System.out.print("Enter total budget limit: ");
+        System.out.print("Enter spending limit: ");
         double limit = sc.nextDouble();
+
+        HashMap<String, Double> categories = new HashMap<>();
+        sc.nextLine();
 
         System.out.print("Enter number of categories: ");
         int n = sc.nextInt();
         sc.nextLine();
 
-        String[] categories = new String[n];
-        double[] limits = new double[n];
-
         for (int i = 0; i < n; i++) {
             System.out.print("Category name: ");
-            categories[i] = sc.nextLine();
-            System.out.print("Limit for " + categories[i] + ": ");
-            limits[i] = sc.nextDouble();
+            String cat = sc.nextLine();
+            System.out.print("Limit for " + cat + ": ");
+            double catLimit = sc.nextDouble();
             sc.nextLine();
+            categories.put(cat, catLimit);
         }
 
-        Budget budget = (choice == 1)
-                ? new MonthlyBudget(income, limit, categories, limits)
-                : new AnnualBudget(income, limit, categories, limits);
+        // Polymorphic object creation
+        if (choice == 1) {
+            budget = new MonthlyBudget(income, limit, categories);
+        } else {
+            budget = new AnnualBudget(income, limit, categories);
+        }
 
         int option;
         do {
-            System.out.println("\n--- Menu ---");
-            System.out.println("1. Add Transaction");
+            System.out.println("\n1. Add Expense");
             System.out.println("2. Generate Report");
             System.out.println("3. Detect Overspending");
             System.out.println("4. Exit");
-            System.out.print("Choice: ");
+            System.out.print("Choose: ");
 
             option = sc.nextInt();
             sc.nextLine();
 
             switch (option) {
                 case 1:
-                    System.out.print("Amount: ");
+                    System.out.print("Enter category: ");
+                    String category = sc.nextLine();
+                    System.out.print("Enter amount: ");
                     double amt = sc.nextDouble();
                     sc.nextLine();
-
-                    System.out.print("Type (INCOME/EXPENSE): ");
-                    String type = sc.nextLine();
-
-                    System.out.print("Date: ");
-                    String date = sc.nextLine();
-
-                    System.out.print("Category: ");
-                    String cat = sc.nextLine();
-
-                    budget.addTransaction(new Transaction(amt, type, date, cat));
+                    budget.addTransaction(new Transaction(amt, "EXPENSE", category));
                     break;
 
                 case 2:
-                    budget.generateReport(); // Polymorphism
+                    budget.generateReport();
                     break;
 
                 case 3:
@@ -78,6 +75,9 @@ public class Main {
                 case 4:
                     System.out.println("Exiting BudgetWise...");
                     break;
+
+                default:
+                    System.out.println("Invalid choice");
             }
 
         } while (option != 4);

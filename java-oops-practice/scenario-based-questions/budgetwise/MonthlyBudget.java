@@ -1,29 +1,30 @@
-// Monthly budget implementation
+
 public class MonthlyBudget extends Budget {
 
-    public MonthlyBudget(double income, double limit,
-                         String[] categories, double[] categoryLimits) {
-        super(income, limit, categories, categoryLimits);
+    public MonthlyBudget(double income, double limit, java.util.HashMap<String, Double> categories) {
+        super(income, limit, categories);
     }
 
     // Polymorphic report
-    @Override
     public void generateReport() {
-        System.out.println("\n  Monthly Budget Report");
+        System.out.println("=== Monthly Budget Report ===");
         System.out.println("Income: " + income);
-        System.out.println("Total Expenses: " + getTotalExpenses());
-        System.out.println("Net Savings: " + calculateNetSavings());
+        System.out.println("Expenses: " + totalExpenses());
+        System.out.println("Net Savings: " + netSavings());
     }
 
-    // Simplified overspend check (monthly)
-    @Override
     public void detectOverspend() {
-        System.out.println(" Monthly Overspending Check");
-
-        if (getTotalExpenses() > limit) {
-            System.out.println("Monthly budget limit exceeded!");
-        } else {
-            System.out.println("Spending within monthly limit.");
+        System.out.println("Overspending Check (Monthly):");
+        for (String cat : categoryLimits.keySet()) {
+            double spent = 0;
+            for (Transaction t : getTransactions()) {
+                if (t.getCategory().equalsIgnoreCase(cat)) {
+                    spent += t.getAmount();
+                }
+            }
+            if (spent > categoryLimits.get(cat)) {
+                System.out.println(cat + " exceeded limit!");
+            }
         }
     }
 }
