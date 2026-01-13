@@ -497,10 +497,7 @@ A custom browser where each tab maintains browsing history with **Back** and **F
 
 ---
 
-Here is the **UPDATED separate Day README.md** for your **DSA branch**, with the **new scenarios added**, written in the **same clean, professional style**.
-You can **replace or append this as the same Day file** (Week 3 – Day 7) in your **DSA branch**.
-
----
+## 📘 Week 3 – Day 7: Linked List & Stack Applications in Java
 
 On **Day 7 of Week 3**, I worked on **scenario-based Data Structure problems** using **Queues, Priority Queues, Circular Linked Lists, Doubly Linked Lists, HashMaps, and Stacks**.
 The focus was on **real-world system simulation**, **dynamic data flow**, and **efficient state management**.
