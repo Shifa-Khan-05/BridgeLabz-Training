@@ -613,3 +613,95 @@ Library books organized by genre and author.
 
 ---
 
+## 📘 Week 3 – Day 8: Queue, Linked List & Stack–Map Systems in Java
+
+On **Day 8 of Week 3**, I implemented **scenario-based Data Structure problems** using **Queues, Singly Linked Lists, Stacks, and HashMaps**.
+The focus was on **real-time processing, sequential workflows, navigation tracking**, and **efficient data lookup**.
+
+---
+
+## 🧠 Key Data Structures & Concepts Applied
+
+### 🔹 Queue
+
+* FIFO-based customer and process management
+* Efficient enqueue and dequeue operations
+* Real-time flow control
+
+### 🔹 Singly Linked List
+
+* Forward-only traversal modeling step-by-step workflows
+* Dynamic insertion of intermediate nodes
+* Safe handling of null pointers
+
+### 🔹 Stack
+
+* LIFO-based navigation tracking
+* Ideal for backtracking and review systems
+
+### 🔹 HashMap
+
+* O(1) data retrieval
+* Fast lookup for pricing and answers
+* Combined with other structures for hybrid systems
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 🛒 SmartCheckout – Supermarket Billing Queue
+
+*(Queue + HashMap)*
+
+**Scenario:**
+Supermarket checkout counters manage customer billing efficiently.
+
+**Implementation Highlights:**
+
+* Queue maintained customer order
+* HashMap used for item price and stock lookup
+* Added and removed customers dynamically
+* Updated stock levels after purchase
+* Efficient billing workflow simulation
+
+---
+
+### 📦 ParcelTracker – Delivery Chain Management
+
+*(Singly Linked List)*
+
+**Scenario:**
+Courier parcels tracked through delivery stages:
+Packed → Shipped → In Transit → Delivered
+
+**Implementation Highlights:**
+
+* Each stage represented as a node
+* Forward traversal through delivery process
+* Supported insertion of custom checkpoints
+* Handled missing/lost parcels safely using null checks
+
+---
+
+### 📝 ExamProctor – Online Exam Review System
+
+*(Stack + HashMap + Functions)*
+
+**Scenario:**
+Online exam system tracking student navigation and answers.
+
+**Implementation Highlights:**
+
+* Stack recorded question navigation history
+* HashMap stored answers (`questionId → answer`)
+* Auto-evaluation using scoring functions
+* Efficient review and submission workflow
+* Clean separation of navigation and evaluation logic
+
+---
+
+## 🔗 Code Link – Scenario-Based DSA
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
+---
