@@ -1,11 +1,9 @@
-
 public class AnnualBudget extends Budget {
 
-    public AnnualBudget(double income, double limit, java.util.HashMap<String, Double> categories) {
-        super(income, limit, categories);
+    public AnnualBudget(double income, double limit, String[] categories, double[] categoryLimits) {
+        super(income, limit, categories, categoryLimits);
     }
 
-    // Polymorphic report
     public void generateReport() {
         System.out.println("=== Annual Budget Report ===");
         System.out.println("Yearly Income: " + income);
@@ -14,9 +12,10 @@ public class AnnualBudget extends Budget {
     }
 
     public void detectOverspend() {
-        System.out.println("Overspending Check (Annual):");
         if (totalExpenses() > limit) {
-            System.out.println("Annual spending exceeded overall limit!");
+            System.out.println("Overall annual budget exceeded!");
+        } else {
+            System.out.println("Spending is within annual limit.");
         }
     }
 }

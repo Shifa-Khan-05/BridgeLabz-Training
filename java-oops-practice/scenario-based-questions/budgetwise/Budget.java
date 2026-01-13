@@ -1,49 +1,44 @@
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
-// Base budget class
 public abstract class Budget implements IAnalyzable {
 
     protected double income;
     protected double limit;
 
-    // Category → Limit
-    protected HashMap<String, Double> categoryLimits = new HashMap<>();
+    // Category data
+    protected String[] categories;
+    protected double[] categoryLimits;
 
-    // Encapsulated transaction list (cannot be edited directly)
-    private List<Transaction> transactions = new ArrayList<>();
+    // Transactions stored in array
+    protected Transaction[] transactions;
+    protected int transactionCount = 0;
 
-    // Constructor with custom categories
-    public Budget(double income, double limit, HashMap<String, Double> categoryLimits) {
+    public Budget(double income, double limit, String[] categories, double[] categoryLimits) {
         this.income = income;
         this.limit = limit;
+        this.categories = categories;
         this.categoryLimits = categoryLimits;
+        this.transactions = new Transaction[50]; // fixed size
     }
 
-    // Controlled method to add expense/income
+    // Encapsulation: controlled transaction addition
     public void addTransaction(Transaction t) {
-        transactions.add(t);
+        if (transactionCount < transactions.length) {
+            transactions[transactionCount++] = t;
+        }
     }
 
-    // Calculate total expenses
     protected double totalExpenses() {
         double sum = 0;
-        for (Transaction t : transactions) {
-            if (t.getType().equalsIgnoreCase("EXPENSE")) {
-                sum += t.getAmount();
+        for (int i = 0; i < transactionCount; i++) {
+            if (transactions[i].getType().equals("EXPENSE")) {
+                sum += transactions[i].getAmount();
             }
         }
         return sum;
     }
 
-    // Operator usage: income - expenses
+    // Operator usage
     public double netSavings() {
         return income - totalExpenses();
-    }
-
-    protected List<Transaction> getTransactions() {
-        return transactions;
     }
 }
