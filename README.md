@@ -1365,3 +1365,118 @@ Designed a browser tab system where users can navigate **Back** and **Forward**,
 
 ---
 
+## 📘 Week 3 – Day 8: Linked List & Stack Applications in Java
+
+On **Day 8 of Week 3**, I worked on **scenario-based Data Structure problems** using **Queues, Priority Queues, Circular Linked Lists, Doubly Linked Lists, HashMaps, and Stacks**.
+The focus was on **real-world system simulation**, **dynamic data flow**, and **efficient state management**.
+
+---
+
+## 🧠 Key Data Structures & Concepts Applied
+
+### 🔹 Queue & Priority Queue
+
+* FIFO call and vehicle management
+* Priority handling for VIP users
+* Overflow and underflow validation
+
+### 🔹 Circular Linked List
+
+* Continuous traversal without start/end
+* Ideal for roundabouts and cyclic systems
+* Safe insertion and removal of nodes
+
+### 🔹 Doubly Linked List
+
+* Forward and backward navigation
+* Dynamic insertion and deletion
+* Efficient neighbor access
+
+### 🔹 HashMap + LinkedList
+
+* O(1) category-based access
+* Dynamic updates using LinkedList
+* Optional HashSet to prevent duplicates
+
+### 🔹 Stack
+
+* Undo/Redo operations
+* LIFO-based state recovery
+* Separate stacks for undo and redo
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 📞 CallCenter – Customer Queue Manager
+
+*(Queue + Priority Queue + HashMap)*
+
+* Managed incoming calls using Queue
+* VIP customers handled via Priority Queue
+* HashMap tracked monthly call frequency
+* Efficient dispatch and customer analytics
+
+---
+
+### 🚆 TrainCompanion – Compartment Navigation System
+
+*(Doubly Linked List)*
+
+* Train compartments modeled as nodes
+* Forward and backward traversal supported
+* Dynamic insert/remove of compartments
+* Displayed adjacent compartments
+
+---
+
+### ✍️ TextEditor – Undo/Redo Functionality
+
+*(Stack)*
+
+* Insert and delete actions pushed to stack
+* Undo using pop()
+* Redo handled via separate stack
+* Clean action restoration logic
+
+---
+
+### 🚦 TrafficManager – Roundabout Vehicle Flow
+
+*(Circular Linked List + Queue)*
+
+**Scenario:**
+A smart city roundabout where vehicles enter, circulate, and exit dynamically.
+
+**Implementation Highlights:**
+
+* Vehicles represented as nodes in a Circular Linked List
+* Continuous rotation through the roundabout
+* Queue managed vehicles waiting to enter
+* Handled queue overflow and underflow cases
+* Printed real-time state of the roundabout
+
+---
+
+### 📚 BookShelf – Library Organizer
+
+*(HashMap + LinkedList + HashSet)*
+
+**Scenario:**
+Library books organized by genre and author.
+
+**Implementation Highlights:**
+
+* `HashMap<Genre, LinkedList<Book>>` structure
+* Genre-wise catalog maintenance
+* Efficient insert, delete, borrow, and return
+* Optional HashSet used to avoid duplication
+* Dynamic updates without reorganization
+
+---
+
+## 🔗 Code Link – Scenario-Based DSA
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
+---
