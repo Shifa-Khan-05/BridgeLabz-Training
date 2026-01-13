@@ -1480,3 +1480,130 @@ Library books organized by genre and author.
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
 
 ---
+
+## 📘 Week 3 – Day 9: Scenario-Based OOP + Data Structures | System Design & Workflow Modeling in Java
+
+On **Day 9 of Week 3**, I combined **Scenario-Based Object-Oriented Programming (OOP)** with **core Data Structures (DSA)** to design **real-world, scalable systems**.
+
+The focus was on:
+
+* Secure and modular OOP system design
+* Efficient workflow modeling using data structures
+* Mapping **real-life problems → correct data structures**
+* Writing clean, maintainable, and extensible Java code
+
+---
+
+## 🎯 Object-Oriented Programming Concepts Applied
+
+* **Encapsulation**
+
+  * Protected sensitive data (device status, expenses, owned games, firmware logs)
+  * State changes allowed only via controlled methods
+
+* **Inheritance**
+
+  * Clean IS-A hierarchies for reuse and extensibility
+  * Shared base classes with specialized child behavior
+
+* **Polymorphism**
+
+  * Same method behaving differently based on object type
+  * Dynamic reset, reporting, demo-play logic
+
+* **Abstraction**
+
+  * Interfaces defining behavior contracts
+  * Implementation hidden behind meaningful operations
+
+* **Constructors & Operators**
+
+  * Flexible object initialization
+  * Business calculations using operators
+
+---
+
+## 🛠️ Scenario-Based OOP Applications Implemented
+
+### 🏠 HomeNest – Smart Home Device Manager
+
+* `Device` base class (`deviceId`, `status`, `energyUsage`)
+* Subclasses: `Light`, `Camera`, `Thermostat`, `Lock`
+* `IControllable` interface (`turnOn()`, `turnOff()`, `reset()`)
+* Secure device status using encapsulation
+* Energy usage calculations using operators
+* Polymorphic `reset()` per device type
+* Firmware update logs kept private
+
+---
+
+### 💰 BudgetWise – Personal Finance Tracker
+
+* `Transaction` and `Budget` classes
+* `IAnalyzable` interface (`generateReport()`, `detectOverspend()`)
+* Inheritance: `MonthlyBudget`, `AnnualBudget`
+* Net savings calculation: `income − totalExpenses`
+* Restricted direct expense editing
+* Polymorphic reporting (monthly vs yearly)
+
+---
+
+### 🎮 GameBox – Mobile Game Distribution Platform
+
+* `Game` base class (`title`, `genre`, `price`, `rating`)
+* Inheritance: `ArcadeGame`, `StrategyGame`
+* `User` class with protected owned games list
+* `IDownloadable` interface (`download()`, `playDemo()`)
+* Seasonal offer pricing using operators
+* Polymorphic demo behavior per genre
+
+---
+
+## 🧠 Data Structures – Scenario-Based Implementations
+
+### 🛒 SmartCheckout – Supermarket Billing Queue
+
+*(Queue + HashMap)*
+
+* Queue managed customer billing order
+* HashMap used for price and stock lookup
+* Stock updated after each purchase
+* Efficient FIFO-based checkout flow
+
+---
+
+### 📦 ParcelTracker – Delivery Chain Management
+
+*(Singly Linked List)*
+
+* Delivery stages modeled as nodes:
+
+  * Packed → Shipped → In Transit → Delivered
+* Forward traversal through stages
+* Custom checkpoint insertion
+* Safe handling of missing/lost parcels using null checks
+
+---
+
+### 📝 ExamProctor – Online Exam Review System
+
+*(Stack + HashMap + Functions)*
+
+* Stack tracked question navigation
+* HashMap stored answers (`questionId → answer`)
+* Auto-evaluation using scoring functions
+* Clean separation of navigation and scoring logic
+
+---
+
+## 🔗 Code Links
+
+### 🔹 OOP Scenario-Based Solutions
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+### 🔹 DSA Scenario-Based Solutions
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
+---
