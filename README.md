@@ -1607,3 +1607,98 @@ The focus was on:
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
 
 ---
+
+## 📘 Week 3 – Day 10 : Scenario-Based OOP | Payments & Wildlife Management Systems in Java
+
+On **Day 10 of Week 3**, I focused on designing **real-world, domain-driven applications** using **Object-Oriented Programming (OOP)** in Java.
+The emphasis was on **secure data handling**, **behavior-based polymorphism**, and **clean system modeling using inheritance and interfaces**.
+
+---
+
+## 🎯 OOP Concepts Applied
+
+* **Encapsulation**
+
+  * Protected sensitive data such as payment status, bill details, and sanctuary records
+  * Restricted direct modification of internal states
+
+* **Inheritance**
+
+  * Clear IS-A hierarchies for utility bills and bird species
+  * Shared base classes with specialized child behavior
+
+* **Polymorphism**
+
+  * Dynamic reminder behavior for different bill types
+  * Fly/Swim actions executed only for birds with those abilities
+
+* **Abstraction**
+
+  * Interfaces defining behavior contracts
+  * Implementation details hidden behind meaningful operations
+
+* **Constructors & Operators**
+
+  * Flexible object initialization
+  * Business logic calculations using operators
+
+---
+
+## 🛠️ Scenario-Based OOP Applications Implemented
+
+### 💳 PayXpress – Utility Bill Payment System
+
+* `Bill` base class with common payment attributes
+* Subclasses: `ElectricityBill`, `WaterBill`, `InternetBill`
+* `IPayable` interface (`pay()`, `sendReminder()`)
+* Encapsulated payment status to prevent external updates
+* Late fee calculation: `baseAmount + penalty`
+* Polymorphic reminder logic based on utility type
+* Internal payment data secured using access modifiers
+
+---
+
+### 🐦 EcoWing Bird Sanctuary – Wildlife Management System
+
+* `Bird` base class (`name`, `id`, `species`, `eat()`)
+* Derived classes: Eagle, Duck, Penguin, Sparrow, Seagull, Kiwi, Ostrich
+* Interfaces:
+
+  * `Flyable` → `fly()`
+  * `Swimmable` → `swim()`
+* Polymorphic invocation of behaviors using base references
+* Birds stored using `ArrayList<Bird>` / `Map<String, Bird>`
+* Implemented features:
+
+  * Add and remove birds by ID
+  * Search birds by flying/swimming capability
+  * Display all birds with abilities
+  * Sanctuary report (Flyable, Swimmable, Both, Neither)
+
+---
+
+## 🛠 Tools & Workflow
+
+* **Java (Core OOP)**
+* **Eclipse IDE**
+* **Git & GitHub**
+* Scenario-first design approach
+* Modular, readable code structure
+
+---
+
+## 📌 Learning Outcomes
+
+✔ Designed secure, transaction-based OOP systems
+✔ Modeled real-world behaviors using interfaces
+✔ Applied polymorphism selectively and safely
+✔ Built extensible inheritance hierarchies
+✔ Strengthened system-level Java OOP skills
+
+---
+
+## 🔗 Code Link – Scenario-Based OOP
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+---
