@@ -1445,3 +1445,91 @@ The focus was on **secure state management, polymorphic behavior, inheritance-ba
 
 ---
 
+## 📘 Day 15 – Scenario-Based OOPs | Payment Systems & Wildlife Management in Java
+
+## 📌 Overview
+
+On **Day 15**, I implemented **two real-world, domain-driven systems** using **Object-Oriented Programming (OOP)** in Java.
+The focus was on **secure transaction handling**, **behavior-driven design**, **inheritance with interfaces**, and **polymorphic execution**.
+
+---
+
+## 🎯 OOP Concepts Applied
+
+* **Encapsulation**
+
+  * Payment status, bill details, and internal records protected
+  * Bird attributes and sanctuary data accessed only via methods
+
+* **Inheritance**
+
+  * Clean IS-A hierarchies for utilities and bird species
+  * Base classes extended with specialized behavior
+
+* **Polymorphism**
+
+  * Dynamic reminder behavior for different bill types
+  * Fly/Swim actions executed only for applicable bird types
+
+* **Abstraction**
+
+  * Interfaces defining contracts for payment and bird abilities
+  * Behavior exposed without revealing implementation
+
+* **Constructors & Operators**
+
+  * Flexible object creation (recurring bills, bird registration)
+  * Late fee and report calculations using operators
+
+---
+
+## 🛠️ Scenario-Based Applications Implemented
+
+### 💳 PayXpress – Utility Bill Payment System
+
+* `Bill` base class (`type`, `amount`, `dueDate`, `isPaid`)
+* Subclasses: `ElectricityBill`, `WaterBill`, `InternetBill`
+* `IPayable` interface (`pay()`, `sendReminder()`)
+* Encapsulated payment status to prevent direct modification
+* Late fee calculation: `baseAmount + penalty`
+* Polymorphic reminders based on utility type
+* Internal payment details kept private using access modifiers
+
+---
+
+### 🐦 EcoWing Bird Sanctuary – Wildlife Management System
+
+**System Goal:**
+Digitally manage bird tracking and behavior at **EcoWing Wildlife Conservation Center**.
+
+**Key Design Highlights:**
+
+* `Bird` base class (`name`, `id`, `species`, `eat()`)
+* Derived classes: `Eagle`, `Duck`, `Penguin`, `Sparrow`, `Seagull`, `Kiwi`, `Ostrich`
+* Interfaces:
+
+  * `Flyable` → `fly()`
+  * `Swimmable` → `swim()`
+* Polymorphic invocation of `fly()` and `swim()` based on bird capability
+* Stored birds using `ArrayList<Bird>` / `Map<String, Bird>`
+* Functionalities implemented:
+
+  * Add and remove birds by ID
+  * Search birds by flying/swimming ability
+  * Display all birds with abilities
+  * Generate sanctuary report:
+
+    * Flyable
+    * Swimmable
+    * Both
+    * Neither
+
+---
+
+
+## 🔗 Repository
+
+👉 **Scenario-Based OOP Solutions:**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+---
