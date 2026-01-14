@@ -1361,3 +1361,87 @@ The focus was on **order management, user roles, encapsulation of sensitive logi
 
 ---
 
+## 📘 Day 14 – Scenario-Based OOPs | Smart Devices, Finance & Gaming Systems in Java
+
+## 📌 Overview
+
+On **Day 14**, I designed **three real-world, business-oriented systems** using **Object-Oriented Programming (OOP)** in Java.
+The focus was on **secure state management, polymorphic behavior, inheritance-based modeling**, and **clean abstraction**.
+
+---
+
+## 🎯 OOP Concepts Applied
+
+* **Encapsulation**
+
+  * Protected sensitive data (device status, expenses, owned games, firmware logs)
+  * State changes allowed only through controlled methods
+
+* **Inheritance**
+
+  * Clear IS-A hierarchies for extensibility and reuse
+  * Shared base classes with specialized child behavior
+
+* **Polymorphism**
+
+  * Same method behaving differently based on object type
+  * Dynamic reset, reporting, and demo-play logic
+
+* **Abstraction**
+
+  * Interfaces defining system behavior contracts
+  * Implementation hidden behind meaningful operations
+
+* **Constructors & Operators**
+
+  * Flexible object initialization
+  * Business calculations using operators
+
+---
+
+## 🛠️ Scenario-Based Applications Implemented
+
+### 🏠 HomeNest – Smart Home Device Manager
+
+* `Device` base class (`deviceId`, `status`, `energyUsage`)
+* Subclasses: `Light`, `Camera`, `Thermostat`, `Lock`
+* `IControllable` interface (`turnOn()`, `turnOff()`, `reset()`)
+* Secure device status using encapsulation
+* Energy usage calculated using operators
+* Polymorphic `reset()` per device type
+* Firmware update logs kept private
+
+---
+
+### 💰 BudgetWise – Personal Finance Tracker
+
+* `Transaction` class (amount, type, date, category)
+* `Budget` base class with limits and income
+* `IAnalyzable` interface (`generateReport()`, `detectOverspend()`)
+* Inheritance: `MonthlyBudget`, `AnnualBudget`
+* Net savings calculation: `income − totalExpenses`
+* Expense modification restricted using encapsulation
+* Polymorphic reporting (monthly vs yearly)
+
+---
+
+### 🎮 GameBox – Mobile Game Distribution Platform
+
+* `Game` base class (`title`, `genre`, `price`, `rating`)
+* Inheritance: `ArcadeGame`, `StrategyGame`
+* `User` class with protected owned games list
+* `IDownloadable` interface (`download()`, `playDemo()`)
+* Seasonal offer pricing using operators
+* Polymorphic demo behavior per game genre
+* Secure handling of user-owned data
+
+---
+
+
+## 🔗 Repository
+
+👉 **Scenario-Based OOP Solutions:**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+---
+
