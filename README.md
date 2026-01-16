@@ -1702,3 +1702,92 @@ The emphasis was on **secure data handling**, **behavior-based polymorphism**, a
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
 
 ---
+
+## 📘 Week 3 – Day 11: Sorting Algorithms | Real-World Data Ordering Systems in Java
+
+On **Day 11 of Week 3**, I focused on **scenario-based sorting problems** using **classic and efficient sorting algorithms** in Java.
+The emphasis was on **selecting the right algorithm** based on **dataset size, ordering pattern, and real-time business requirements**.
+
+---
+
+## 🧠 Key Sorting Concepts Applied
+
+### 🔹 Bubble Sort
+
+* Best suited for **small datasets**
+* In-place sorting with no extra memory
+* Simple adjacent comparison and swapping logic
+
+### 🔹 Insertion Sort
+
+* Ideal for **nearly sorted or real-time data**
+* Online sorting as elements are added
+* Stable and efficient for small lists
+
+### 🔹 Merge Sort
+
+* Divide-and-conquer approach
+* Efficient for **large datasets**
+* Stable sorting preserving relative order
+
+### 🔹 Quick Sort
+
+* Fast average-case performance
+* Efficient for ranking and top-K problems
+* Suitable for large-scale sorting scenarios
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 🏥 HospitalQueue – Patient Sorting by Criticality
+
+*(Bubble Sort)*
+
+* Sorted ER patients by **criticality level (1–10)**
+* Small dataset handled efficiently
+* In-place sorting with adjacent swaps
+* Suitable for frequently updated short lists
+
+---
+
+### 📚 SmartShelf – Real-Time Book Arrangement
+
+*(Insertion Sort)*
+
+* Maintained alphabetically sorted book list
+* Real-time insertion of new books
+* Efficient for nearly sorted data
+* Stable sorting by title
+
+---
+
+### 🛒 ZipZipMart – Daily Sales Summary Report
+
+*(Merge Sort)*
+
+* Sorted thousands of sales records by date and amount
+* Efficient handling of large datasets
+* Stable sorting for consistent reporting
+* Ideal for analytics and reporting pipelines
+
+---
+
+### 🎟️ EventManager – Ticket Price Optimizer
+
+*(Quick Sort)*
+
+* Sorted millions of ticket prices
+* Displayed top 50 best-priced tickets
+* Fast ranking and filtering
+* Optimized large-scale performance
+
+---
+
+## 🔗 Code Link – Sorting Scenarios (DSA)
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
+---
+
+
