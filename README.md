@@ -812,3 +812,129 @@ Event booking portal sorts **millions of tickets by price** to display top 50 de
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com/sortingalgorithms](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com/sortingalgorithms)
 
 ---
+
+## 📘 Week 3 – Day 10: Incremental & Large-Scale Sorting Systems in Java
+
+On **Day 10 of Week 3**, I worked on **scenario-based sorting systems** that required **real-time updates**, **streaming data handling**, and **large-scale list merging**.
+The focus was on **choosing sorting algorithms based on data arrival pattern, dataset size, and performance needs**.
+
+---
+
+## 🧠 Key Sorting Techniques Applied
+
+### 🔹 Insertion Sort
+
+* Ideal for **incremental and streaming data**
+* Efficient for **nearly sorted lists**
+* Low memory footprint
+* Simple and stable behavior
+
+### 🔹 Merge Sort
+
+* Best for **large datasets from multiple sources**
+* Efficient merging of already sorted sublists
+* Stable and predictable performance
+
+### 🔹 Bubble Sort
+
+* Suitable for **very small datasets**
+* Simple logic for manual updates
+* In-place sorting with minimal complexity
+
+### 🔹 Quick Sort
+
+* Fast average-case performance
+* Efficient for **large, unordered datasets**
+* Partition-based high-speed sorting
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 🎨 ArtExpo – Sort Artists by Registration Time
+
+*(Insertion Sort)*
+
+**Scenario:**
+Artists register continuously during an exhibition day.
+
+**Highlights:**
+
+* Maintained sorted list by registration time
+* Real-time insertion of new artists
+* Efficient handling of nearly sorted data
+* Ideal for incremental booth assignment
+
+---
+
+### 🤖 RoboWarehouse – Shelf Loading Robot
+
+*(Insertion Sort)*
+
+**Scenario:**
+A warehouse robot loads packages one-by-one based on weight.
+
+**Highlights:**
+
+* Inserted packages dynamically into sorted list
+* Maintained ascending weight order
+* Low memory usage
+* Ideal for streaming insertions
+
+---
+
+### 🚚 FleetManager – Vehicle Maintenance Scheduler
+
+*(Merge Sort)*
+
+**Scenario:**
+Multiple depots send sorted vehicle mileage lists.
+
+**Highlights:**
+
+* Merged sorted sublists into a master schedule
+* Efficient handling of large datasets
+* Preserved ordering across depots
+* Scalable scheduling solution
+
+---
+
+### 🎬 CinemaHouse – Movie Time Sorting
+
+*(Bubble Sort)*
+
+**Scenario:**
+Local cinema manages a small list of daily showtimes.
+
+**Highlights:**
+
+* Simple adjacent swapping logic
+* Small dataset (~10 shows)
+* Easy manual updates
+* Minimal code complexity
+
+---
+
+### 🌾 CropMonitor – Sensor Data Ordering
+
+*(Quick Sort)*
+
+**Scenario:**
+Drone sensors generate large, unordered timestamp data.
+
+**Highlights:**
+
+* High-speed sorting by timestamp
+* Efficient partition-based approach
+* Optimized for large, unordered datasets
+* Prepared data for visualization pipelines
+
+---
+
+## 🔗 Code Link – Scenario-Based Sorting (DSA)
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
+
+---
+
