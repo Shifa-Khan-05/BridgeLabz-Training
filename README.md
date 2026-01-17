@@ -705,3 +705,110 @@ Online exam system tracking student navigation and answers.
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
 
 ---
+
+## 📘 Week 3 – Day 9: Sorting Algorithms | Real-World Data Ordering Systems in Java
+
+On **Day 9 of Week 3**, I worked on **scenario-based sorting problems** using **classic and efficient sorting algorithms** in Java.
+The focus was on **choosing the right sorting technique based on data size, order, and real-time requirements**.
+
+---
+
+## 🧠 Key Sorting Concepts Applied
+
+### 🔹 Bubble Sort
+
+* Best suited for **small datasets**
+* In-place sorting with no extra memory
+* Simple adjacent comparisons and swaps
+
+### 🔹 Insertion Sort
+
+* Ideal for **nearly sorted or real-time data**
+* Online sorting (elements added one by one)
+* Stable and efficient for small lists
+
+### 🔹 Merge Sort
+
+* Divide-and-conquer strategy
+* Efficient for **large datasets**
+* Stable sorting preserving relative order
+
+### 🔹 Quick Sort
+
+* Fast average-case performance
+* Efficient for ranking and top-K problems
+* Used for large-scale sorting scenarios
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 🏥 HospitalQueue – Patient Sorting by Criticality
+
+*(Bubble Sort)*
+
+**Scenario:**
+ER patients are sorted by **criticality level (1–10)** before bed assignment.
+
+**Highlights:**
+
+* Small dataset (10–20 patients)
+* In-place sorting without extra memory
+* Adjacent comparison and swapping
+* Efficient for short, frequently updated lists
+
+---
+
+### 📚 SmartShelf – Real-Time Book Arrangement
+
+*(Insertion Sort)*
+
+**Scenario:**
+Digital library kiosk maintains books **sorted alphabetically** as users add them.
+
+**Highlights:**
+
+* Real-time insertion
+* Efficient for nearly sorted data
+* Stable sorting by book title
+* Minimal shifting operations
+
+---
+
+### 🛒 ZipZipMart – Daily Sales Summary Report
+
+*(Merge Sort)*
+
+**Scenario:**
+Thousands of daily sales transactions sorted by **date and amount**.
+
+**Highlights:**
+
+* Divide-and-conquer approach
+* Handles large datasets efficiently
+* Stable sorting preserves equal records order
+* Ideal for report generation
+
+---
+
+### 🎟️ EventManager – Ticket Price Optimizer
+
+*(Quick Sort)*
+
+**Scenario:**
+Event booking portal sorts **millions of tickets by price** to display top 50 deals.
+
+**Highlights:**
+
+* Fast average performance
+* Efficient ranking and filtering
+* Suitable for large-scale datasets
+* Optimized ticket price visibility
+
+---
+
+## 🔗 Code Link – Sorting Scenarios (DSA)
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com/sortingalgorithms](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com/sortingalgorithms)
+
+---
