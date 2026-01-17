@@ -1790,4 +1790,82 @@ The emphasis was on **selecting the right algorithm** based on **dataset size, o
 
 ---
 
+## 📘 Week 3 – Day 12: Scenario-Based Sorting Systems | Real-Time & Large-Scale Data in Java
+
+On **Day 12 of Week 3**, I worked on **scenario-based sorting problems** that required handling **real-time data insertion**, **small manual datasets**, and **large-scale unordered inputs**.
+The focus was on **selecting the right sorting algorithm** based on **data size, order, and arrival pattern**.
+
+---
+
+## 🧠 Sorting Concepts Applied
+
+* **Insertion Sort** for incremental and nearly sorted data
+* **Merge Sort** for large datasets from multiple sources
+* **Bubble Sort** for small, manually updated lists
+* **Quick Sort** for fast ordering of large, unordered data
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 🎨 ArtExpo – Artist Registration Sorting
+
+*(Insertion Sort)*
+
+* Artists registered continuously throughout the day
+* Maintained sorted order by registration time
+* Efficient real-time insertion
+* Ideal for booth assignment systems
+
+---
+
+### 🤖 RoboWarehouse – Shelf Loading Robot
+
+*(Insertion Sort)*
+
+* Packages added one-by-one based on weight
+* Maintained ascending weight order dynamically
+* Low memory usage
+* Suitable for streaming insertions
+
+---
+
+### 🚚 FleetManager – Vehicle Maintenance Scheduler
+
+*(Merge Sort)*
+
+* Combined sorted vehicle lists from multiple depots
+* Created a master maintenance schedule
+* Efficient handling of large datasets
+* Stable and scalable merging logic
+
+---
+
+### 🎬 CinemaHouse – Movie Time Sorting
+
+*(Bubble Sort)*
+
+* Small daily movie show list (~10 entries)
+* Simple adjacent comparisons and swaps
+* Easy to maintain with minimal logic
+* In-place sorting without extra memory
+
+---
+
+### 🌾 CropMonitor – Sensor Data Ordering
+
+*(Quick Sort)*
+
+* Large, unordered timestamp data from drone sensors
+* Fast average-case sorting
+* Efficient partition-based logic
+* Prepared data for visualization and analysis
+
+---
+
+## 🔗 Code Link – Scenario-Based Sorting (DSA)
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
+---
 
