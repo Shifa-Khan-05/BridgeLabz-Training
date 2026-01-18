@@ -935,6 +935,63 @@ Drone sensors generate large, unordered timestamp data.
 
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
 
+---
+
+## 📘 Week 3 – Day 11: Real-World Sorting Systems | Small-Scale & Incremental Data in Java
+
+On **Day 11 of Week 3**, I implemented **real-world, scenario-based sorting problems** using **Bubble Sort** and **Insertion Sort**.
+The focus was on **small datasets**, **manual updates**, and **incremental data insertion**, where **simplicity, stability, and low overhead** are more important than complex optimizations.
 
 ---
 
+## 🧠 Key Sorting Techniques Applied
+
+### 🔹 Bubble Sort
+
+* Best suited for **very small datasets**
+* Simple logic with adjacent comparisons
+* In-place sorting without extra memory
+* Easy to implement and debug
+
+### 🔹 Insertion Sort
+
+* Ideal for **incremental data insertion**
+* Efficient for **nearly sorted lists**
+* Stable sorting behavior
+* Low memory footprint
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 🍦 IceCreamRush – Sorting Flavors by Popularity
+
+*(Bubble Sort)*
+
+**Scenario:**
+A small ice cream vendor tracks weekly sales of **8 flavors** and manually updates popularity rankings.
+
+**Highlights:**
+
+* Sorted flavors based on sales count
+* Repeated adjacent comparisons
+* In-place swapping without extra memory
+* Ideal for short, manually maintained lists
+
+---
+
+### 📚 SmartLibrary – Auto-Sort Borrowed Books
+
+*(Insertion Sort)*
+
+**Scenario:**
+A digital library kiosk maintains a user’s borrowed books list, keeping it **alphabetically sorted** as new books are issued.
+
+**Highlights:**
+
+* Dynamic insertion of new books
+* Maintained sorted order after each addition
+* Efficient handling of nearly sorted data
+* Stable sorting by book title
+
+---
