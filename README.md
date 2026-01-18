@@ -1869,3 +1869,76 @@ The focus was on **selecting the right sorting algorithm** based on **data size,
 
 ---
 
+## 📘 **Week 4 – Day 1 **
+
+### Java Generics + Real-World Sorting Systems in Java
+
+On this day, I worked on **two core Java skill areas**:
+
+* **Java Generics ** for building **type-safe, reusable systems**
+* **Sorting Algorithms ** for solving **real-world data ordering problems**
+
+The focus was on **clean design, correct abstraction**, and **choosing the right technique based on real-world constraints**.
+
+---
+
+## 🧠 Part 1: Java Generics – Type-Safe & Reusable System Design
+
+### 🔹 Generics Best Practices Applied
+
+* Compile-time **type safety**
+* Generic methods over overloading
+* `? extends T` for read-only access
+* `? super T` for write operations
+* Avoided raw types
+* Bounded type parameters
+* Generic interfaces for reuse
+* Minimal wildcard exposure in APIs
+* Avoided type-erasure pitfalls
+* Composition over inheritance
+* Meaningful type parameters (`T`, `E`, `K`, `V`)
+
+### 🛠️ Scenario-Based Generic Systems
+
+* **Smart Warehouse Management** – `Storage<T extends WarehouseItem>`
+* **Dynamic Online Marketplace** – Generic products & discounts
+* **University Course Management** – `Course<T extends CourseType>`
+* **Personalized Meal Plan Generator** – Generic validation
+* **AI Resume Screening System** – `Resume<T extends JobRole>`
+
+---
+
+## 🧠 Part 2: Real-World Sorting Systems
+
+### 🔹 Sorting Algorithms Used
+
+* **Bubble Sort** – Small, manually updated datasets
+* **Insertion Sort** – Incremental & nearly sorted data
+
+### 🛠️ Sorting Scenarios Implemented
+
+#### 🍦 IceCreamRush *(Bubble Sort)*
+
+* Small dataset (8 flavors)
+* Manual weekly updates
+* In-place adjacent swapping
+
+#### 📚 SmartLibrary *(Insertion Sort)*
+
+* Incremental book insertion
+* Alphabetical ordering
+* Stable and memory-efficient
+
+---
+
+## 🔗 Code Links
+
+### 🔹 Java Generics (Collections)
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/generics](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/generics)
+
+### 🔹 Scenario-Based Sorting (DSA)
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
+---
