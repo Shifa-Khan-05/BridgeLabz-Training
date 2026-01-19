@@ -995,3 +995,87 @@ A digital library kiosk maintains a user’s borrowed books list, keeping it **a
 * Stable sorting by book title
 
 ---
+
+## 📘 Week 3 – Day 12: Scenario-Based Sorting Systems | Large & Small Scale Data in Java
+
+On **Day 12 of Week 3**, I worked on **scenario-based DSA problems** focused on **sorting large datasets efficiently** and **handling small, frequently updated lists**.
+The emphasis was on **algorithm selection based on data size, update frequency, and performance requirements**.
+
+---
+
+## 🧠 Key Sorting Algorithms Applied
+
+### 🔹 Merge Sort
+
+* Ideal for **large datasets**
+* Efficiently merges **pre-sorted sublists**
+* Stable sorting for duplicate values
+
+### 🔹 Quick Sort
+
+* Fast **average-case performance**
+* Suitable for **large, unordered datasets**
+* Optimized for ranking and filtering use cases
+
+### 🔹 Bubble Sort
+
+* Best for **small datasets**
+* Simple logic for **frequent re-sorting**
+* In-place sorting with minimal overhead
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 🎓 EduResults – Rank Sheet Generator
+
+*(Merge Sort)*
+
+**Scenario:**
+An education board merges sorted student score lists from multiple districts to generate a **state-wide rank list**.
+
+**Highlights:**
+
+* Merged multiple sorted sublists
+* Maintained stable ordering for equal scores
+* Efficient handling of thousands of records
+* Suitable for large-scale academic data processing
+
+---
+
+### 🛒 FlashDealz – Product Sorting by Discount
+
+*(Quick Sort)*
+
+**Scenario:**
+An e-commerce platform sorts **millions of products** during flash sales to show top discounts instantly.
+
+**Highlights:**
+
+* Sorted large, unsorted datasets
+* Fast ranking of discounted products
+* Optimized backend performance
+* Ideal for real-time high-traffic systems
+
+---
+
+### 🏃 FitnessTracker – Daily Step Count Ranking
+
+*(Bubble Sort)*
+
+**Scenario:**
+A fitness app ranks users’ daily step counts in a **small group (<20 users)** with frequent updates.
+
+**Highlights:**
+
+* Simple adjacent comparison logic
+* Efficient for small, frequently changing lists
+* Real-time leaderboard updates
+* Minimal code complexity
+
+---
+
+## 🔗 Code Link – Scenario-Based Sorting (DSA)
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
