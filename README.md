@@ -1533,3 +1533,91 @@ Digitally manage bird tracking and behavior at **EcoWing Wildlife Conservation C
 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
 
 ---
+
+## 📘 Day 16 – Scenario-Based OOPs | Object Modeling & Encapsulation in Java
+
+## 📌 Overview
+
+On this day, I focused on **core Object-Oriented Programming (OOP)** concepts by solving **real-world, scenario-based problems** in Java.
+The emphasis was on **class design, encapsulation, constructors, method creation**, and **modeling real-world relationships using objects**.
+
+---
+
+## 🎯 OOP Concepts Applied
+
+* **Classes & Objects**
+
+  * Modeled real-world entities using well-defined classes
+* **Constructors**
+
+  * Initialized objects with required data at creation
+* **Encapsulation**
+
+  * Hid internal data using private fields
+  * Exposed behavior through public methods
+* **Method Design**
+
+  * Clear, reusable methods for calculations and operations
+* **`this` Keyword**
+
+  * Used for field disambiguation and cleaner constructors
+* **Composition (HAS-A relationship)**
+
+  * One object containing another object or collection
+
+---
+
+## 🛠️ Scenario-Based Applications Implemented
+
+### 📐 GeoMeasure Solutions – Line Comparison System
+
+**Scenario:**
+Civil engineers need to compare line segments on blueprints to determine if they are equal in length or identify the longer one.
+
+**Implementation Highlights:**
+
+* `Line` class encapsulating coordinates `(x1, y1, x2, y2)`
+* Constructor-based initialization of line objects
+* Method to calculate line length
+* Comparison logic to check:
+
+  * Equal length
+  * Longer / shorter line
+* Internal data hidden using encapsulation
+* **Bonus:**
+
+  * Supported multiple line comparisons stored in a list
+
+---
+
+### 🎒 Bag-n-Ball Organizer – Toy Storage System
+
+**Scenario:**
+A play school wants to manage bags and the balls stored inside them, with capacity constraints.
+
+**Implementation Highlights:**
+
+* `Bag` class:
+
+  * `id`, `color`, `capacity`
+  * Maintains a list of `Ball` objects
+* `Ball` class:
+
+  * `id`, `color`, `size`
+* Operations implemented:
+
+  * Add ball to bag (capacity-checked)
+  * Remove ball from bag
+  * Display all balls in a bag
+  * Display all bags with ball count
+* Encapsulation enforced via private fields and getters/setters
+* Modeled **Bag HAS-A list of Balls** using composition
+* **Bonus:**
+
+  * `Storable` interface defined for shared behavior
+---
+
+## 🔗 Repository
+
+👉 **Scenario-Based OOP Solutions:**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
