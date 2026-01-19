@@ -1942,3 +1942,146 @@ The focus was on **clean design, correct abstraction**, and **choosing the right
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
 
 ---
+
+# 📘 BridgeLabz Training – Java | OOP, DSA & Collections
+
+## 📘 Week 4 – Day 2: Scenario-Based OOP + DSA + Java Collections | Real-World System Design
+
+On **Day 2 of Week 4**, I worked across **Object-Oriented Programming (OOP)**, **Data Structures & Algorithms (DSA)**, and the **Java Collections Framework** to solve **real-world, scenario-based problems**.
+
+The focus was on:
+
+* Clean object modeling and encapsulation
+* Performance-aware algorithm selection
+* Effective use of Lists, Sets, Queues, and Maps
+* Designing scalable, maintainable Java systems
+
+---
+
+## 🧠 Core Concepts Covered
+
+### 🔹 Object-Oriented Programming (OOP)
+
+* Classes & Objects for real-world modeling
+* Encapsulation to protect internal data
+* Constructors for controlled initialization
+* Method design and use of `this` keyword
+* Composition (HAS-A relationships)
+
+---
+
+### 🔹 Data Structures & Algorithms (DSA)
+
+* Sorting algorithm selection based on data size
+* Stable vs unstable sorting decisions
+* Handling large datasets vs small, frequently updated lists
+* Performance-aware problem solving
+
+---
+
+### 🔹 Java Collections Framework
+
+* Choosing the right collection for each use case
+* Managing order, uniqueness, and sorting
+* Efficient searching, insertion, deletion, and traversal
+* Combining collections to model real systems
+* Understanding Hash, Linked, and Tree variants
+
+---
+
+## 🛠️ Scenario-Based OOP Implementations
+
+### 📐 GeoMeasure Solutions – Line Comparison System
+
+* Compared line lengths using encapsulated objects
+* Constructor-based initialization
+* Supported multiple comparisons using a list
+
+### 🎒 Bag-n-Ball Organizer – Toy Storage System
+
+* Bags with capacity constraints
+* Balls managed using composition
+* Safe add/remove operations using encapsulation
+* Optional interface for shared behavior
+
+---
+
+## 🛠️ Scenario-Based DSA Implementations (Sorting)
+
+### 🎓 EduResults – Rank Sheet Generator *(Merge Sort)*
+
+* Merged sorted district-wise student lists
+* Stable sorting for duplicate scores
+* Efficient large-scale processing
+
+### 🛒 FlashDealz – Product Discount Ranking *(Quick Sort)*
+
+* High-performance sorting for millions of products
+* Optimized ranking during flash sales
+
+### 🏃 FitnessTracker – Daily Step Ranking *(Bubble Sort)*
+
+* Small dataset with frequent updates
+* Simple in-place sorting logic
+
+---
+
+## 🛠️ Java Collections – Practical Implementations
+
+### 📋 List Interface
+
+* Reverse lists (ArrayList & LinkedList)
+* Rotate elements
+* Remove duplicates while preserving order
+* Find frequency of elements
+* Find Nth element from the end
+
+---
+
+### 🧩 Set Interface
+
+* Equality check, union, intersection, symmetric difference
+* HashSet vs LinkedHashSet vs TreeSet
+* Subset checks and sorted list conversion
+
+---
+
+### 🏥 Insurance Policy Management System (Set & Map Based)
+
+* Stored policies using Set and Map variants
+* Retrieved expiring, duplicate, and filtered policies
+* Compared performance of Hash, Linked, and Tree collections
+
+---
+
+### 🔁 Queue Interface
+
+* Reverse queue
+* Generate binary numbers
+* PriorityQueue for hospital triage
+* Stack implementation using queues
+* Circular buffer simulation
+
+---
+
+### 🗺 Map Interface
+
+* Word frequency counter
+* Invert maps with duplicate handling
+* Merge maps
+* Group objects by property
+
+---
+
+## 🔗 Code Links
+
+👉 **OOP Scenario-Based Solutions:**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+👉 **DSA Scenario-Based Problems:**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
+👉 **Java Collections (Generics & Collections):**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com)
+
+---
