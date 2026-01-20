@@ -1621,3 +1621,62 @@ A play school wants to manage bags and the balls stored inside them, with capaci
 
 👉 **Scenario-Based OOP Solutions:**
 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+---
+
+## 📘 Day 17 – Scenario-Based OOPs | Address Book System in Java
+
+## 📌 Overview
+
+On this day, I designed a **real-world Address Book System** using **Object-Oriented Programming (OOP)** concepts in Java.
+The focus was on **data encapsulation, object modeling, collection usage**, and **CRUD-style operations** for managing contacts.
+
+---
+
+## 🎯 OOP Concepts Applied
+
+* **Classes & Objects**
+
+  * Modeled real-world entities like `Contact` and `Address`
+* **Constructors**
+
+  * Initialized contacts with required and optional details
+* **Encapsulation**
+
+  * Protected contact data using private fields and controlled access
+* **Access Modifiers**
+
+  * Ensured secure read/write operations
+* **Collections**
+
+  * Used `ArrayList<Contact>` for in-memory storage
+* **Composition (Optional)**
+
+  * `Contact` **HAS-A** `Address` object
+
+---
+
+## 🛠️ Scenario-Based Application Implemented
+
+### 📇 DigiContact – Address Book System
+
+**Scenario:**
+A startup needs a simple yet robust digital solution to manage personal and professional contacts.
+
+**Key Features Implemented:**
+
+* Add new contacts with **duplicate validation**
+* Edit existing contact details by name
+* Delete contacts by name
+* Search contacts by **city** or **state**
+* Display all contacts **sorted alphabetically**
+* Store contacts using `ArrayList<Contact>`
+
+**Design Highlights:**
+
+* `Contact` class with name, phone, email, and address
+* Optional `Address` class (city, state, zip)
+* Encapsulation to prevent direct data manipulation
+* Clean separation of data and operations
+
+---
