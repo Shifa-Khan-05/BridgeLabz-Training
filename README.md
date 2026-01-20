@@ -2085,3 +2085,58 @@ The focus was on:
 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com)
 
 ---
+
+## 📘 Week 4 – Day 3: Scenario-Based OOP + DSA in Java
+
+On **Day 3 of Week 4**, I combined **Object-Oriented Programming (OOP)** and **Data Structures & Algorithms (DSA)** to build **real-world systems** focusing on **clean design, data safety, and efficient sorting**.
+
+---
+
+## 🎯 OOP Implementation
+
+### 📇 DigiContact – Address Book System
+
+* Designed `Contact` and optional `Address` classes
+* Used **encapsulation** to protect contact data
+* Supported **add, edit, delete, and search** operations
+* Searched contacts by **city/state**
+* Displayed contacts **sorted alphabetically**
+* Stored data using `ArrayList<Contact>`
+
+---
+
+## 🧠 DSA Implementations
+
+### 🎬 MovieTime – Show Listings *(Insertion Sort)*
+
+* Real-time insertion of showtimes
+* Maintained time-based sorted order
+* Efficient for nearly sorted data
+
+---
+
+### 🍔 FoodFest – Stall Footfall Analysis *(Merge Sort)*
+
+* Merged multiple pre-sorted datasets
+* Stable sorting for equal values
+* Scalable for large data analytics
+
+---
+
+### 🎮 GamerZone – Leaderboard System *(Quick Sort)*
+
+* Sorted large, unsorted score data
+* Optimized for performance-critical rankings
+* Suitable for real-time systems
+
+---
+
+## 🔗 Code Links
+
+**OOP Scenarios**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-questions)
+
+**DSA Sorting Scenarios**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
+---
