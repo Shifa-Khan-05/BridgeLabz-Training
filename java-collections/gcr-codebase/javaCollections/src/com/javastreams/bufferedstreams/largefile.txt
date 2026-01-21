@@ -1,0 +1,17 @@
+9. TailorShop – Sorting Orders by Delivery Deadline (Insertion Sort)
+Story: At a tailor’s shop, new clothing orders are received every hour. Each order has a
+deadline, and the owner maintains a sorted list of orders by delivery date. Since each new
+order is inserted into a nearly sorted list, Insertion Sort is simple and fast.
+Concepts Involved:
+● Insertion Sort
+● Real-time updates
+● Deadline-based sorting
+
+ 10. MedWarehouse – Sorting Medicines by Expiry (Merge Sort)
+Story: A pharmaceutical warehouse handles medicine records from multiple branches, each
+sending a sorted list by expiry date. To ensure none are wasted, the system uses Merge Sort
+to compile all expiry dates and alert if any medicine is nearing expiration.
+Concepts Involved:
+● Merge Sort
+● Sorted sublist merging
+● Critical for time-sensitive inventory
