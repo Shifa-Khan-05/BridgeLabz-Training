@@ -1,0 +1,1 @@
+sorts the array using multiple passes. after the first pass, the maximum goes to end (its correct position). same way, after second pass, the second largest goes to second last position and so on.
