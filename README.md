@@ -1079,3 +1079,51 @@ A fitness app ranks users’ daily step counts in a **small group (<20 users)** 
 
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
 
+---
+
+## 📘 Week 3 – Day 13: Real-Time & Large-Scale Sorting Systems in Java
+
+On **Day 13 of Week 3**, I solved **scenario-based sorting problems** focusing on **real-time insertion**, **large-scale data merging**, and **high-performance ranking systems**.
+The goal was to **select optimal sorting algorithms** based on **data size, order, and update frequency**.
+
+---
+
+## 🧠 Sorting Algorithms Used
+
+* **Insertion Sort** – Efficient for real-time, nearly sorted data
+* **Merge Sort** – Stable and scalable for merging sorted datasets
+* **Quick Sort** – High-performance sorting for large, unsorted data
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 🎬 MovieTime – Theater Show Listings *(Insertion Sort)*
+
+* Real-time show insertion
+* Maintained time-based ordering
+* Minimal shifts for nearly sorted lists
+
+---
+
+### 🍔 FoodFest – Stall Footfall Ranking *(Merge Sort)*
+
+* Combined zone-wise sorted data
+* Stable sorting for equal values
+* Scalable for large datasets
+
+---
+
+### 🎮 GamerZone – High Score Leaderboard *(Quick Sort)*
+
+* Fast ranking of thousands of players
+* Optimized for dynamic, unsorted data
+* Performance-driven leaderboard updates
+
+---
+
+## 🔗 Code Link – Scenario-Based Sorting (DSA)
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
+
+
