@@ -2140,3 +2140,97 @@ On **Day 3 of Week 4**, I combined **Object-Oriented Programming (OOP)** and **D
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
 
 ---
+
+## 📘 Week 4 – Day 3: Java I/O Streams & File Handling | Data Persistence & Performance
+
+On **Day 3 of Week 4**, I focused on **Java I/O and Stream APIs** to handle **file operations, data persistence, performance optimization**, and **inter-thread communication**.
+The emphasis was on **efficient data processing**, **robust exception handling**, and **real-world file-based scenarios**.
+
+---
+
+## 🧠 Core Concepts Applied
+
+* **Byte & Character Streams**
+* **Buffered Streams for performance**
+* **Serialization & Deserialization**
+* **Data Streams for primitives**
+* **Piped Streams for inter-thread communication**
+* **File handling with exception safety**
+* **Efficient large-file processing**
+* **HashMap-based data aggregation**
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 📄 File Handling & Buffered Streams
+
+* Read from one file and write to another using `FileInputStream` / `FileOutputStream`
+* High-performance file copy using:
+
+  * `BufferedInputStream` & `BufferedOutputStream`
+* Compared buffered vs unbuffered execution time using `System.nanoTime()`
+
+---
+
+### 🧑‍💻 Console Input & File Writing
+
+* Read user input using `BufferedReader`
+* Stored user details using `FileWriter`
+* Clean input handling with proper resource management
+
+---
+
+### 💾 Serialization & Data Streams
+
+* Serialized and deserialized `Employee` objects using:
+
+  * `ObjectOutputStream` & `ObjectInputStream`
+* Stored and retrieved primitive data using:
+
+  * `DataOutputStream` & `DataInputStream`
+
+---
+
+### 🖼 ByteArray & Filter Streams
+
+* Converted image files to byte arrays and restored them
+* Converted uppercase text to lowercase using:
+
+  * `BufferedReader` & `BufferedWriter`
+
+---
+
+### 🔄 Piped Streams & Multithreading
+
+* Implemented inter-thread communication using:
+
+  * `PipedInputStream` & `PipedOutputStream`
+* Safe synchronization between producer and consumer threads
+
+---
+
+### 📊 Large File Processing & Analysis
+
+* Read large files line-by-line (500MB+)
+* Filtered and displayed error logs efficiently
+* Counted word frequency using `HashMap`
+* Displayed **Top 5 most frequent words**
+
+---
+
+## 🛠 Tools & Workflow
+
+* **Java (I/O Streams & Collections)**
+* **Eclipse IDE**
+* **Git & GitHub**
+* Performance-aware and memory-efficient coding practices
+
+---
+
+
+## 🔗 Code Link – Java Streams & File Handling
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/javastreams](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/javastreams)
+
+---
