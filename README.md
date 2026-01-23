@@ -1126,4 +1126,66 @@ The goal was to **select optimal sorting algorithms** based on **data size, orde
 
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
 
+---
+
+## 📘 Week 3 – Day 14: Deadline & Expiry-Based Sorting Systems in Java
+
+On **Day 14 of Week 3**, I implemented **scenario-based sorting problems** focused on **time-sensitive data**, such as **delivery deadlines** and **medicine expiry dates**.
+The emphasis was on **real-time updates**, **merging sorted data**, and **choosing stable, efficient algorithms** for critical systems.
+
+---
+
+## 🧠 Sorting Algorithms Applied
+
+### 🔹 Insertion Sort
+
+* Ideal for **real-time order insertion**
+* Efficient for **nearly sorted lists**
+* Low overhead and simple logic
+
+### 🔹 Merge Sort
+
+* Best for **combining multiple sorted datasets**
+* Stable sorting for time-critical records
+* Scales well for large inventories
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 🧵 TailorShop – Sorting Orders by Delivery Deadline
+
+*(Insertion Sort)*
+
+**Scenario:**
+A tailor shop receives new orders every hour and maintains a list sorted by delivery deadlines.
+
+**Highlights:**
+
+* Inserted new orders into an already sorted list
+* Maintained deadline-based ordering
+* Efficient real-time updates
+* Simple and fast for incremental data
+
+---
+
+### 💊 MedWarehouse – Sorting Medicines by Expiry
+
+*(Merge Sort)*
+
+**Scenario:**
+Multiple branches send medicine lists already sorted by expiry date, which must be merged centrally.
+
+**Highlights:**
+
+* Merged sorted sublists from multiple branches
+* Preserved stability for equal expiry dates
+* Enabled timely expiry alerts
+* Suitable for large, time-sensitive inventories
+
+---
+
+## 🔗 Code Link – Scenario-Based Sorting (DSA)
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/ScenarioBasedQuestions/src/com)
 
