@@ -313,3 +313,113 @@ The emphasis was on **performance, correctness, and real-world usage of Java str
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/javastreams](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/javastreams)
 
 ---
+
+## 📘 Week 4 – Day 4: Exception Handling in Java | Robust & Fault-Tolerant Programs
+
+On **Day 4 of Week 4**, I practiced **Java Exception Handling** to build **robust, user-friendly, and fault-tolerant applications**.
+The focus was on handling **checked, unchecked, and custom exceptions**, along with **proper propagation, resource management, and clean error handling**.
+
+---
+
+## 🧠 Exception Handling Concepts Applied
+
+* Checked vs Unchecked Exceptions
+* Custom (User-Defined) Exceptions
+* Multiple catch blocks
+* `throw` vs `throws`
+* Exception propagation across methods
+* `finally` block execution
+* try-with-resources for auto-closing resources
+* Nested try-catch blocks
+
+---
+
+## 🛠️ Practice Problems Implemented
+
+### 📄 Checked Exception – File Reading
+
+* Read `data.txt`
+* Handled `IOException`
+* Displayed user-friendly message when file not found
+
+---
+
+### ➗ Unchecked Exceptions – Division Program
+
+* Handled:
+
+  * `ArithmeticException` (division by zero)
+  * `InputMismatchException` (invalid input)
+* Safe user input validation
+
+---
+
+### 🚫 Custom Exception – Age Validation
+
+* Created `InvalidAgeException`
+* Threw exception if age < 18
+* Displayed meaningful validation message
+
+---
+
+### 📦 Multiple Catch Blocks
+
+* Array element access by index
+* Handled:
+
+  * `ArrayIndexOutOfBoundsException`
+  * `NullPointerException`
+
+---
+
+### 🔒 try-with-resources
+
+* Read first line from `info.txt`
+* Automatically closed `BufferedReader`
+* Handled `IOException` cleanly
+
+---
+
+### 🔁 throw vs throws
+
+* Interest calculation method
+* Threw `IllegalArgumentException` for invalid inputs
+* Exception propagated and handled in `main()`
+
+---
+
+### ✅ finally Block Execution
+
+* Demonstrated guaranteed execution of `finally`
+* Printed completion message regardless of exception
+
+---
+
+### 🔗 Exception Propagation
+
+* Exception thrown in one method
+* Propagated through method calls
+* Handled centrally in `main()`
+
+---
+
+### 🧩 Nested try-catch
+
+* Handled array index errors and division by zero
+* Clear, specific error messages
+
+---
+
+### 🏦 Bank Transaction System
+
+* Custom `InsufficientBalanceException`
+* Validated withdrawal amount
+* Handled business-logic exceptions cleanly
+
+---
+
+## 🔗 Code Link – Exception Handling Practice
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/exceptions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/exceptions)
+
+---
