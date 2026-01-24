@@ -423,3 +423,54 @@ The focus was on handling **checked, unchecked, and custom exceptions**, along w
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/exceptions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/exceptions)
 
 ---
+
+## 📘 Week 4 – Day 5: Regex & JUnit | Validation & Test Automation in Java
+
+On **Day 5 of Week 4**, I practiced **Java Regular Expressions (Regex)** and **JUnit testing** to strengthen **string validation, data extraction**, and **automated unit testing**.
+The focus was on **real-world input handling** and **reliable test-driven development**.
+
+---
+
+## 🧠 Key Concepts Covered
+
+### 🔹 Java Regex
+
+* Input validation (username, license plate, hex color, IP, SSN)
+* Data extraction (emails, dates, URLs, capitalized words)
+* Text replacement (spaces cleanup, bad-word censoring)
+
+### 🔹 JUnit Testing
+
+* Unit testing using **JUnit 4 & 5**
+* Assertions and exception testing
+* Lifecycle annotations (`@BeforeEach`, `@AfterEach`)
+* Parameterized and performance tests
+
+---
+
+## 🛠️ Implementations
+
+### ✅ Regex Tasks
+
+* Username, credit card, IP & SSN validation
+* Email, URL, date & currency extraction
+* Repeating word detection
+* Text cleanup and censoring
+
+### 🧪 JUnit Tasks
+
+* Calculator and String utility tests
+* List operations testing
+* Exception handling validation
+* File handling tests
+* Banking, password, date & conversion testing
+
+---
+
+## 🔗 Code Links
+
+🔹 **Regex**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/regex](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/regex)
+
+🔹 **JUnit Testing**
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/junittesting](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/junittesting)
