@@ -1,0 +1,4 @@
+Title: Bohemian Rhapsody
+Artist: Queen
+Duration: 5:55
+Genre: Rock
