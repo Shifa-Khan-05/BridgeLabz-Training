@@ -2234,3 +2234,203 @@ The emphasis was on **efficient data processing**, **robust exception handling**
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/javastreams](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/javastreams)
 
 ---
+
+## 📘 Week 4 – Day 4: Exception Handling in Java | Robust & Fault-Tolerant Programs
+
+On **Day 4 of Week 4**, I practiced **Java Exception Handling** to build **robust, user-friendly, and fault-tolerant applications**.
+The focus was on handling **checked, unchecked, and custom exceptions**, along with **proper propagation, resource management, and clean error handling**.
+
+---
+
+## 🧠 Exception Handling Concepts Applied
+
+* Checked vs Unchecked Exceptions
+* Custom (User-Defined) Exceptions
+* Multiple catch blocks
+* `throw` vs `throws`
+* Exception propagation across methods
+* `finally` block execution
+* try-with-resources for auto-closing resources
+* Nested try-catch blocks
+
+---
+
+## 🛠️ Practice Problems Implemented
+
+### 📄 Checked Exception – File Reading
+
+* Read `data.txt`
+* Handled `IOException`
+* Displayed user-friendly message when file not found
+
+---
+
+### ➗ Unchecked Exceptions – Division Program
+
+* Handled:
+
+  * `ArithmeticException` (division by zero)
+  * `InputMismatchException` (invalid input)
+* Safe user input validation
+
+---
+
+### 🚫 Custom Exception – Age Validation
+
+* Created `InvalidAgeException`
+* Threw exception if age < 18
+* Displayed meaningful validation message
+
+---
+
+### 📦 Multiple Catch Blocks
+
+* Array element access by index
+* Handled:
+
+  * `ArrayIndexOutOfBoundsException`
+  * `NullPointerException`
+
+---
+
+### 🔒 try-with-resources
+
+* Read first line from `info.txt`
+* Automatically closed `BufferedReader`
+* Handled `IOException` cleanly
+
+---
+
+### 🔁 throw vs throws
+
+* Interest calculation method
+* Threw `IllegalArgumentException` for invalid inputs
+* Exception propagated and handled in `main()`
+
+---
+
+### ✅ finally Block Execution
+
+* Demonstrated guaranteed execution of `finally`
+* Printed completion message regardless of exception
+
+---
+
+### 🔗 Exception Propagation
+
+* Exception thrown in one method
+* Propagated through method calls
+* Handled centrally in `main()`
+
+---
+
+### 🧩 Nested try-catch
+
+* Handled array index errors and division by zero
+* Clear, specific error messages
+
+---
+
+### 🏦 Bank Transaction System
+
+* Custom `InsufficientBalanceException`
+* Validated withdrawal amount
+* Handled business-logic exceptions cleanly
+
+---
+
+## 🔗 Code Link – Exception Handling Practice
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/exceptions](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/exceptions)
+
+---
+
+## 📘 Week 4 – Day 5: Regular Expressions & Unit Testing in Java
+
+On **Day 5 of Week 4**, I worked on **Java Regular Expressions (Regex)** and **JUnit Testing** to strengthen **string validation, pattern matching**, and **automated testing practices**.
+The focus was on **real-world validations**, **text processing**, and **test-driven development**.
+
+---
+
+## 🧠 Key Concepts Covered
+
+### 🔹 Java Regular Expressions (Regex)
+
+* Input **validation** using patterns
+* **Extraction** of structured data from text
+* **Replacement & sanitization** of strings
+* Advanced pattern matching for real-world formats
+
+### 🔹 JUnit Testing
+
+* Writing **unit tests** for core logic
+* Exception testing and edge cases
+* Lifecycle annotations and parameterized tests
+* File handling and performance testing
+
+---
+
+## 🛠️ Regex Practice – Scenarios Implemented
+
+### ✅ Validation Problems
+
+* Username validation
+* License plate format
+* Hex color codes
+* IP address validation
+* Credit card number validation
+* Social Security Number (SSN)
+
+### 🔍 Extraction Problems
+
+* Email addresses
+* Capitalized words
+* Dates (`dd/mm/yyyy`)
+* URLs from text
+* Programming language names
+* Currency values
+* Repeating words
+
+### 🔄 Replace & Modify
+
+* Replace multiple spaces with single space
+* Censor bad words in text
+
+---
+
+## 🧪 JUnit Testing – Problems Implemented
+
+### 🧮 Core Unit Testing
+
+* Calculator operations (add, subtract, multiply, divide)
+* String utility methods (reverse, palindrome, uppercase)
+* List operations testing
+* Exception handling validation
+
+### ⚙️ Advanced JUnit Concepts
+
+* `@BeforeEach` and `@AfterEach`
+* Parameterized tests (`@ParameterizedTest`)
+* Performance testing using `@Timeout`
+* File handling tests
+* Exception-based validations
+
+### 🏦 Real-World Testing Scenarios
+
+* Banking transactions
+* Password strength validation
+* Temperature conversion
+* Date formatting
+* User registration validation
+
+---
+
+## 🔗 Code Links
+
+👉 **Regex Practice:**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/regex](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/regex)
+
+👉 **JUnit Testing Practice:**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/junittesting](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/junittesting)
+
+---
