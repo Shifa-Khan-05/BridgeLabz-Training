@@ -1,0 +1,4 @@
+DealCode: FLAT50
+ValidTill: 15-06-2025
+Discount: 50%
+MinimumPurchase: 999
