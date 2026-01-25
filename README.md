@@ -474,3 +474,100 @@ The focus was on **real-world input handling** and **reliable test-driven develo
 
 🔹 **JUnit Testing**
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/junittesting](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/junittesting)
+
+
+---
+
+
+## 📘 Week 4 – Day 6: Scenario-Based Systems | Collections, Generics, I/O & Regex in Java
+
+On **Day 6 of Week 4**, I worked on **real-world, scenario-based applications** combining **Java Collections, Generics, I/O Streams, Regex, and Exception Handling**.
+The focus was on **data processing pipelines**, **file-based systems**, and **scalable collection-driven design**.
+
+---
+
+## 🧠 Core Concepts Applied
+
+* **Collections Framework** – List, Set, Map, PriorityQueue
+* **Generics** – Type-safe, reusable system design
+* **I/O Streams** – File reading, writing, serialization
+* **Regular Expressions** – Validation, extraction, pattern detection
+* **Exception Handling** – Graceful handling of invalid or corrupt data
+* **Sorting & Grouping** – Using Maps, Sets, and Queues effectively
+
+---
+
+## 🛠️ Scenario-Based Applications Implemented
+
+### 📄 ResumeAnalyzer – Smart Resume Filtering System
+
+* Read `.txt` and `.pdf` resumes from folders using I/O streams
+* Extract email, phone, and keywords (Java, Python, Spring) using Regex
+* Indexed resumes using `Map<String, ResumeData>` (email as key)
+* Sorted candidates by keyword match count
+* Skipped invalid resumes using exception handling
+
+---
+
+### ✈️ TravelLog – Trip Organizer for Backpackers
+
+* Serialized trip objects using `ObjectOutputStream`
+* Extracted visited cities using Regex
+* Identified trips longer than 5 days
+* Stored unique countries using `Set`
+* Found top 3 most visited cities using `Map<City, Integer>` with sorting
+* Supported file-based persistence and summary generation
+
+---
+
+### 📝 FeedbackGuru – Smart Survey Analyzer
+
+* Read multiple `.txt` feedback files using I/O
+* Extracted ratings (e.g., `8/10`, `9/10`) using Regex
+* Grouped feedback into **Positive / Neutral / Negative**
+* Used `Map<String, List<String>>` for categorization
+* Applied Generics for flexible feedback types
+* Handled malformed data safely
+
+---
+
+### 🧹 CodeRepoCleaner – Java File Scanner & Organizer
+
+* Scanned nested folders for `.java` files
+* Used Regex to detect:
+
+  * Invalid method naming conventions
+  * Unused imports
+* Categorized files into **Valid / Warnings / Errors**
+* Used `List`, `Map`, and `Set` for file classification
+* Enabled filtering by file size and modification date
+
+---
+
+### 🧪 ExamScanner – Digital Answer Sheet Validator
+
+* Read `.csv` answer sheets using `BufferedReader`
+* Parsed and validated answers with Regex
+* Compared responses with answer keys
+* Used Generics for multiple subject types
+* Stored scores using `Map<Student, Score>`
+* Ranked results using `PriorityQueue`
+* Detected formatting issues (missing/extra commas)
+
+---
+
+## 📌 Learning Outcomes
+
+✔ Integrated Collections with I/O and Regex
+✔ Designed scalable, file-driven systems
+✔ Used Generics for flexibility and type safety
+✔ Applied Maps, Sets, and Queues effectively
+✔ Built real-world data processing pipelines
+
+---
+
+## 🔗 Code Link – Scenario-Based Java Collections
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/scenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/scenarioBasedQuestions/src/com)
+
+---
