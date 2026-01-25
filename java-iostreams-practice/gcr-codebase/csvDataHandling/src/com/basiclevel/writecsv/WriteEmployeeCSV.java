@@ -15,6 +15,9 @@ public class WriteEmployeeCSV {
             bw.write("ID,Name,Department,Salary");
             bw.newLine();
 
+            
+            
+            
             // Write records
             bw.write("1,John,IT,60000");
             bw.newLine();
