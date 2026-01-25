@@ -2434,3 +2434,85 @@ The focus was on **real-world validations**, **text processing**, and **test-dri
 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/junittesting](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/junittesting)
 
 ---
+
+## 📘 Week 5 – Day 1: Java IO Streams & Scenario-Based Systems | CSV, Collections, Regex
+
+On **Day 1 of Week 5**, I worked on **real-world, file-driven Java systems**, combining **IO Streams, CSV processing, Java Collections, Generics, Regex, and Exception Handling**.
+The focus was on **scalable data pipelines**, **file processing**, and **production-style system design**.
+
+---
+
+## 🧠 Core Concepts Applied
+
+* **Java IO Streams** – FileReader, FileWriter, Buffered Streams
+* **CSV Data Processing** – Read, write, filter, update, merge
+* **Java Collections** – List, Set, Map, PriorityQueue
+* **Generics** – Type-safe, reusable design
+* **Regex** – Validation, extraction, pattern matching
+* **Exception Handling** – Robust handling of invalid data
+* **Performance Optimization** – Large file & batch processing
+* **Security** – Encryption & decryption of sensitive fields
+
+---
+
+## 🛠️ Key Implementations
+
+### 📄 CSV Data Handling (IO Streams)
+
+* Read and write CSV files with headers
+* Count, filter, search, update, and sort records
+* Validate email & phone fields using Regex
+* Convert CSV rows into Java objects
+* Merge multiple CSV files using common keys
+* Process large CSV files in chunks
+* Detect duplicate records
+* Convert **CSV ↔ JSON**
+* Encrypt & decrypt sensitive CSV fields
+
+---
+
+### 🧩 Scenario-Based Java Systems (Collections + IO + Regex)
+
+**ResumeAnalyzer**
+
+* Read resumes from folders
+* Extract contact details & keywords using Regex
+* Index and rank candidates using Maps & Lists
+
+**TravelLog**
+
+* Serialize trip objects
+* Extract cities using Regex
+* Track unique countries (Set)
+* Rank top visited cities using Map sorting
+
+**FeedbackGuru**
+
+* Analyze feedback from text files
+* Extract ratings using Regex
+* Categorize feedback using Map<String, List<String>>
+
+**CodeRepoCleaner**
+
+* Scan `.java` files using IO
+* Detect naming issues & unused imports using Regex
+* Categorize files using List, Map, Set
+
+**ExamScanner**
+
+* Read CSV answer sheets
+* Validate formatting using Regex
+* Calculate scores using Maps
+* Rank students using PriorityQueue
+
+---
+
+## 🔗 Code Links
+
+👉 **CSV Data Handling (IO Streams)**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-iostreams-practice/gcr-codebase/csvDataHandling](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-iostreams-practice/gcr-codebase/csvDataHandling)
+
+👉 **Scenario-Based Java Collections Systems**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/scenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/scenarioBasedQuestions/src/com)
+
+---
