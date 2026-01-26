@@ -2516,3 +2516,116 @@ The focus was on **scalable data pipelines**, **file processing**, and **product
 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/scenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/scenarioBasedQuestions/src/com)
 
 ---
+
+## 📘 Week 5 – Day 2: Advanced Java Collections & IO Streams | JSON, CSV & Real-World Data Processing
+
+On **Day 2 of Week 5**, I worked on **advanced, real-world Java systems** by combining **Collections, Generics, IO Streams, Regex, JSON, and CSV processing**.
+The focus was on **file-driven applications, data validation, transformation pipelines, and scalable backend utilities**.
+
+---
+
+## 🧠 Core Concepts Applied
+
+* **Java Collections** – List, Set, Map, PriorityQueue, TreeMap
+* **Generics** – Type-safe and extensible system design
+* **IO Streams** – FileReader, BufferedReader, FileInputStream, Serialization
+* **JSON Processing** – Parsing, filtering, merging, validation
+* **CSV Processing** – Reading, validation, transformation
+* **Regex** – Pattern extraction, validation, censorship rules
+* **Custom Exceptions** – Handling invalid data & critical conditions
+
+---
+
+## 🛠️ Scenario-Based Java Collections Systems
+
+### 🏥 MedInventory – Smart Hospital Inventory Tracker
+
+* Read inventory CSV files using BufferedReader
+* Detected expired items using Regex (dd-MM-yyyy)
+* Categorized items using `Map<String, List<Item>>`
+* Removed duplicates using Set (item ID)
+* Raised custom exceptions for critically low stock
+* Used Generics for extensibility (medicines, tools, supplies)
+
+---
+
+### 💬 ChatLogParser – Messaging Pattern Analyzer
+
+* Parsed chat logs using BufferedReader
+* Extracted timestamp, user, message via Regex
+* Stored messages using `TreeMap<String, List<String>>`
+* Filtered idle chat keywords
+* Supported generic filtering rules via interfaces
+
+---
+
+### 🎵 SongVault – Personal Music Library Manager
+
+* Read song files using IO Streams
+* Extracted metadata using Regex
+* Grouped songs by genre using Map
+* Listed unique artists using Set
+* Enabled filtering & sorting with Streams
+* Generic support for audio/video/podcast media
+
+---
+
+### 📝 ExamResultUploader – Bulk Marks Processing
+
+* Read CSV marksheets using BufferedReader
+* Validated records using Regex
+* Stored subject-wise marks in Map
+* Ranked toppers using PriorityQueue
+* Threw custom exceptions for invalid formats
+* Generic support for different exam types
+
+---
+
+### 🛒 DealTracker – E-Commerce Discount Validator
+
+* Parsed deal files using FileInputStream
+* Extracted discount & date using Regex
+* Filtered expired deals using LocalDate
+* Stored valid deals using Map & Set
+* Sorted deals using Comparator
+* Generic support for multiple promotion types
+
+---
+
+## 🛠️ JSON & CSV Processing (IO Streams)
+
+### 📂 JSON Practice & Transformations
+
+* Created JSON objects & arrays from Java objects
+* Parsed JSON and filtered records (age > 25)
+* Merged JSON objects/files
+* Validated JSON structure (Jackson / Schema)
+* Converted JSON ↔ XML
+* Converted CSV → JSON
+* Generated JSON reports from database records
+
+---
+
+### 🏏 IPL Censor Analyzer (JSON + CSV)
+
+* Read IPL match data from JSON & CSV
+* Applied censorship rules:
+
+  * Masked team names
+  * Redacted player of the match
+* Generated sanitized JSON & CSV outputs
+* Regex-based field validation and transformation
+
+---
+
+## 🔗 Code Links
+
+### 🔹 Java Collections – Scenario Systems
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/scenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/scenarioBasedQuestions/src/com)
+
+### 🔹 JSON Data Handling (IO Streams)
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/jsonDataHandling/src/jsonDataHandling](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/jsonDataHandling/src/jsonDataHandling)
+
+---
