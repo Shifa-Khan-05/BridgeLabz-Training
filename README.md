@@ -571,3 +571,88 @@ The focus was on **data processing pipelines**, **file-based systems**, and **sc
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/scenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/scenarioBasedQuestions/src/com)
 
 ---
+
+# 📘 BridgeLabz Training – Java Collections
+
+## 📘 Week 4 – Day 7: Scenario-Based Systems | Collections, IO, Regex & Generics
+
+On **Day 7 of Week 4**, I built **real-world, scenario-based Java applications** by integrating **Java Collections, I/O Streams, Regex, Generics, and Custom Exceptions**.
+The focus was on **file-driven data processing**, **categorization**, **validation**, and **scalable system design**.
+
+---
+
+## 🧠 Core Concepts Applied
+
+* **Java Collections** – List, Set, Map, TreeMap, PriorityQueue
+* **I/O Streams** – FileReader, BufferedReader, FileInputStream
+* **Regex** – Date validation, field extraction, format checks
+* **Generics** – Extensible, type-safe system design
+* **Custom Exceptions** – Domain-specific error handling
+* **Sorting & Filtering** – Comparator, TreeMap, Streams
+
+---
+
+## 🛠️ Scenario-Based Applications Implemented
+
+### 🏥 MedInventory – Smart Hospital Inventory Tracker
+
+* Read inventory CSV files using BufferedReader
+* Detected expired items using Regex (dd-MM-yyyy)
+* Categorized items using `Map<String, List<Item>>`
+* Removed duplicates using `Set<Item>` (ItemID-based)
+* Generic design for medicines, tools, supplies
+* Raised custom exceptions for critically low stock
+
+---
+
+### 💬 ChatLogParser – Messaging Pattern Analyzer
+
+* Parsed chat logs using BufferedReader
+* Extracted timestamp, user, message via Regex
+* Stored messages in `TreeMap<User, List<Message>>`
+* Filtered idle chat using keyword rules
+* Used generic `MessageFilter<T>` for flexible filtering
+
+---
+
+### 🎵 SongVault – Personal Music Library Manager
+
+* Read song metadata files using IO streams
+* Extracted fields using Regex
+* Stored songs in `List<Song>`
+* Grouped by genre using `Map<String, List<Song>>`
+* Listed unique artists using `Set<String>`
+* Enabled filtering & sorting via Java Streams
+* Generic support for audio, video, podcasts
+
+---
+
+### 📝 ExamResultUploader – Bulk Marks Processing
+
+* Read CSV marksheets using FileReader & BufferedReader
+* Validated format using Regex
+* Stored subject-wise marks using `Map<String, List<Integer>>`
+* Calculated top scorers using PriorityQueue
+* Generic support for different exam types
+* Threw custom exceptions for invalid data
+
+---
+
+### 🛒 DealTracker – E-Commerce Discount Validator
+
+* Parsed deal files using FileInputStream
+* Extracted dates & percentages via Regex
+* Filtered expired deals using `LocalDate`
+* Stored valid deals in `Map<String, Deal>`
+* Prevented duplicates using `Set<String>`
+* Sorted deals by discount using Comparator
+* Generic support for cashback & referral offers
+
+---
+
+
+## 🔗 Code Link – Scenario-Based Java Collections
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/scenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/scenarioBasedQuestions/src/com)
+
+---
