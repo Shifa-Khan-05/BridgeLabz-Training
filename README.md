@@ -83,3 +83,93 @@ The focus was on **reading, writing, validating, transforming, and securing CSV 
 👉 https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-iostreams-practice/gcr-codebase/csvDataHandling
 
 ---
+
+## 📘 Week 5 – Day 2: JSON Data Handling & File Transformation in Java
+
+On **Day 2 of Week 5**, I focused on **JSON data processing using Java IO Streams and Jackson**, working on **object–JSON conversion, validation, filtering, and format transformation**.
+The emphasis was on **real-world data workflows**, **data integrity**, and **multi-format processing (JSON, CSV, XML)**.
+
+---
+
+## 🧠 Core Concepts Applied
+
+* JSON parsing and generation using **Jackson**
+* Java Object ↔ JSON conversion
+* Reading and writing JSON files using IO Streams
+* Filtering and transforming JSON data
+* Schema-based validation
+* Cross-format conversion (JSON ↔ CSV ↔ XML)
+* Real-world data sanitization and reporting
+
+---
+
+## 🛠️ Practice Problems Implemented
+
+### 🔹 JSON Fundamentals
+
+* Created JSON objects (Student with subjects array)
+* Converted Java objects (Car, Student) to JSON
+* Read JSON files and extracted selective fields
+* Merged multiple JSON objects/files
+* Converted lists of Java objects into JSON arrays
+* Filtered records (e.g., age > 25)
+* Validated JSON structure and email fields
+
+---
+
+### 🔹 Advanced Data Processing
+
+* Printed all keys and values from JSON files
+* Generated JSON reports from database records
+* Converted CSV data into JSON
+* Converted JSON data into XML
+* Applied schema-based validation for structured data
+
+---
+
+## 🏏 Case Study: IPL Match Censor Analyzer
+
+### 📌 Problem Overview
+
+Built a **Java application** to read IPL match data from **JSON and CSV files**, apply **censorship rules**, and generate sanitized outputs.
+
+### 🔍 Censorship Rules Applied
+
+* Masked team names
+
+  * Example: `Mumbai Indians → Mumbai ***`
+* Redacted player names
+
+  * Example: `MS Dhoni → REDACTED`
+
+### 📤 Output
+
+* Generated **censored JSON files**
+* Generated **censored CSV files**
+* Preserved data structure while sanitizing sensitive fields
+
+### 🧠 Key Learnings from Case Study
+
+✔ Multi-format file handling (JSON + CSV)
+✔ Regex-based string masking
+✔ Safe data transformation and rewriting
+✔ Real-world compliance-style data processing
+
+---
+
+## 📌 Learning Outcomes
+
+✔ Strong understanding of JSON processing in Java
+✔ Hands-on experience with Jackson APIs
+✔ Built end-to-end data transformation pipelines
+✔ Learned to handle structured & semi-structured data
+✔ Improved confidence in real-world IOStream use cases
+
+---
+
+## 🔗 Code Link – JSON Data Handling (IO Streams)
+
+👉 **JSON Practice & Case Study Code:**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/jsonDataHandling/src/jsonDataHandling](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/jsonDataHandling/src/jsonDataHandling)
+
+---
