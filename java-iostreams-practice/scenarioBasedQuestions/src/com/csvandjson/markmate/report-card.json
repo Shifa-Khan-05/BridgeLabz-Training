@@ -1,0 +1,19 @@
+[ {
+  "rollNo" : 101,
+  "name" : "Ayesha",
+  "maths" : 85,
+  "science" : 78,
+  "english" : 90,
+  "total" : 253,
+  "average" : 84.33333333333333,
+  "grade" : "B"
+}, {
+  "rollNo" : 102,
+  "name" : "Rahul",
+  "maths" : 70,
+  "science" : 65,
+  "english" : 60,
+  "total" : 195,
+  "average" : 65.0,
+  "grade" : "C"
+} ]
