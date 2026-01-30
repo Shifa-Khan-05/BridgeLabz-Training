@@ -12,6 +12,8 @@ class Product {
         this.rating = rating;
         this.discount = discount;
     }
+    
+    
 
     @Override
     public String toString() {
