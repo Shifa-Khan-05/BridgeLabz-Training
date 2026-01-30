@@ -2629,3 +2629,78 @@ The focus was on **file-driven applications, data validation, transformation pip
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/jsonDataHandling/src/jsonDataHandling](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/jsonDataHandling/src/jsonDataHandling)
 
 ---
+
+## 📘 Week 6 – Day 1: Java 8 Features | Streams, Lambdas & Interfaces
+
+On **Day 1 of Week 6**, I practiced **core Java 8 features** through **real-world, scenario-based problems**.
+The focus was on **functional-style programming**, improving **readability, flexibility, and scalability** using modern Java constructs.
+
+---
+
+## 🧠 Core Java 8 Concepts Applied
+
+* **Stream API** – filter, map, sort, group, aggregate
+* **forEach()** – real-time iteration with lambdas
+* **Lambda Expressions** – behavior-driven logic
+* **Functional Interfaces** – Predicate, Function, Runnable
+* **Interface Enhancements** – default & static methods
+* **Marker Interfaces** – tagging behavior
+* **Method References** – cleaner functional syntax
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 🔹 Stream API Use Cases
+
+* Top 5 trending movies (rating & year)
+* Doctor availability filtering & sorting
+* Insurance claim analysis with grouping & averaging
+* Filtering expiring gym memberships
+* Transforming & sorting customer names
+
+---
+
+### 🔁 forEach() Operations
+
+* Stock price logging
+* Attendee welcome messages
+* IoT sensor threshold alerts
+* Email notifications
+* Transaction logging with timestamps
+
+---
+
+### 🧩 Interfaces & Functional Programming
+
+* Smart device control & vehicle rental systems
+* Digital payment abstraction
+* Temperature alerts, string checks, background jobs
+
+---
+
+### ⚙️ Interface Enhancements
+
+* **Static methods**: password validation, unit conversion, date formatting
+* **Default methods**: refunds, JSON export, vehicle dashboard extensions
+
+---
+
+### 🏷️ Marker Interfaces
+
+* Serializable backups
+* Object cloning
+* Sensitive data tagging for encryption
+
+---
+
+## 🔗 Code Links – Java 8 Practice
+
+👉 **Stream API**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8ProgrammingPractice/src/com/streamapi](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8ProgrammingPractice/src/com/streamapi)
+
+👉 **Lambdas & Java 8 Features**
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8ProgrammingPractice/src/com/lambdaexpression](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8ProgrammingPractice/src/com/lambdaexpression)
+
+---
+
