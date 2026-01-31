@@ -2704,3 +2704,49 @@ The focus was on **functional-style programming**, improving **readability, flex
 
 ---
 
+## 📘 Week 6 – Day 2: Java Collections, Java 8 & IO Streams | Real-World Problem Solving
+
+On **Day 2 of Week 6**, I worked on **real-world, scenario-based problems** using **Java Collections**, **Java 8 features**, and **IO Streams**.
+The focus was on **data processing, functional programming, and clean logic design**.
+
+---
+
+## 🧠 Key Areas Covered
+
+* **Java Collections**
+
+  * Advanced string processing (**Lexical Twist**)
+  * Use of `List`, `Set`, and `Map` for decision-based logic
+* **Java 8 Programming**
+
+  * Stream API & Collectors for grouping, aggregation, and analysis
+  * Functional programming with lambdas and method references
+* **IO Streams**
+
+  * File-based data handling and structured processing
+* **Problem Solving**
+
+  * Input validation
+  * Conditional transformations
+  * Clean, readable implementation
+
+---
+
+## 🛠️ Highlights
+
+* Implemented **Lexical Twist** with validations and character analysis
+* Practiced **Collectors** for grouping, averaging, summarizing data
+* Applied **Streams & Lambdas** for concise, expressive logic
+* Strengthened **real-world coding patterns**
+
+---
+
+## 🔗 Code Links
+
+* **Lexical Twist (Collections)**
+  👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/advancedquestion/lexicaltwist](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/advancedquestion/lexicaltwist)
+
+* **Java 8 Collectors Practice**
+  👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8ProgrammingPractice/src/com/collectors](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8ProgrammingPractice/src/com/collectors)
+
+---
