@@ -656,3 +656,53 @@ The focus was on **file-driven data processing**, **categorization**, **validati
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/scenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/scenarioBasedQuestions/src/com)
 
 ---
+
+## 📘 Week 4 – Day 8: Lexical Twist | Advanced String Processing in Java
+
+On this day, I implemented **Lexical Twist**, a **scenario-based string manipulation problem** focusing on **reversal logic, transformations, character analysis, and validations**.
+The task emphasized **clean conditional handling**, **string operations**, and **robust input validation**.
+
+---
+
+## 🧠 Concepts Applied
+
+* String reversal & case-insensitive comparison
+* Character replacement & transformation
+* Vowel vs consonant counting
+* Duplicate removal while preserving order
+* Input validation (single-word constraint)
+* Graceful program termination (no `System.exit(0)`)
+
+---
+
+## 🛠️ Problem Flow
+
+### ✅ If second word is the reverse of the first
+
+* Reverse first word
+* Convert to lowercase
+* Replace vowels (`a, e, i, o, u`) with `@`
+* Print transformed result
+
+---
+
+### ✅ If second word is NOT the reverse
+
+* Combine both words and convert to uppercase
+* Count vowels and consonants
+* Output based on counts:
+
+  * More vowels → first 2 unique vowels
+  * More consonants → first 2 unique consonants
+  * Equal →
+
+    ```
+    Vowels and consonants are equal
+    ```
+---
+
+## 🔗 Code Link – Lexical Twist
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/advancedquestion/lexicaltwist](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/advancedquestion/lexicaltwist)
+
+---
