@@ -100,3 +100,89 @@ The focus was on **Stream API**, **lambda expressions**, **functional interfaces
 ✔ Built real-world, behavior-driven solutions
 
 ---
+
+## 📘 Week 6 – Day 2: Stream Collectors | Grouping, Aggregation & Statistics in Java
+
+On **Day 2 of Week 6**, I focused on **Java Stream Collectors** to perform **grouping, aggregation, summarization, and statistical analysis** on collections.
+The emphasis was on **data transformation**, **insight generation**, and **clean functional-style aggregation logic** using Java 8.
+
+---
+
+## 🧠 Java Collectors Concepts Applied
+
+* `Collectors.groupingBy()` – grouping elements by keys
+* `Collectors.toMap()` – building maps from streams
+* `Collectors.summingDouble()` – numerical aggregation
+* `Collectors.averagingDouble()` – average calculations
+* `Collectors.summarizingInt()` – min, max, sum, count, average
+* Functional pipelines using **Stream + Collectors**
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 🎓 Student Result Grouping
+
+**Scenario:**
+Group students by grade level and collect student names.
+
+**Implementation:**
+
+* Grouped students using `Collectors.groupingBy()`
+* Generated `Map<Grade, List<StudentName>>`
+
+---
+
+### 📊 Word Frequency Counter
+
+**Scenario:**
+Analyze a paragraph to count word occurrences.
+
+**Implementation:**
+
+* Used `Collectors.toMap()` to build frequency map
+* Handled duplicate words with merge logic
+* Produced `Map<String, Integer>`
+
+---
+
+### 💰 Order Revenue Summary
+
+**Scenario:**
+Calculate total revenue generated per customer.
+
+**Implementation:**
+
+* Aggregated order totals using `Collectors.summingDouble()`
+* Generated customer-wise revenue report
+
+---
+
+### 🏢 Employee Salary Categorization
+
+**Scenario:**
+Group employees by department and calculate **average salary**.
+
+---
+
+### 📚 Library Book Statistics
+
+**Scenario:**
+Analyze books by genre to get reading statistics.
+
+**Implementation:**
+
+* Used `Collectors.summarizingInt()` to compute:
+
+  * Total pages
+  * Average pages
+  * Maximum pages
+* Generated genre-wise statistics summary
+
+---
+
+## 🔗 Code Link – Stream Collectors Practice
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8ProgrammingPractice/src/com/collectors](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8ProgrammingPractice/src/com/collectors)
+
+---
