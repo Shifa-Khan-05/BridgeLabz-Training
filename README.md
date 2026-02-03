@@ -2823,3 +2823,51 @@ The focus was on **functional programming**, **data filtering**, **sorting**, **
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenarioBasedQuestions/src/com)
 
 ---
+
+## 📘 Week 6 – Day 4: Java 8 Features | Smart City Transport & Service Management System
+
+On **Day 4 of Week 6**, I implemented a **Smart City Transport & Service Management System** using **Java 8 features**.
+The focus was on **functional programming**, **stream-based data processing**, and **extensible interface-driven design** to model a real-world smart city solution.
+
+---
+
+## 🧠 Java 8 Concepts Applied
+
+* **Lambda Expressions** – filtering and sorting transport services
+* **Stream API** – grouping passengers, revenue analysis, route usage
+* **Collectors** – `groupingBy`, `partitioningBy`, `summarizingDouble`
+* **forEach()** – real-time dashboard updates
+* **Functional Interfaces** – fare calculation using lambdas
+* **Default Methods** – shared behavior across transport services
+* **Static Interface Methods** – distance calculation utilities
+* **Marker Interfaces** – emergency service prioritization
+* **Method References** – logging and service display
+
+---
+
+## 🛠️ Scenario Implemented
+
+### 🚍 Smart City Transport & Service Management System
+
+**Services Modeled:**
+
+* Bus
+* Metro
+* Taxi
+* EV Charging (extensible to Ferry, Bike Rentals)
+
+**Key Capabilities:**
+
+* Filter and sort transport options dynamically
+* Display live schedules on dashboards
+* Group and summarize passenger & revenue data
+* Prioritize emergency services
+* Easily extend system with new transport types
+
+---
+
+## 🔗 Code Link – Java 8 Smart City System
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenarioBasedQuestions/src/com/workshop/smartcitytransport](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenarioBasedQuestions/src/com/workshop/smartcitytransport)
+
+---
