@@ -186,3 +186,91 @@ Analyze books by genre to get reading statistics.
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8ProgrammingPractice/src/com/collectors](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8ProgrammingPractice/src/com/collectors)
 
 ---
+
+## 📘 Week 6 – Day 3: Lambda Expressions & Stream API | Real-Time Scenarios
+
+On **Day 3 of Week 6**, I practiced **Java 8 functional programming** by solving **real-time, scenario-based problems** using **Lambda Expressions** and the **Stream API**.
+The focus was on **clean functional logic, data filtering, sorting, grouping, and aggregation**.
+
+---
+
+## 🧠 Core Java 8 Concepts Applied
+
+* **Lambda Expressions**
+* **Stream API**
+* **Functional Interfaces**
+* **Filtering, Mapping & Sorting**
+* **Grouping & Aggregation**
+* **Min / Max & Ranking operations**
+* **FlatMap & Collection processing**
+* **Matching & Conditional checks**
+
+---
+
+## 🛠️ Scenario-Based Implementations
+
+### 🎓 Student / School System
+
+* Pass/fail checks, sorting by rank & name
+* Age-based filtering
+* Department, city, and gender analysis
+* Ranking (top, bottom, even/odd ranks)
+* Grouping, averaging, partitioning
+* Contact handling using `flatMap`
+
+---
+
+### 🧑‍💼 Employee / Office System
+
+* Bonus calculation & promotion eligibility
+* Salary-based filtering and ranking
+* Gender & department-wise analytics
+* Experience, joining year, and pay analysis
+* Highest / lowest / top-N salary queries
+
+---
+
+### 🛒 Shopping / E-Commerce
+
+* Discount application
+* Price-based sorting
+* Free delivery eligibility
+* Final bill calculation
+* Product display using lambdas
+
+---
+
+### 🏦 Banking / Finance
+
+* Minimum balance validation
+* Interest calculation
+* Withdrawal validation
+* Balance comparison
+* Account data processing
+
+---
+
+### ⚙️ System & Utility Tasks
+
+* Runnable tasks using lambdas
+* Even/odd checks
+* Mathematical operations
+* List processing using `forEach`
+
+---
+
+## 🔗 Code Link – Java 8 Scenario-Based Practice
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenarioBasedQuestions/src/com)
+
+---
+
+## 📌 Learning Outcomes
+
+✔ Strong command over Lambda Expressions
+✔ Real-world Stream API problem solving
+✔ Advanced filtering, grouping & ranking
+✔ Clean functional-style Java coding
+✔ Interview-ready Java 8 practice
+
+---
