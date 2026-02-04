@@ -1,0 +1,86 @@
+
+'========================
+' USER (FACTORY PATTERN)
+'========================
+interface User {
+    +functionality()
+}
+
+class Student
+class Faculty
+class Librarian
+
+User <|-- Student
+User <|-- Faculty
+User <|-- Librarian
+
+class UserFactory {
+    +createUser(role : String) : User
+}
+
+UserFactory --> User : creates
+
+'========================
+' OBSERVER PATTERN
+'========================
+interface Observer {
+    +update(bookTitle : String)
+}
+
+class StudentObserver {
+    -name : String
+    +update(bookTitle : String)
+}
+
+class FacultyObserver {
+    -name : String
+    +update(bookTitle : String)
+}
+
+Observer <|-- StudentObserver
+Observer <|-- FacultyObserver
+
+'========================
+' SINGLETON PATTERN
+'========================
+class LibraryCatalog {
+    -instance : LibraryCatalog
+    -books : List<Book>
+    -observers : List<Observer>
+    -LibraryCatalog()
+    +getInstance() : LibraryCatalog
+    +addBook(book : Book)
+    +registerObserver(observer : Observer)
+    +notifyObservers(bookTitle : String)
+}
+
+LibraryCatalog --> Observer : notifies
+
+'========================
+' BUILDER PATTERN
+'========================
+class Book {
+    -title : String
+    -authors : List<String>
+    -edition : String
+    -genre : String
+    -publisher : String
+}
+
+class BookBuilder {
+    -title : String
+    -authors : List<String>
+    -edition : String
+    -genre : String
+    -publisher : String
+    +BookBuilder(title : String)
+    +authors(authors : List<String>) : BookBuilder
+    +edition(edition : String) : BookBuilder
+    +genre(genre : String) : BookBuilder
+    +publisher(publisher : String) : BookBuilder
+    +build() : Book
+}
+
+BookBuilder --> Book : builds
+LibraryCatalog --> Book : contains
+3
