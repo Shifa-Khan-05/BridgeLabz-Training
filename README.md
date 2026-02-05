@@ -2947,3 +2947,87 @@ The focus was on **scalability, consistency, loose coupling, and extensibility**
 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-design-patterns-practice/java-design-patterns-practice/gcr-codebase/javaDesignPatternsConcept/src/com/smartuniversitymanagementsystem](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-design-patterns-practice/java-design-patterns-practice/gcr-codebase/javaDesignPatternsConcept/src/com/smartuniversitymanagementsystem)
 
 ---
+
+Here’s a **clean, concise, GitHub-ready Day README.md** for your **Multithreading branch**, trimmed for clarity and professionalism, followed by a **commit message**.
+
+---
+
+# 📘 BridgeLabz Training – Java Multithreading
+
+## 📘 Week 7 – Day 2: Java Multithreading | Threads, Lifecycle & Concurrency
+
+On this day, I focused on **core Java Multithreading concepts** by building **real-world, scenario-based concurrent systems**.
+The emphasis was on **thread creation techniques, thread lifecycle & states, thread coordination**, and **practical concurrency challenges**.
+
+---
+
+## 🧠 Concepts Covered
+
+* Multithreading fundamentals & benefits
+* **Thread creation approaches**
+
+  * Extending `Thread`
+  * Implementing `Runnable`
+  * Lambda-based threads (Java 8+)
+* **Thread lifecycle & states**
+
+  * NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, TERMINATED
+* Core thread methods:
+
+  * `start()`, `run()`, `sleep()`, `join()`, `setPriority()`
+* Thread priorities & scheduling
+* Shared resources & race condition awareness
+
+---
+
+## 🛠️ Practice Problems Implemented
+
+### 📥 Download Manager
+
+* Multiple file downloads running concurrently
+* Progress tracking (0–100%)
+* Thread naming & `join()` for completion control
+
+### 🏦 Banking System – Concurrent Transactions
+
+* Multiple withdrawal threads on shared account
+* Displayed success/failure with balance updates
+* Demonstrated need for synchronization
+
+### 🍽️ Restaurant Order Processing
+
+* Multiple chefs preparing dishes in parallel
+* Progress updates (25% → 100%)
+* Manager waits using `join()`
+
+### 📊 Thread State Monitoring System
+
+* Live monitoring of thread states
+* Demonstrated NEW → RUNNABLE → TIMED_WAITING → TERMINATED
+* Timestamped state transitions
+
+### 🖨️ Print Shop Job Scheduler
+
+* Concurrent print jobs with priorities
+* Simulated print time per page
+* Observed priority-based execution behavior
+
+---
+
+## 📌 Key Learnings
+
+✔ Understood thread lifecycle & state transitions
+✔ Practiced Thread vs Runnable usage
+✔ Learned thread coordination using `join()`
+✔ Observed race conditions & concurrency issues
+✔ Built real-world concurrent simulations
+
+---
+
+## 🛠 Tools & Tech
+
+* **Java (Multithreading)**
+* **Eclipse IDE**
+* **Git & GitHub**
+
+---
