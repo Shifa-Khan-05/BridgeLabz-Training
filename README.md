@@ -274,3 +274,65 @@ The focus was on **clean functional logic, data filtering, sorting, grouping, an
 ✔ Interview-ready Java 8 practice
 
 ---
+
+## 📘 Week 6 – Day 4: Java 8 Features | Smart City Transport & Service Management System
+
+On **Day 4 of Week 6**, I designed a **Smart City Transport & Service Management System** using **modern Java 8 features**.
+The focus was on **functional programming, interface enhancements, stream-based data processing**, and **extensible system design**.
+
+---
+
+## 🧠 Java 8 Features Applied
+
+* **Lambda Expressions** – filtering & sorting transport schedules
+* **Method References** – logging, printing services, utility calls
+* **Stream API** – grouping passengers, revenue aggregation, top routes
+* **forEach()** – real-time dashboard updates
+* **Collectors**:
+
+  * `groupingBy()` – passengers by route
+  * `partitioningBy()` – peak vs non-peak trips
+  * `summarizingDouble()` – fare statistics
+* **Functional Interfaces** – `FareCalculator` implemented via lambdas
+* **Default Methods** – shared service behavior in interfaces
+* **Static Interface Methods** – distance calculation utilities
+* **Marker Interfaces** – emergency service prioritization
+
+---
+
+## 🛠️ Scenario-Based System Implemented
+
+### 🚍 Smart City Transport & Service Management System
+
+**Services Supported:**
+
+* Bus
+* Metro
+* Taxi
+* EV Charging (extensible to Ferry, Bike Rental)
+
+**Design Highlights:**
+
+* `TransportService` interface with default methods
+* Implementations: `BusService`, `MetroService`, `TaxiService`
+* `GeoUtils` static methods for distance calculation
+* Emergency services detected using marker interface
+* Clean extension without modifying existing code
+
+---
+
+## 🔁 Real-Time Flow
+
+1. Passenger books a trip → Lambdas filter & sort services
+2. Live dashboard updates → `forEach()` displays schedules
+3. Revenue reports generated → Collectors summarize data
+4. New service added → Implement interfaces only
+5. Emergency detected → Marker interface prioritizes service
+
+---
+
+## 🔗 Code Link – Smart City Transport System
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenarioBasedQuestions/src/com/workshop/smartcitytransport](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenarioBasedQuestions/src/com/workshop/smartcitytransport)
+
+---
