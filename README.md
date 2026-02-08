@@ -336,3 +336,98 @@ The focus was on **functional programming, interface enhancements, stream-based 
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenarioBasedQuestions/src/com/workshop/smartcitytransport](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenarioBasedQuestions/src/com/workshop/smartcitytransport)
 
 ---
+
+## 📘 Week 6 – Day 5: Java 8 Stream API | Collection Conversions & Logical Problems
+
+On this day, I solved **advanced Java 8 scenario-based problems** using **Stream API only**.
+The focus was on **data transformation, collection conversions, frequency analysis, filtering, grouping, and real-world logical problems**.
+
+---
+
+## 🧠 Key Java 8 Concepts Used
+
+* **Stream API**
+* **map, filter, flatMap**
+* **Collectors (groupingBy, counting, toMap, partitioningBy)**
+* **Optional & Stream conversions**
+* **Functional-style problem solving**
+* **Immutable & readable data pipelines**
+
+---
+
+## 🔄 Collection Conversion Scenarios
+
+### 🔹 List → Map
+
+* Element → length / square mapping
+* Employee list → id/name mapping
+* Word → frequency mapping
+* Handling duplicate keys (first / last)
+* Grouping elements by string length
+
+### 🔹 Map → List
+
+* Keys, values, entries extraction
+* Sorted lists by key/value
+* Conversion to DTOs & custom objects
+
+### 🔹 List ↔ Set
+
+* Remove duplicates
+* Preserve insertion order
+* Sorted sets
+* Conditional filtering before conversion
+
+### 🔹 Array ↔ Collection
+
+* Array → List / Set
+* Primitive → Wrapper conversion
+* 2D array → flat list
+* Array → Map conversions
+
+### 🔹 Object Collection Transformations
+
+* Employee → department/group maps
+* Nested object flattening
+* Aggregation (salary, orders, totals)
+
+---
+
+## 🔤 String & Character Stream Problems
+
+* Character & word frequency count
+* First / all non-repeating characters
+* Remove duplicates & unwanted characters
+* Extract only digits / alphabets
+* Clean and transform strings using streams
+
+---
+
+## 🧮 Java 8 Logical & Scenario Questions
+
+* Vowel & word counting
+* Even / odd partitioning
+* Sorting & ranking (top N, kth element)
+* Max / min / second highest
+* Grouping strings by length
+* Flattening nested collections
+* Map sorting by value
+* Real-world employee & student stream queries
+
+---
+
+## 📌 Learning Outcomes
+
+✔ Mastered **Java 8 Stream-only problem solving**
+✔ Strong grip on **collection transformations**
+✔ Improved **functional programming mindset**
+✔ Wrote clean, readable, and scalable stream pipelines
+✔ Prepared **interview-ready Java 8 logic**
+
+---
+
+## 🔗 Code Link – Java 8 Scenario-Based Practice
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenarioBasedQuestions/src/com)
+
+---
