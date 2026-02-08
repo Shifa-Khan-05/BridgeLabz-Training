@@ -3031,3 +3031,95 @@ The emphasis was on **thread creation techniques, thread lifecycle & states, thr
 * **Git & GitHub**
 
 ---
+
+## 📘 Week 8 – Day 1: Multithreading, Java 8 Streams & MySQL JDBC Integration
+
+On **Week 6 – Day 2**, I worked across **three core backend pillars** of Java development:
+**Multithreading**, **Java 8 functional programming**, and **MySQL JDBC-based database applications**.
+The focus was on **concurrency, functional data processing, and persistent data management** using real-world scenarios.
+
+---
+
+## 🧵 Multi-Threading in Java
+
+**Concepts Covered:**
+
+* Creating threads using **Thread class** and **Runnable interface**
+* Thread lifecycle & states (NEW, RUNNABLE, WAITING, TIMED_WAITING, TERMINATED)
+* Core thread methods: `start()`, `run()`, `sleep()`, `join()`, `setPriority()`
+* Thread naming and monitoring
+
+**Scenario-Based Problems:**
+
+* Download Manager (parallel file downloads)
+* Banking system with concurrent withdrawals
+* Restaurant order processing with multiple chefs
+* Thread state monitoring system
+* Print shop job scheduler with priorities
+
+---
+
+## ☕ Java 8 Programming (Streams & Lambdas)
+
+**Key Areas Practiced:**
+
+* Stream API filtering, mapping, sorting, grouping & aggregation
+* List ↔ Map ↔ Set ↔ Array conversions
+* Character & word frequency problems using streams
+* Functional programming with **lambdas**
+* Real-time scenario-based queries on Students & Employees
+
+**Highlights:**
+
+* Complex grouping and ranking using `Collectors`
+* Partitioning, flatMap, min/max, and advanced filtering
+* Clean, expressive, stream-only solutions
+
+---
+
+## 🗄 MySQL JDBC Practice
+
+**Applications Built:**
+
+* **Employee Management System (CRUD)**
+
+  * Add, view, update, delete, search employees
+* **Banking System with Transaction Management**
+
+  * Money transfer using JDBC transactions
+  * Balance check & transaction history
+* **Library Management System**
+
+  * Book inventory
+  * Student borrowing records
+  * Fine calculation
+  * Multi-filter search functionality
+
+---
+
+## 🔗 Code Links
+
+### 🔹 Multithreading
+
+👉 *Branch:* `multithreading-practice`
+
+### 🔹 Java 8 Practice
+
+👉 *Scenario-Based Streams & Lambdas:*
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenarioBasedQuestions/src/com](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenarioBasedQuestions/src/com)
+
+### 🔹 MySQL JDBC
+
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice)
+
+---
+
+## 📌 Learning Outcomes
+
+✔ Built concurrent systems using Java threads
+✔ Mastered Java 8 stream-based data processing
+✔ Applied JDBC for real-world database applications
+✔ Understood transaction safety & consistency
+✔ Strengthened backend problem-solving skills
+
+---
