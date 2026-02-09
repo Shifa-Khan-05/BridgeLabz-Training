@@ -24,7 +24,7 @@ INSERT INTO payment_transactions (bill_id, payment_date, payment_mode)
 VALUES (1, CURDATE(), 'CASH');
 
 COMMIT;
-
+//show table 
  select * from bills;
 +---------+----------+--------------+----------------+------------+
 | bill_id | visit_id | total_amount | payment_status | bill_date  |
