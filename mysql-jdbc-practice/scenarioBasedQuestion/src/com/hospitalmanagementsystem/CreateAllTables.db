@@ -1,0 +1,97 @@
+ 
+ //===Create DATABASE=====
+
+create DATABASE Patient_Management_System;
+ use Patient_Management_System;
+ 
+ //=====Create patient Table========
+ 
+//=====Insert patients in the Patient Table=========   
+CREATE TABLE patients (
+    patient_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    dob DATE,
+    phone VARCHAR(15) UNIQUE,
+    email VARCHAR(50) UNIQUE,
+    address VARCHAR(100),
+    blood_group VARCHAR(5)
+);
+     INSERT INTO patients (name,dob,phone,email,address,blood_group)
+    -> VALUES ('Shifa','2005-05-05','123456789','shifa@gmail.com','Bhopal','A+');
+
+ INSERT INTO patients (name,dob,phone,email,address,blood_group)
+    -> VALUES ('Aliya','2007-01-26','125556789','aliya@gmail.com','Panna','A+');
+
+
+
+CREATE TABLE specialties (
+    specialty_id INT AUTO_INCREMENT PRIMARY KEY,
+    specialty_name VARCHAR(50)
+);
+
+CREATE TABLE doctors (
+    doctor_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    contact VARCHAR(15),
+    consultation_fee DECIMAL(10,2),
+    specialty_id INT,
+    is_active BOOLEAN DEFAULT TRUE,
+    FOREIGN KEY (specialty_id) REFERENCES specialties(specialty_id)
+);
+
+
+CREATE TABLE appointments (
+    appointment_id INT AUTO_INCREMENT PRIMARY KEY,
+    patient_id INT,
+    doctor_id INT,
+    appointment_date DATE,
+    appointment_time TIME,
+    status VARCHAR(20),
+    FOREIGN KEY (patient_id) REFERENCES patients(patient_id),
+    FOREIGN KEY (doctor_id) REFERENCES doctors(doctor_id)
+);
+
+CREATE TABLE visits (
+    visit_id INT AUTO_INCREMENT PRIMARY KEY,
+    appointment_id INT,
+    diagnosis VARCHAR(200),
+    notes VARCHAR(200),
+    visit_date DATE,
+    FOREIGN KEY (appointment_id) REFERENCES appointments(appointment_id)
+);
+
+CREATE TABLE prescriptions (
+    prescription_id INT AUTO_INCREMENT PRIMARY KEY,
+    visit_id INT,
+    medicine_name VARCHAR(50),
+    dosage VARCHAR(20),
+    duration VARCHAR(20),
+    FOREIGN KEY (visit_id) REFERENCES visits(visit_id)
+);
+
+
+CREATE TABLE bills (
+    bill_id INT AUTO_INCREMENT PRIMARY KEY,
+    visit_id INT,
+    total_amount DECIMAL(10,2),
+    payment_status VARCHAR(20),
+    bill_date DATE,
+    FOREIGN KEY (visit_id) REFERENCES visits(visit_id)
+);
+
+CREATE TABLE payment_transactions (
+    payment_id INT AUTO_INCREMENT PRIMARY KEY,
+    bill_id INT,
+    payment_date DATE,
+    payment_mode VARCHAR(20),
+    FOREIGN KEY (bill_id) REFERENCES bills(bill_id)
+);
+
+
+CREATE TABLE audit_log (
+    log_id INT AUTO_INCREMENT PRIMARY KEY,
+    table_name VARCHAR(50),
+    operation VARCHAR(20),
+    action_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+

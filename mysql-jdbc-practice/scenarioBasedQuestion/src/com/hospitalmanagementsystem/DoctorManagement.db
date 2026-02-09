@@ -1,0 +1,6 @@
+/*
+UC-2.1: Add Doctor Profile
+
+Actor: Administrator
+Flow: Input doctor details (name, specialization, contact, consultation fee). Insert into doctors table with foreign key reference to specialties table.
+*/

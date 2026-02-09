@@ -1,0 +1,41 @@
+//======UC-1.1: Register New Patient=========
+ INSERT INTO patients (name,dob,phone,email,address,blood_group)
+    -> VALUES ('Asma','2009-03-16','1255789889','asma@gmail.com','Panna','B+');
+    
+    
+ //=========Patient Table==============   
+ select * from patients;
++------------+-------+------------+------------+-----------------+---------+-------------+
+| patient_id | name  | dob        | phone      | email           | address | blood_group |
++------------+-------+------------+------------+-----------------+---------+-------------+
+|          1 | Shifa | 2005-05-05 | 123456789  | shifa@gmail.com | Bhopal  | A+          |
+|          2 | Aliya | 2007-01-26 | 125556789  | aliya@gmail.com | Panna   | A+          |
+|          3 | Asma  | 2009-03-16 | 1255789889 | asma@gmail.com  | Panna   | B+          |
++------------+-------+------------+------------+-----------------+---------+-------------+
+
+
+//====================UC-1.2: Update Patient Information===================
+ update patients
+    -> set phone = 9893785201
+    -> where patient_id=3;
+    select * from patients;
++------------+-------+------------+------------+-----------------+---------+-------------+
+| patient_id | name  | dob        | phone      | email           | address | blood_group |
++------------+-------+------------+------------+-----------------+---------+-------------+
+|          1 | Shifa | 2005-05-05 | 123456789  | shifa@gmail.com | Bhopal  | A+          |
+|          2 | Aliya | 2007-01-26 | 125556789  | aliya@gmail.com | Panna   | A+          |
+|          3 | Asma  | 2009-03-16 | 9893785201 | asma@gmail.com  | Panna   | B+          |
++------------+-------+------------+------------+-----------------+---------+-------------+
+
+
+//============UC-1.3: Search Patient Records======================
+select * from patients
+    -> where name LIKE '%Ali%' OR patient_id =2 OR phone ='125556789';
++------------+-------+------------+-----------+-----------------+---------+-------------+
+| patient_id | name  | dob        | phone     | email           | address | blood_group |
++------------+-------+------------+-----------+-----------------+---------+-------------+
+|          2 | Aliya | 2007-01-26 | 125556789 | aliya@gmail.com | Panna   | A+          |
++------------+-------+------------+-----------+-----------------+---------+-------------+
+
+
+
