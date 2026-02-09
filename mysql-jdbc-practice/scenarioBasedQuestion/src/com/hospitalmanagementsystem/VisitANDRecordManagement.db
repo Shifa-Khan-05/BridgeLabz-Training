@@ -1,0 +1,62 @@
+//======================================UC-4.1: Record Patient Visit==================================
+START TRANSACTION;
+
+INSERT INTO visits (appointment_id, diagnosis, notes, visit_date)
+VALUES (1, 'Fever', 'Prescribed medicines', CURDATE());
+
+UPDATE appointments
+SET status = 'COMPLETED'
+WHERE appointment_id = 1;
+
+COMMIT;
+
+ select * from visits;
++----------+----------------+-----------+----------------------+------------+
+| visit_id | appointment_id | diagnosis | notes                | visit_date |
++----------+----------------+-----------+----------------------+------------+
+|        1 |              1 | Fever     | Prescribed rest      | 2026-02-09 |
+|        2 |              2 | Headache  | MRI advised          | 2026-02-09 |
+|        3 |              1 | Fever     | Prescribed medicines | 2026-02-09 |
++----------+----------------+-----------+----------------------+------------+
+3 rows in set (0.00 sec)
+
+//==================================================UC-4.2: View Patient Medical History================================
+
+SELECT
+    ->     v.visit_date,
+    ->     v.diagnosis,
+    ->     pr.medicine_name
+    -> FROM visits v
+    -> JOIN prescriptions pr ON v.visit_id = pr.visit_id
+    -> JOIN appointments a ON v.appointment_id = a.appointment_id
+    -> WHERE a.patient_id = 1
+    -> ORDER BY v.visit_date DESC;
++------------+-----------+---------------+
+| visit_date | diagnosis | medicine_name |
++------------+-----------+---------------+
+| 2026-02-09 | Fever     | Paracetamol   |
+| 2026-02-09 | Fever     | Cetrizine     |
+| 2026-02-09 | Fever     | Paracetamol   |
+| 2026-02-09 | Fever     | Cetrizine     |
++------------+-----------+---------------+
+
+
+//===============================================================UC-4.3: Add Prescription Details==============================
+INSERT INTO prescriptions (visit_id, medicine_name, dosage, duration)
+VALUES
+(1, 'Paracetamol', '500mg', '5 days'),
+(1, 'Cetrizine', '10mg', '3 days');
+
+ select * from prescriptions;
++-----------------+----------+---------------+--------+----------+
+| prescription_id | visit_id | medicine_name | dosage | duration |
++-----------------+----------+---------------+--------+----------+
+|               1 |        1 | Paracetamol   | 500mg  | 5 days   |
+|               2 |        1 | Cetrizine     | 10mg   | 3 days   |
+|               3 |        2 | Painkiller    | 250mg  | 5 days   |
+|               4 |        1 | Paracetamol   | 500mg  | 5 days   |
+|               5 |        1 | Cetrizine     | 10mg   | 3 days   |
+|               6 |        2 | Painkiller    | 250mg  | 5 days   |
+|               7 |        1 | Paracetamol   | 500mg  | 5 days   |
+|               8 |        1 | Cetrizine     | 10mg   | 3 days   |
++-----------------+----------+---------------+--------+----------+

@@ -4,3 +4,80 @@ UC-2.1: Add Doctor Profile
 Actor: Administrator
 Flow: Input doctor details (name, specialization, contact, consultation fee). Insert into doctors table with foreign key reference to specialties table.
 */
+
+INSERT INTO doctors (name, contact, consultation_fee, specialty_id)
+VALUES ('Dr. Khan', '8887776665', 500, 3);
+select * from doctors;
++-----------+-----------+------------+------------------+--------------+-----------+
+| doctor_id | name      | contact    | consultation_fee | specialty_id | is_active |
++-----------+-----------+------------+------------------+--------------+-----------+
+|         1 | Dr. Mehta | 8887776665 |           500.00 |            1 |         1 |
+|         2 | Dr. Singh | 9998887776 |           700.00 |            2 |         1 |
+|         3 | Dr. Patel | 7776665554 |           600.00 |            3 |         1 |
+|         4 | Dr. Khan  | 8887776665 |           500.00 |            3 |         1 |
++-----------+-----------+------------+------------------+--------------+-----------+
+
+
+//========================UC-2.2: Assign/Update Doctor Specialty
+Actor: Administrator
+Flow: Display available specialties from lookup table, update doctor's specialty_id using UPDATE statement with transaction to maintain referential integrity.======
+
+ START TRANSACTION;
+
+     UPDATE doctors
+    -> SET specialty_id = 2
+    -> WHERE doctor_id = 1;
+
+
+COMMIT;
+select * from doctors;
++-----------+-----------+------------+------------------+--------------+-----------+
+| doctor_id | name      | contact    | consultation_fee | specialty_id | is_active |
++-----------+-----------+------------+------------------+--------------+-----------+
+|         1 | Dr. Mehta | 8887776665 |           500.00 |            2 |         1 |
+|         2 | Dr. Singh | 9998887776 |           700.00 |            2 |         1 |
+|         3 | Dr. Patel | 7776665554 |           600.00 |            3 |         1 |
+|         4 | Dr. Khan  | 8887776665 |           500.00 |            3 |         1 |
++-----------+-----------+------------+------------------+--------------+-----------+
+
+
+//==============UC-2.3: View Doctors by Specialty=====================
+ SELECT d.name, s.specialty_name
+    -> FROM doctors d
+    -> JOIN specialties s ON d.specialty_id = s.specialty_id
+    -> WHERE s.specialty_name = 'Cardiology';
+outpy--->Empty set (0.00 sec)
+
+
+//=================================UC-2.4: Deactivate Doctor Profile=========================
+
+ UPDATE doctors
+    -> SET is_active = FALSE
+    -> WHERE doctor_id = 1
+    -> AND doctor_id NOT IN (
+    ->     SELECT doctor_id FROM appointments
+    ->     WHERE appointment_date >= CURDATE()
+    -> );
+Query OK, 0 rows affected (0.01 sec)
+Rows matched: 0  Changed: 0  Warnings: 0
+
+mysql> select * from doctors;
++-----------+-----------+------------+------------------+--------------+-----------+
+| doctor_id | name      | contact    | consultation_fee | specialty_id | is_active |
++-----------+-----------+------------+------------------+--------------+-----------+
+|         1 | Dr. Mehta | 8887776665 |           500.00 |            2 |         1 |
+|         2 | Dr. Singh | 9998887776 |           700.00 |            2 |         1 |
+|         3 | Dr. Patel | 7776665554 |           600.00 |            3 |         1 |
+|         4 | Dr. Khan  | 8887776665 |           500.00 |            3 |         1 |
++-----------+-----------+------------+------------------+--------------+-----------+
+
+
+ select * from appointments;
++----------------+------------+-----------+------------------+------------------+-----------+
+| appointment_id | patient_id | doctor_id | appointment_date | appointment_time | status    |
++----------------+------------+-----------+------------------+------------------+-----------+
+|              1 |          1 |         1 | 2026-02-09       | 10:00:00         | SCHEDULED |
+|              2 |          2 |         2 | 2026-02-09       | 11:00:00         | SCHEDULED |
+|              3 |          1 |         3 | 2026-02-09       | 12:00:00         | SCHEDULED |
++----------------+------------+-----------+------------------+------------------+-----------+
+

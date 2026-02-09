@@ -1,0 +1,69 @@
+//=========================================UC-5.1: Generate Bill for Visit===============================
+INSERT INTO bills (visit_id, total_amount, payment_status, bill_date)
+    -> VALUES (1, 500, 'UNPAID', CURDATE());
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from bills;
++---------+----------+--------------+----------------+------------+
+| bill_id | visit_id | total_amount | payment_status | bill_date  |
++---------+----------+--------------+----------------+------------+
+|       1 |        1 |       500.00 | UNPAID         | 2026-02-09 |
+|       2 |        2 |       700.00 | PAID           | 2026-02-09 |
+|       3 |        1 |       500.00 | UNPAID         | 2026-02-09 |
++---------+----------+--------------+----------------+------------+
+3 rows in set (0.00 sec)
+
+//============================UC-5.2: Record Payment============================
+START TRANSACTION;
+
+UPDATE bills
+SET payment_status = 'PAID'
+WHERE bill_id = 1;
+
+INSERT INTO payment_transactions (bill_id, payment_date, payment_mode)
+VALUES (1, CURDATE(), 'CASH');
+
+COMMIT;
+
+ select * from bills;
++---------+----------+--------------+----------------+------------+
+| bill_id | visit_id | total_amount | payment_status | bill_date  |
++---------+----------+--------------+----------------+------------+
+|       1 |        1 |       500.00 | PAID           | 2026-02-09 |
+|       2 |        2 |       700.00 | PAID           | 2026-02-09 |
+|       3 |        1 |       500.00 | UNPAID         | 2026-02-09 |
++---------+----------+--------------+----------------+------------+
+
+
+
+//====================================================UC-5.3: View Outstanding Bills=========================================
+SELECT p.name, SUM(b.total_amount) AS due_amount
+    -> FROM bills b
+    -> JOIN visits v ON b.visit_id = v.visit_id
+    -> JOIN appointments a ON v.appointment_id = a.appointment_id
+    -> JOIN patients p ON a.patient_id = p.patient_id
+    -> WHERE b.payment_status = 'UNPAID'
+    -> GROUP BY p.name;
++-------+------------+
+| name  | due_amount |
++-------+------------+
+| Shifa |     500.00 |
++-------+------------+
+
+
+//====================================UC-5.4: Generate Revenue Report=================================
+
+ SELECT
+    ->     d.name AS doctor_name,
+    ->     SUM(b.total_amount) AS revenue
+    -> FROM bills b
+    -> JOIN visits v ON b.visit_id = v.visit_id
+    -> JOIN appointments a ON v.appointment_id = a.appointment_id
+    -> JOIN doctors d ON a.doctor_id = d.doctor_id
+    -> WHERE b.bill_date BETWEEN '2026-02-01' AND '2026-02-28'
+    -> GROUP BY d.name
+    -> HAVING revenue > 1000;
+Empty set (0.01 sec)
+
+
+

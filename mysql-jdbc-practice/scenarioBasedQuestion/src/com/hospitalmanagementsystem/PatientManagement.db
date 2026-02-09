@@ -37,5 +37,22 @@ select * from patients
 |          2 | Aliya | 2007-01-26 | 125556789 | aliya@gmail.com | Panna   | A+          |
 +------------+-------+------------+-----------+-----------------+---------+-------------+
 
+//==================== UC-1.4 View Patient Visit History======================
+ SELECT
+    -> p.name,
+    -> d.name AS doctor_name,
+    -> v.diagnosis,
+    -> v.visit_date
+    -> FROM visits v
+    -> JOIN appointments a ON v.appointment_id = a.appointment_id
+    -> JOIN patients p ON a.patient_id = p.patient_id
+    -> JOIN doctors d ON a.doctor_id = d.doctor_id
+    -> WHERE p.patient_id = 1
+    -> ORDER BY v.visit_date;
++-------+-------------+-----------+------------+
+| name  | doctor_name | diagnosis | visit_date |
++-------+-------------+-----------+------------+
+| Shifa | Dr. Mehta   | Fever     | 2026-02-09 |
++-------+-------------+-----------+------------+
 
 
