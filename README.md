@@ -706,3 +706,74 @@ The task emphasized **clean conditional handling**, **string operations**, and *
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/advancedquestion/lexicaltwist](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/java-collections/java-collections/gcr-codebase/javaCollections/src/com/advancedquestion/lexicaltwist)
 
 ---
+
+
+## 📘 Week 8 – Day 3: Unit Testing with NUnit | Bank Account Test Cases
+
+On this day, I implemented **NUnit test cases** for a `Program` class representing a **Bank Account system**.
+
+The focus was on validating **Deposit and Withdraw operations**, proper **exception handling**, and ensuring **accurate balance updates** using structured unit testing.
+
+---
+
+## 🧠 Concepts Applied
+
+* Unit Testing using **NUnit**
+* Test class & method annotations
+* Assertion-based validation
+* Exception testing
+* Balance verification logic
+* Single-assert rule per test method
+
+---
+
+## 🛠️ Scenario Overview
+
+The `Program` class contains:
+
+### 🔹 1. Deposit(decimal amount)
+
+* Adds amount to balance
+* Throws exception if amount is negative
+  → `"Deposit amount cannot be negative"`
+
+### 🔹 2. Withdraw(decimal amount)
+
+* Deducts amount from balance
+* Throws exception if amount > balance
+  → `"Insufficient funds."`
+
+---
+
+## 🧪 Test Cases Implemented
+
+### ✅ Test_Deposit_ValidAmount()
+
+* Verifies balance increases correctly after deposit
+* Uses one `Assert.AreEqual`
+
+### ✅ Test_Deposit_NegativeAmount()
+
+* Ensures exception is thrown for negative deposit
+* Validates expected exception
+
+### ✅ Test_Withdraw_ValidAmount()
+
+* Verifies balance decreases correctly after withdrawal
+* Uses one `Assert.AreEqual`
+
+### ✅ Test_Withdraw_InsufficientFunds()
+
+* Ensures exception is thrown when withdrawing more than balance
+* Validates expected exception
+
+---
+
+## 🧾 Testing Rules Followed
+
+* Added `[TestFixture]` attribute to `UnitTest` class
+* Added `[Test]` attribute to each test method
+* Used **only one Assert per test method**
+* Compared **expected vs actual values properly**
+
+---
