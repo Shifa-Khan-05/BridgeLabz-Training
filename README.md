@@ -3212,3 +3212,168 @@ A complete **scenario-based application** covering **patients, doctors, appointm
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/scenarioBasedQuestion/src/com/hospitalmanagementsystem](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/scenarioBasedQuestion/src/com/hospitalmanagementsystem)
 
 ---
+
+#### 📘 Week 8 – Day 3: JDBC Systems & Exception-Driven Business Logic|Unit Testing with NUnit | Bank Account Test Cases
+
+
+On **Week 8 – Day 3**, I implemented a validation-driven business system and strengthened my understanding of **JDBC architecture, transactions, and secure database practices**.
+Unit Testing with NUnit | Bank Account Test Cases
+---
+
+🧠 Concepts Applied
+
+Unit Testing using NUnit
+
+[TestFixture] and [Test] attributes
+
+Assertion-based validation
+
+Exception testing
+
+Financial logic verification
+
+Single-assert rule per test method
+
+🛠️ Scenario Overview
+
+The Program class represents a Bank Account with a Balance property and includes the following methods:
+
+🔹 Deposit(decimal amount)
+
+Adds amount to balance
+
+Throws exception if amount is negative
+→ "Deposit amount cannot be negative"
+
+🔹 Withdraw(decimal amount)
+
+Deducts amount from balance
+
+Throws exception if amount exceeds balance
+→ "Insufficient funds."
+
+🧪 Test Cases Implemented
+✅ Test_Deposit_ValidAmount()
+
+Verifies balance increases correctly after deposit
+
+Uses one Assert.AreEqual
+
+✅ Test_Deposit_NegativeAmount()
+
+Ensures exception is thrown for negative deposit
+
+Validates expected exception
+
+✅ Test_Withdraw_ValidAmount()
+
+Verifies balance decreases correctly after withdrawal
+
+Uses one Assert.AreEqual
+
+✅ Test_Withdraw_InsufficientFunds()
+
+Ensures exception is thrown when withdrawal exceeds balance
+
+Validates expected exception
+
+🧾 Testing Rules Followed
+
+Added [TestFixture] attribute to UnitTest class
+
+Added [Test] attribute to each test method
+
+Used only one Assert per test method
+
+Compared expected vs actual values properly
+
+Did not terminate program forcefully
+
+# 🤖 Project: Factory Robot Hazard Analyzer
+
+### 🎯 Objective
+
+Evaluate robot hazard risk based on:
+
+* **Arm Precision** (0.0 – 1.0)
+* **Worker Density** (1 – 20)
+* **Machinery State** (`Worn`, `Faulty`, `Critical`)
+
+---
+
+## ⚙️ Business Rules & Validation
+
+Implemented a custom exception:
+
+```java
+class RobotSafetyException extends Exception
+```
+
+### 🔹 Validation Conditions
+
+* Invalid precision → `"Error: Arm precision must be 0.0-1.0"`
+* Invalid worker density → `"Error: Worker density must be 1-20"`
+* Invalid machinery state → `"Error: Unsupported machinery state"`
+
+✔ Case-sensitive validation
+✔ Proper try-catch handling
+✔ No forced program termination
+
+---
+
+## 📊 Hazard Risk Formula
+
+```
+Hazard Risk = ((1.0 - armPrecision) * 15.0)
+              + (workerDensity * machineRiskFactor)
+```
+
+### Machine Risk Factors
+
+* Worn → 1.3
+* Faulty → 2.0
+* Critical → 3.0
+
+Output:
+
+* Valid → `Robot Hazard Risk Score: <risk>`
+* Invalid → Displays exception message
+
+---
+
+# 🗄 JDBC Practice & Strengthening Concepts
+
+## 🧠 Core Areas Covered
+
+* JDBC Architecture & Workflow
+* DriverManager & Connection handling
+* Singleton DB Connection Pattern
+* CRUD Operations (Insert, Select, Update, Delete)
+* PreparedStatement vs Statement
+* SQL Injection Prevention
+* Transactions (COMMIT / ROLLBACK)
+* Batch Operations
+* JOIN Queries & Aggregates
+* ResultSet & Metadata handling
+
+---
+
+## 🔐 Key Best Practices Applied
+
+✔ Parameterized queries using `PreparedStatement`
+✔ Safe delete with existence check
+✔ Structured transaction handling
+✔ Clean resource management
+✔ Secure database interaction
+
+---
+
+# 📌 Learning Outcomes
+
+✔ Designed exception-driven business validation
+✔ Implemented production-style input verification
+✔ Strengthened secure JDBC coding practices
+✔ Applied transaction management concepts
+✔ Improved backend system design approach
+
+---
