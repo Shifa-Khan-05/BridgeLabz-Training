@@ -167,3 +167,94 @@ A complete **scenario-based application** covering **patients, doctors, appointm
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/scenarioBasedQuestion/src/com/hospitalmanagementsystem](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/scenarioBasedQuestion/src/com/hospitalmanagementsystem)
 
 ---
+
+## 📘 Week 8 – Day 3:  – MySQL JDBC Practice
+
+## 📘 Factory Robot Hazard Analyzer & JDBC Fundamentals
+
+This module focuses on **input validation, custom exception handling, and JDBC-based database operations** using structured and production-ready design principles.
+
+---
+
+## 🤖 Factory Robot Hazard Analyzer System
+
+### 🎯 Objective
+
+Evaluate robot hazard risk based on:
+
+* **Arm Precision** (0.0 – 1.0)
+* **Worker Density** (1 – 20)
+* **Machinery State** (`Worn`, `Faulty`, `Critical`)
+
+---
+
+### 🔹 Validation & Exception Handling
+
+Implemented custom exception:
+
+```java
+class RobotSafetyException extends Exception
+```
+
+Validation Rules:
+
+* Invalid precision → `"Error: Arm precision must be 0.0-1.0"`
+* Invalid worker density → `"Error: Worker density must be 1-20"`
+* Invalid machinery state → `"Error: Unsupported machinery state"`
+
+---
+
+### 🔹 Risk Calculation Formula
+
+```
+Hazard Risk = ((1.0 - armPrecision) * 15.0) 
+              + (workerDensity * machineRiskFactor)
+```
+
+Machine Risk Factors:
+
+* Worn → 1.3
+* Faulty → 2.0
+* Critical → 3.0
+
+✔ Proper try-catch handling
+✔ No forced program termination
+✔ Clean separation of logic and validation
+
+---
+
+# 🗄 JDBC Concepts Implemented
+
+## 🔹 Core Areas Covered
+
+* JDBC Architecture
+* Database Connection Setup
+* Singleton Connection Pattern
+* CRUD Operations
+* PreparedStatement vs Statement
+* Transaction Management (COMMIT / ROLLBACK)
+* Batch Operations
+* JOIN Queries
+* Aggregate Functions
+* ResultSet Handling
+* SQL Injection Prevention
+
+---
+
+## 🛠 Practical Implementation
+
+* Insert, Read, Update, Delete operations
+* Safe delete with existence check
+* Parameterized queries using `PreparedStatement`
+* Transaction-based operations
+* Clean resource handling
+
+---
+
+## 📌 Learning Outcomes
+
+✔ Built exception-driven business validation system
+✔ Applied secure JDBC coding practices
+✔ Implemented structured CRUD workflows
+✔ Understood transaction handling & DB integrity
+✔ Improved real-world database design skills
