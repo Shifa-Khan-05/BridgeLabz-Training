@@ -3377,3 +3377,165 @@ Output:
 ✔ Improved backend system design approach
 
 ---
+
+## 📘 Week 8 – Day 4:  – MySQL JDBC Practice | Transaction Management & Exception-Driven Systems (AeroVigil)
+
+On this day, I implemented **JDBC Transaction Management concepts** along with an **exception-based validation system (AeroVigil Airline Management)** following clean object-oriented design principles.
+
+---
+
+# 🗄️ JDBC – Transaction Management
+
+## 🔹 Concepts Covered
+
+* What is a Transaction
+* ACID Properties (Atomicity, Consistency, Isolation, Durability)
+* `setAutoCommit(false)`
+* `commit()` and `rollback()`
+* Savepoints
+* Exception-safe transaction handling
+* Proper resource closing
+
+---
+
+## 🔹 Money Transfer Example
+
+Implemented `transferMoney()` method:
+
+* Deduct amount from sender
+* Add amount to receiver
+* Commit if both succeed
+* Rollback on failure
+* Restore auto-commit in finally block
+
+✔ Ensures atomic fund transfer
+✔ Prevents partial updates
+✔ Demonstrates production-safe transaction handling
+
+---
+
+## 🔹 Savepoint Handling
+
+Implemented `SavepointExample`:
+
+* Created multiple savepoints
+* Rolled back to specific savepoint
+* Committed remaining operations
+
+✔ Fine-grained rollback control
+✔ Advanced transaction management
+
+🔗 Code Link:
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/connectionjdbc/src/main/java/com/transactionmanagement](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/connectionjdbc/src/main/java/com/transactionmanagement)
+
+---
+
+# ✈️ AeroVigil – Airline Validation System
+
+## 🎯 Objective
+
+Validate flight details and calculate required fuel while preventing crashes using **custom exception handling**.
+
+---
+
+## 🔹 Validations Implemented
+
+### 1️⃣ Flight Number Validation
+
+Format: `FL-XXXX`
+(XXXX must be 1000–9999)
+
+Throws:
+
+```
+The flight number <flightNumber> is invalid
+```
+
+---
+
+### 2️⃣ Flight Name Validation
+
+Allowed (case-sensitive):
+
+* SpiceJet
+* Vistara
+* IndiGo
+* Air Arabia
+
+Throws:
+
+```
+The flight name <flightName> is invalid
+```
+
+---
+
+### 3️⃣ Passenger Count Validation
+
+| Flight     | Max Capacity |
+| ---------- | ------------ |
+| SpiceJet   | 396          |
+| Vistara    | 615          |
+| IndiGo     | 230          |
+| Air Arabia | 130          |
+
+Throws:
+
+```
+The passenger count <count> is invalid for <flightName>
+```
+
+---
+
+### 4️⃣ Fuel Calculation
+
+Fuel Tank Capacity:
+
+| Flight     | Capacity (Liters) |
+| ---------- | ----------------- |
+| SpiceJet   | 200,000           |
+| Vistara    | 300,000           |
+| IndiGo     | 250,000           |
+| Air Arabia | 150,000           |
+
+Formula:
+
+```
+Fuel Required = Tank Capacity - Current Fuel Level
+```
+
+Throws:
+
+```
+Invalid fuel level for <flightName>
+```
+
+---
+
+## 🔹 Exception Class
+
+```
+InvalidFlightException extends Exception
+```
+
+✔ Single-argument constructor
+✔ Proper try-catch handling
+✔ No forced program termination
+
+---
+
+## 🔹 System Flow
+
+1. Accept input in format:
+   `<FlightNumber>:<FlightName>:<PassengerCount>:<CurrentFuelLevel>`
+
+2. Perform validations
+
+3. If valid → Calculate fuel required
+
+4. If invalid → Display exception message
+
+🔗 Code Link:
+👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/extraquestions/aerovigil](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/extraquestions/aerovigil)
+
+---
