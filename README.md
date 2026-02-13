@@ -3539,3 +3539,49 @@ InvalidFlightException extends Exception
 👉 [https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/extraquestions/aerovigil](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/extraquestions/aerovigil)
 
 ---
+
+## 📘 Week 8 – Day 5: String Validation & Booking Management Systems
+
+On this day, I implemented two structured Java applications focused on **input validation, string parsing, Map handling, and date filtering**.
+
+---
+
+## 🚆 Train Seat Booking ID Decoder
+
+### 🔹 Objective
+
+Decode a 10-character booking ID to display reserved seat numbers.
+
+### 🔹 Validations
+
+* Input must be exactly **10 characters** → `"Invalid Input"`
+* Seat count (positions 6–7) must be numeric and between **1–10** → `"Invalid Count"`
+* Coach must be alphabet + valid 2-digit seat → `"Invalid Seat Number"`
+
+### 🔹 Logic
+
+* Extract seat count
+* Extract coach + starting seat
+* Print consecutive seat numbers
+
+🔗 Code:
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/extraquestions/trainseatdetails](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/extraquestions/trainseatdetails)
+
+---
+
+## 🚖 CarPro – Cab Booking Filter System
+
+### 🔹 Objective
+
+Filter booking IDs based on booking date (`yyyy-MM-dd`).
+
+### 🔹 Implementation
+
+* Stored bookings in `Map<String, Date>`
+* Filtered booking IDs by input date
+* Displayed matching results or `"No bookings were booked"`
+
+🔗 Code:
+[https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/extraquestions/carpro](https://github.com/Shifa-Khan-05/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/extraquestions/carpro)
+
+---
